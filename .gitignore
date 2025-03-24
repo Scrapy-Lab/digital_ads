@@ -22,4 +22,5 @@ yarn-error.log
 /.vscode
 /.zed
 composer.lock
-public
+public/css
+public/js
