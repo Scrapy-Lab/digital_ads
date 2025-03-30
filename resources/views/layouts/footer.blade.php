@@ -3,7 +3,7 @@
     <div class="mainfooter d-flex">
         <div class="footerbox">
             <div class="footerLogo">
-                <img src="images/footerLogo.png" alt="">
+                <img src="{{asset('assets/images/logo.svg')}}" alt="">
             </div>
             <div class="footerContact">
                 <h3>CONTACT US</h3>
