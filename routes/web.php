@@ -17,6 +17,27 @@ Route::get('contact', function () {
 })->name('contact');
 
 
+Route::get('social-media-marketing', function () {
+    return view('pages.smm');
+})->name('smm');
+
+
+Route::get('social-media-community-management', function () {
+    return view('pages.smcm');
+})->name('smcm');
+
+
+Route::get('influencer', function () {
+    return view('pages.influencer');
+})->name('influencer');
+
+
+
+Route::get('social-media-optimization', function () {
+    return view('pages.so');
+})->name('so');
+
+
 Livewire::setScriptRoute(function($handle) {
     return Route::get('/'. env('FILAMENT_PATH') . '/livewire/livewire.js', $handle);
 });

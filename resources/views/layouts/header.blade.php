@@ -9,7 +9,7 @@
             <ul class="flex gap-6">
                 <li><a href="{{route('home')}}">Home</a></li>
                 <li><a href="{{route('about')}}">About</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="{{route('filamentblog.post.all')}}">Blog</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="{{route('contact')}}">Contact Us</a></li>
             </ul>
