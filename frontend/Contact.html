@@ -4,20 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contct Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+
+        @font-face {
+            font-family: font1;
+            src: url("assets/fonts/HelveticaNowDisplay-Regular.ttf");
+        }
+    </style>
 </head>
 
 <body>
     <main class="relative">
-        <!-- Header Starts Here-->
-        <header>
+         <!-- Header Starts Here-->
+         <header>
             <nav
                 class="w-full px-20 max-[599px]:px-6 py-3 max-[599px]:py-4 flex justify-between items-center fixed z-[999] top-0 left-0 bg-[#F5F7FF]">
+
+                <!-- Logo -->
                 <div class="logo w-[20%] max-[599px]:w-1/2">
                     <img class="w-full h-full object-cover" src="./assets/images/logo.svg" alt="">
                 </div>
+
+                <!-- Hamburger -->
+                <div class="hamburger w-[10%] hidden max-[599px]:block relative">
+                    <img class="menu-icon w-full h-full bg-cover" src="./assets/images/menu.svg" alt="Open Menu">
+                </div>
+                <img class="close-icon w-[10%] h-full bg-cover absolute top-0 right-5 z-10 hidden"
+                    src="./assets/images/close.svg" alt="Close Menu">
+
+                <!-- Desktop Menu -->
                 <div class="menu max-[599px]:hidden">
                     <ul class="flex gap-6">
                         <li><a href="index.html">Home</a></li>
@@ -27,6 +49,16 @@
                         <li><a href="Contact.html">Contact Us</a></li>
                     </ul>
                 </div>
+
+                <!-- Mobile Menu -->
+                <div class="mobileMenu hidden w-full h-[92.6%] z-10 fixed bottom-0 left-0 bg-[#F5F7FF] transition-all duration-300">
+                    <ul class="flex w-full h-full gap-6 items-center justify-center flex-col text-[5vw]">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
                 </div>
             </nav>
         </header>
@@ -153,33 +185,55 @@
         </section>
 
         <!-- About's Contact Section Starts Here -->
-        <section
-            class="Contact-Us bg-[#F5F7FF] w-full h-screen relative flex items-center justify-center overflow-hidden">
-            <div class="absolute top-[20%] w-[40%] max-[599px]:w-full left-[10%] max-[599px]:-left-10">
-                <img class="h-full w-full object-cover" src="./assets/images/boostImage.png  " alt="">
+        <section class="bg-[#F5F7FF] w-full min-h-screen relative flex items-center justify-center overflow-hidden">
+            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+                <!-- Left Side with Rocket Illustration -->
+                <div class="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
+                    <img src="./assets/images/boostImage.png" alt="Rocket illustration" class="w-full max-w-md">
+                </div>
+
+                <!-- Right Side with Text and Button -->
+                <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+                    <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E] text-center md:text-left">
+                        Boost Your <span class="text-[#1D3F6E] border-b-4 border-[#FF6F1F]">Online</span>
+                    </h1>
+                    <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
+                        Presence
+                    </h1>
+
+                    <!-- Contact Button -->
+                    <button
+                        class="mt-6 bg-[#FF6F1F] text-white text-lg px-12 py-2 rounded-md hover:bg-[#E05F1C] transition-all">
+                        Contact Us
+                    </button>
+                </div>
             </div>
-            <div
-                class="relative w-full h-full translate-x-[40%] max-[599px]:translate-x-0 flex items-start max-[599px]:items-center justify-center max-[599px]:justify-end max-[599px]:-translate-y-32 px-6 flex-col">
-                <!-- Heading -->
-                <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E]">
-                    Boost Your <span class="text-[#1D3F6E] border-b-4 border-[#FF6F1F]">Online</span>
-                </h1>
-                <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E]">Presence</h1>
 
-                <!-- Contact Button -->
-                <button
-                    class="mt-6 bg-[#FF6F1F] text-white text-lg px-12 py-2 rounded-md hover:bg-[#E05F1C] transition-all">
-                    Contact Us
-                </button>
-
-                <!-- Pen Icon (SVG) -->
-                <svg class="absolute top-0 right-[-50px] w-14 h-14 text-[#1D3F6E]" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 19h.01" />
-                    <path d="M17 6l4 4L7 20H3v-4L17 6z" />
-                    <path d="M3 3l18 18" />
+            <!-- Small decorative elements -->
+            <div class="absolute top-10 right-1/4 w-6 h-6 text-[#1D3F6E]">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <line x1="12" y1="2" x2="12" y2="4"></line>
+                    <line x1="12" y1="20" x2="12" y2="22"></line>
+                    <line x1="2" y1="12" x2="4" y2="12"></line>
+                    <line x1="20" y1="12" x2="22" y2="12"></line>
                 </svg>
             </div>
+
+            <!-- Butterfly/Bowtie element -->
+            <div class="absolute top-1/4 right-10 w-16 h-16">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#4A7DFF" stroke-width="1">
+                    <path d="M12 2L8 7L12 9L16 7L12 2Z"></path>
+                    <path d="M12 9L8 11L12 16L16 11L12 9Z"></path>
+                    <circle cx="12" cy="9" r="1" fill="#4A7DFF"></circle>
+                </svg>
+            </div>
+
+            <!-- Additional small decorative dots -->
+            <div class="absolute top-10 left-1/4 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
+            <div class="absolute top-20 left-1/3 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
+            <div class="absolute top-15 left-2/3 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
         </section>
         <!-- About's Contact Section Starts Here -->
 
@@ -269,6 +323,14 @@
         </footer>
         <!-- Footer Ends Here-->
     </main>
+
+    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+    <script>
+        // Initialize Lenis
+        const lenis = new Lenis({
+            autoRaf: true,
+        });
+    </script>
 </body>
 
 </html>
