@@ -38,242 +38,160 @@
 <body class="font-[font1]">
     <!-- Header Starts Here-->
     <header class="fixed z-[999] top-0 left-0 w-full">
-        <nav class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-2.5 bg-[#001361] text-white flex max-[599px]:hidden max-[599px]:items-start items-center justify-end z-30 gap-6 max-[1025px]:gap-4 max-[599px]:gap-3 text-[.8vw] max-[1025px]:text-sm max-[599px]:text-xs">
+        <!-- Top Navigation (Email, Phone, Brochure) -->
+        <nav
+            class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-2.5 bg-[#001361] text-white flex flex-wrap items-center justify-end gap-6 max-[1025px]:gap-4 text-[.8vw] max-[1025px]:text-sm max-[599px]:text-xs max-[599px]:hidden">
 
-            <!-- Email Section -->
+            <!-- Email -->
             <div class="flex items-center gap-2">
-              <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
-              <p>hello@logoipsum.com</p>
+                <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
+                <p>hello@logoipsum.com</p>
             </div>
-          
+
             <!-- Divider -->
-            <div class="flex items-center gap-2 max-[599px]:hidden">
-              <span class="inline-block w-[2px] h-6 bg-white/20"></span>
+            <div class="hidden max-[599px]:hidden sm:flex items-center gap-2">
+                <span class="inline-block w-[2px] h-6 bg-white/20"></span>
             </div>
-          
-            <!-- Phone 1 -->
+
+            <!-- Phones -->
             <div class="flex items-center gap-2">
-              <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
-              <p>+1 (999) 999-99-99</p>
+                <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
+                <p>+1 (999) 999-99-99</p>
             </div>
-          
-            <!-- Phone 2 -->
             <div class="flex items-center gap-2">
-              <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
-              <p>+1 (999) 999-99-99</p>
+                <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
+                <p>+1 (999) 999-99-99</p>
             </div>
-          
+
             <!-- Buttons -->
             <div class="flex items-center gap-2 max-[599px]:flex-col max-[599px]:items-start max-[599px]:w-full">
-              <button class="px-4 py-1 border-2 border-white rounded-full text-xs max-[1025px]:text-sm max-[599px]:text-xs w-full max-[599px]:w-full">
-                Company Brochure 
-              </button>
-              <button class="px-4 py-1 border-2 border-white rounded-full text-xs max-[1025px]:text-sm max-[599px]:text-xs w-full max-[599px]:w-full">
-                Company Brochure 
-              </button>
+                <button
+                    class="px-4 py-1 border-2 border-white rounded-full text-xs max-[1025px]:text-sm w-full max-[599px]:w-full">
+                    Company Brochure
+                </button>
+                <button
+                    class="px-4 py-1 border-2 border-white rounded-full text-xs max-[1025px]:text-sm w-full max-[599px]:w-full">
+                    Company Brochure
+                </button>
             </div>
-          </nav>
-          
+        </nav>
 
+        <!-- Main Navbar -->
         <nav
-            class="w-full px-20 max-[599px]:px-4 py-3 flex justify-between items-center z-30 bg-[#F5F7FF]">
-
+            class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-3 flex justify-between items-center z-30 bg-[#F5F7FF]">
             <!-- Logo -->
-            <div class="logo w-[13%] max-[599px]:w-1/2">
+            <div class="logo w-[13%] max-[1025px]:w-[20%] max-[599px]:w-1/2">
                 <img class="w-full h-full object-cover" src="./assets/images/Globalimages/logo.svg" alt="">
             </div>
 
-            <!-- Hamburger -->
+            <!-- Hamburger (Mobile Only) -->
             <div class="hamburger w-[7%] hidden max-[599px]:block relative">
-                <img class="menu-icon w-full h-full bg-cover" src="./assets/images/Globalimages/menu.svg" alt="Open Menu">
+                <img class="menu-icon w-full h-full bg-cover" src="./assets/images/Globalimages/menu.svg"
+                    alt="Open Menu">
             </div>
             <img class="close-icon w-[7%] h-full bg-cover absolute top-0 right-4 z-20 hidden"
                 src="./assets/images/Globalimages/close.svg" alt="Close Menu">
 
             <!-- Desktop Menu -->
             <div class="menu max-[599px]:hidden">
-                <ul class="flex gap-6 text-[1vw] text-[#001361] font-medium">
-                  
-                  <!-- Home -->
-                  <li>
-                    <a href="index.html" class="hover:text-orange-500 transition-all relative group">
-                      Home
-                    </a>
-                  </li>
-              
-                  <!-- Services (Active) -->
-                  <li>
-                    <a onclick="toggleServices()"  class="hover:text-orange-500 transition-all relative group">
-                      <span class="cursor-pointer">Services </span>
-                      <span class="inline-block ml-1">▼</span>
-                      <div id="servicesMenu" class="hidden">
-                      <div class="w-[50vw] bg-white text-[#040d2a] py-10 px-6 flex flex-col lg:flex-row gap-8 absolute top-10 -left-full -translate-x-1/2">
-                        <!-- Sidebar (Left Panel) -->
-                        <div class="w-[25%]">
-                          <h2 class="text-xl font-bold mb-4">Services</h2>
-                          <p class="text-[0.8vw] leading-relaxed text-gray-300">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                          </p>
+                <ul class="flex gap-6 text-[1vw] max-[1025px]:text-sm text-[#001361] font-medium">
+                    <li><a href="index.html" class="hover:text-orange-500 transition-all relative group">Home</a>
+                    </li>
+
+                    <li class="relative group">
+                        <a
+                            class="hover:text-orange-500 transition-all cursor-pointer flex items-center gap-1">
+                            Services <span>▼</span>
+                        </a>
+                        <div id="servicesMenu"
+                            class="hidden group-hover:flex w-[50vw] max-[1025px]:w-[90vw] bg-white text-[#040d2a] py-10 px-6 absolute top-10 -left-full -translate-x-1/2 z-50">
+                            <!-- Sidebar -->
+                            <div class="w-[20%]">
+                                <h2 class="text-xl font-bold mb-4">Services</h2>
+                                <p class="text-sm text-gray-500">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                            <!-- Columns -->
+                            <div class="w-[80%] flex flex-wrap gap-8">
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Digital Marketing</h3>
+                                    <ul class="space-y-1 text-gray-500 text-sm">
+                                        <li>Lorem Ipsum</li>
+                                    </ul>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Visual Designing</h3>
+                                    <ul class="space-y-1 text-gray-500 text-sm">
+                                        <li>Lorem Ipsum</li>
+                                    </ul>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Content Creation</h3>
+                                    <ul class="space-y-1 text-gray-500 text-sm">
+                                        <li>Lorem Ipsum</li>
+                                    </ul>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Development</h3>
+                                    <ul class="space-y-1 text-gray-500 text-sm">
+                                        <li>Lorem Ipsum</li>
+                                    </ul>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Mobile Marketing</h3>
+                                    <ul class="space-y-1 text-gray-500 text-sm">
+                                        <li>Lorem Ipsum</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                      
-                        <!-- Right Content (Flex Columns) -->
-                        <div class="flex-1 flex flex-wrap gap-8">
-                          <!-- Column 1 -->
-                          <div class="min-w-[25%]">
-                            <h3 class="font-semibold mb-2">Digital Marketing</h3>
-                            <ul class="space-y-1 text-gray-300 text-sm">
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                            </ul>
-                          </div>
-                      
-                          <!-- Column 2 -->
-                          <div class="min-w-[25%]">
-                            <h3 class="font-semibold mb-2">Visual Designing</h3>
-                            <ul class="space-y-1 text-gray-300 text-sm">
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                            </ul>
-                          </div>
-                      
-                          <!-- Column 3 -->
-                          <div class="min-w-[25%]">
-                            <h3 class="font-semibold mb-2">Content Creation</h3>
-                            <ul class="space-y-1 text-gray-300 text-sm">
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                            </ul>
-                          </div>
-                      
-                          <!-- Column 4 -->
-                          <div class="min-w-[25%]">
-                            <h3 class="font-semibold mb-2">Development</h3>
-                            <ul class="space-y-1 text-gray-300 text-sm">
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                            </ul>
-                          </div>
-                      
-                          <!-- Column 5 -->
-                          <div class="min-w-[25%]">
-                            <h3 class="font-semibold mb-2">Mobile Marketing</h3>
-                            <ul class="space-y-1 text-gray-300 text-sm">
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                              <li>Lorem Ipsum</li>
-                            </ul>
-                          </div>
+                    </li>
+
+                    <li class="relative group">
+                        <a
+                            class="hover:text-orange-500 transition-all cursor-pointer flex items-center gap-1">
+                            About <span>▼</span>
+                        </a>
+                        <div id="aboutMenu"
+                            class="hidden group-hover:flex w-[40vw] max-[1025px]:w-[90vw] bg-white text-[#040d2a] py-10 px-6 absolute top-10 -left-full -translate-x-1/2 z-50">
+                            <!-- Sidebar -->
+                            <div class="w-[20%]">
+                                <h2 class="text-xl font-bold mb-4">About</h2>
+                                <p class="text-sm text-gray-500">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                            <!-- Columns (Same as above) -->
+                            <div class="w-[80%] flex flex-wrap gap-8">
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Digital Marketing</h3>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Visual Designing</h3>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Content Creation</h3>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Development</h3>
+                                </div>
+                                <div class="min-w-[150px]">
+                                    <h3 class="font-semibold mb-2">Mobile Marketing</h3>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                      
-                    </a>
-                  </li>
-              
-                  <!-- About (Dropdown style but not active) -->
-                  <li>
-                    <a onclick="toggleAbout()" class="hover:text-orange-500 transition-all relative group">
-                      <span class="cursor-pointer"">About </span>
-                      <span class="inline-block ml-1">▼</span>
-                      <div id="aboutMenu" class="hidden">
-                        <div class="w-[50vw] bg-white text-[#040d2a] py-10 px-6 flex flex-col lg:flex-row gap-8 absolute top-5 -left-full -translate-x-[70%]">
-                          <!-- Sidebar (Left Panel) -->
-                          <div class="w-[25%]">
-                            <h2 class="text-xl font-bold mb-4">About</h2>
-                            <p class="text-[0.8vw] leading-relaxed text-gray-300">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                          </div>
-                        
-                          <!-- Right Content (Flex Columns) -->
-                          <div class="flex-1 flex flex-wrap gap-8">
-                            <!-- Column 1 -->
-                            <div class="min-w-[25%]">
-                              <h3 class="font-semibold mb-2">Digital Marketing</h3>
-                              <ul class="space-y-1 text-gray-300 text-sm">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                              </ul>
-                            </div>
-                        
-                            <!-- Column 2 -->
-                            <div class="min-w-[25%]">
-                              <h3 class="font-semibold mb-2">Visual Designing</h3>
-                              <ul class="space-y-1 text-gray-300 text-sm">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                              </ul>
-                            </div>
-                        
-                            <!-- Column 3 -->
-                            <div class="min-w-[25%]">
-                              <h3 class="font-semibold mb-2">Content Creation</h3>
-                              <ul class="space-y-1 text-gray-300 text-sm">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                              </ul>
-                            </div>
-                        
-                            <!-- Column 4 -->
-                            <div class="min-w-[25%]">
-                              <h3 class="font-semibold mb-2">Development</h3>
-                              <ul class="space-y-1 text-gray-300 text-sm">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                              </ul>
-                            </div>
-                        
-                            <!-- Column 5 -->
-                            <div class="min-w-[25%]">
-                              <h3 class="font-semibold mb-2">Mobile Marketing</h3>
-                              <ul class="space-y-1 text-gray-300 text-sm">
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                                <li>Lorem Ipsum</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                    </a>
-                  </li>
-              
-                  <!-- Portfolio -->
-                  <li>
-                    <a href="portfolio.html" class="hover:text-orange-500 transition-all relative group">
-                      Portfolio
-                    </a>
-                  </li>
-              
+                    </li>
+
+                    <li><a href="portfolio.html"
+                            class="hover:text-orange-500 transition-all relative group">Portfolio</a></li>
                 </ul>
-              </div>
-              
+            </div>
 
             <!-- Mobile Menu -->
             <div
-                class="mobileMenu hidden w-full h-[90.3%] z-10 fixed bottom-0 left-0 bg-[#F5F7FF] transition-all duration-300">
-                <ul class="flex w-full h-full gap-6 items-center justify-center flex-col text-[5vw]">
+                class="mobileMenu hidden w-full h-[92.5%] fixed bottom-0 left-0 z-10 bg-[#F5F7FF] transition-all duration-300 flex flex-col justify-center items-center text-center text-[5vw]">
+                <ul class="flex flex-col gap-6">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#">Blog</a></li>
@@ -341,7 +259,7 @@
         </section>
         <!-- About's Our Vision Section Ends Here -->
 
-        <section class="w-full min-h-screen relative overflow-hidden">
+        <section class="w-full relative overflow-hidden">
             <!-- Network background overlay -->
             <div class="absolute inset-0 bg-[url('./assets/images/Aboutpage/experiencebg.png')] bg-cover bg-center">
             </div>
@@ -349,13 +267,13 @@
             <!-- Content Container -->
             <div class="relative z-10 w-full h-full">
                 <!-- Header -->
-                <div class="w-full flex items-center justify-center flex-col pt-20 max-[599px]:pt-10 lg:pt-28">
-                    <h1 class="text-4xl md:text-5xl lg:text-[6vw] font-bold text-white text-center leading-[1.1]">
+                <div class="w-full flex items-center justify-center flex-col pt-20 max-[599px]:pt-10 max-[1025px]:py-10">
+                    <h1 class="text-2xl md:text-5xl lg:text-[6vw] font-bold text-white text-center leading-[1.1]">
                         No One Can Beat Our <br>
                         <span class="text-[#FFA616]">Experience</span>
                     </h1>
                     <p
-                        class="text-sm md:text-base lg:text-[1.3vw] mt-6 md:mt-12 w-[85%] md:w-[80%] lg:w-[70%] text-center text-white">
+                        class="text-sm max-[599px]:text-[2.5vw] md:text-base lg:text-[1.3vw] mt-6 md:mt-12 w-[85%] md:w-[80%] lg:w-[70%] text-center text-white">
                         These seven principles highlight our fundamental beliefs as a team and as a business. Our core
                         values attract and unite
                         individuals focused on building a stable, desirable work environment and providing exceptional
@@ -365,7 +283,7 @@
 
                 <!-- Grid of Icons - Flexible layout that wraps -->
                 <div
-                    class="flex flex-wrap w-full h-full gap-6 p-4 mb-20 max-[599px]:mb-10 lg:p-20 items-center justify-center">
+                    class="flex flex-wrap w-full h-full gap-6 max-[599px]:gap-2 p-4 mb-20 max-[1025px]:mb-10 lg:p-20 max-[1025px]:p-0 items-center justify-center">
                     <!-- Hospitality -->
                     <div class="w-[15%] min-w-[80px] max-[599px]:w-[25%] flex flex-col items-center justify-center">
                         <img class="w-[60%]" src="./assets/images/Aboutpage/hospitality.png" alt="">
@@ -442,7 +360,7 @@
 
         <!-- About's Our Journey Section Starts Here -->
         <section
-            class="Our-Journey w-full relative pt-20 max-[599px]:py-5 pb-10 max-[599px]:px-0 flex flex-col items-center justify-center bg-[linear-gradient(278.17deg,#4F92F1_35.62%,#4F92F1_49.14%,#2E548B_110.84%)]">
+            class="Our-Journey w-full relative pt-20 max-[1025px]:py-10 max-[599px]:py-5 pb-10 max-[599px]:px-0 flex flex-col items-center justify-center bg-[linear-gradient(278.17deg,#4F92F1_35.62%,#4F92F1_49.14%,#2E548B_110.84%)]">
             <h1 class="text-white text-[6.5vw] font-black text-center">Our <span class="text-[#FFD471]">Journey</span>.
             <img class="pt-10" src="./assets/images/Aboutpage/Group 1261156942.png" alt="">
         </section>
@@ -576,7 +494,7 @@
 
         <!-- About's Contact Section Starts Here -->
         <section
-            class="bg-[#F5F7FF] w-full min-h-screen relative flex items-center justify-center overflow-hidden -mb-28">
+            class="bg-[#F5F7FF] w-full relative flex items-center justify-center overflow-hidden pt-20 pb-10">
             <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
                 <!-- Left Side with Rocket Illustration -->
                 <div class="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
@@ -630,15 +548,16 @@
 
         <!-- Footer Starts Here-->
         <footer
-            class="w-full bg-[#F5F7FF] flex items-center max-[599px]:flex-col gap-4 max-[599px]:gap-2 px-14 max-[599px]:px-0 py-4 relative">
-            <div class="left w-[25%] max-[599px]:w-full h-full px-6 py-6 max-[599px]:py-0">
+            class="w-full flex items-center max-[1025px]:flex-col gap-4 max-[1025px]:gap-2 px-14 max-[1025px]:px-0 py-4 relative">
+            <div class="left w-[25%] max-[1025px]:w-full h-full px-6 py-6 max-[1025px]:py-0">
                 <div
                     class="box py-8 rounded-2xl flex items-center justify-between flex-col bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]">
                     <div class="p-4 bg-white w-full">
                         <img class="w-full h-full object-cover" src="./assets/images/Globalimages/logo.svg" alt="">
                     </div>
                     <div class="links w-full p-6">
-                        <ul class="flex flex-col gap-6 text-[1.2vw] max-[599px]:text-[3.2vw] text-white">
+                        <ul
+                            class="flex flex-col gap-6 text-[1.2vw] max-[1025px]:text-[2.8vw] max-[599px]:text-[3.2vw] text-white">
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Contact Us</li>
                             <li>+1 (999) 999-99-99</li>
                             <li>hello@logoipsum.com</li>
@@ -647,12 +566,12 @@
                     </div>
                 </div>
             </div>
-            <div class="right w-[75%] max-[599px]:w-full h-full max-[599px]:px-10">
+            <div class="right w-[75%] max-[1025px]:w-full h-full max-[1025px]:px-10">
                 <div
-                    class="links w-full h-full flex gap-28 max-[599px]:gap-x-28 max-[599px]:gap-y-6 max-[599px]:flex-wrap pt-10">
+                    class="links w-full h-full flex gap-28 max-[1025px]:gap-x-20 max-[1025px]:gap-y-6 max-[1025px]:flex-wrap pt-10">
                     <div class="info">
-                        <ul class="flex flex-col text-[1.2vw] max-[599px]:text-[3.2vw]">
-                            <li class="font-bold text-[1.5vw] max-[599px]:text-[3.5vw] mb-4 uppercase">Info</li>
+                        <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw]">
+                            <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] mb-4 uppercase">Info</li>
                             <li>Company</li>
                             <li>Products</li>
                             <li>Enginerring</li>
@@ -661,24 +580,24 @@
                         </ul>
                     </div>
                     <div class="about">
-                        <ul class="flex flex-col text-[1.2vw] max-[599px]:text-[3.2vw]">
-                            <li class="font-bold text-[1.5vw] max-[599px]:text-[3.5vw] mb-4 uppercase">About Us</li>
+                        <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw]">
+                            <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] mb-4 uppercase">About Us</li>
                             <li>Gallery</li>
                             <li>Technologies</li>
                             <li>Contacts</li>
                         </ul>
                     </div>
                     <div class="about">
-                        <ul class="flex flex-col text-[1.2vw] max-[599px]:text-[3.2vw]">
-                            <li class="font-bold text-[1.5vw] max-[599px]:text-[3.5vw] mb-4 uppercase">About Us</li>
+                        <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw]">
+                            <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] mb-4 uppercase">About Us</li>
                             <li>Gallery</li>
                             <li>Technologies</li>
                             <li>Contacts</li>
                         </ul>
                     </div>
                     <div class="about">
-                        <ul class="flex flex-col text-[1.2vw] max-[599px]:text-[3.2vw]">
-                            <li class="font-bold text-[1.5vw] max-[599px]:text-[3.5vw] mb-4 uppercase">About Us</li>
+                        <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw]">
+                            <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] mb-4 uppercase">About Us</li>
                             <li>Gallery</li>
                             <li>Technologies</li>
                             <li>Contacts</li>
@@ -686,26 +605,27 @@
                     </div>
                 </div>
                 <div
-                    class="social mt-14 pr-10 max-[599px]:pr-0 flex justify-between items-center max-[599px]:flex-col max-[599px]:gap-4 w-full border-t border-gray-200 pt-8">
+                    class="social mt-14 pr-10 max-[1025px]:pr-0 flex justify-between items-center max-[1025px]:flex-col max-[1025px]:gap-4 w-full border-t border-gray-200 pt-8">
                     <div class="flex gap-2">
                         <a href="#" class="w-14 h-14 overflow-hidden">
-                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]" src="./assets/images/Globalimages/fb.png"
-                                alt="Facebook">
+                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
+                                src="./assets/images/Globalimages/fb.png" alt="Facebook">
                         </a>
                         <a href="#" class="w-14 h-14 overflow-hidden">
-                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]" src="./assets/images/Globalimages/inst.png"
-                                alt="Instagram">
+                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
+                                src="./assets/images/Globalimages/inst.png" alt="Instagram">
                         </a>
                         <a href="#" class="w-14 h-14 overflow-hidden">
-                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]" src="./assets/images/Globalimages/ytb.png"
-                                alt="YouTube">
+                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
+                                src="./assets/images/Globalimages/ytb.png" alt="YouTube">
                         </a>
                         <a href="#" class="w-14 h-14 overflow-hidden">
-                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]" src="./assets/images/Globalimages/tweet.png"
-                                alt="Twitter">
+                            <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
+                                src="./assets/images/Globalimages/tweet.png" alt="Twitter">
                         </a>
                     </div>
-                    <p class="text-[#00071B]/50 text-[1.5vw] max-[599px]:text-[3.5vw]">© 2023 — Copyright</p>
+                    <p class="text-[#00071B]/50 text-[1.5vw] max-[1025px]:text-[3.0vw] max-[599px]:text-[3.5vw]">© 2023
+                        — Copyright</p>
                 </div>
             </div>
             <div class="bg-img w-full h-full absolute bottom-0 left-0 z-[999] pointer-events-none">
