@@ -5,24 +5,18 @@
         <section
             class="fade hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Social media/Influencer Marketing/Banner.png');">
-            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
-        shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
-        hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
-        transition-all duration-300">
-                Get in Touch
-            </button>
+            <button class="text-white max-[599px]:text-[3vw] translate-x-[50%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+  Talk to us
+</button>
         </section>
 
         <!-- Mobile Hero Section -->
         <section
             class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[30vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Social media/Influencer Marketing/Banner.png');">
-            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
-            shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
-            hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
-            transition-all duration-300">
-                Get in Touch
-            </button>
+            <button class="text-white max-[599px]:text-[3vw] translate-x-[45%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+  Talk to us
+</button>
         </section>
 
         <!-- Company Section Starts Here -->
@@ -119,27 +113,24 @@
 
             <!-- Right Content Section -->
             <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
-                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Influencer Marketing for Businesses
+                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Leverage Influencers to Expand Your Reach
                 </h2>
                 <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
-                    Your customers are on social media—are you? Platforms like Facebook, Instagram, LinkedIn, and
-                    Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
-                    sales. A well-crafted social media strategy ensures that your business stays ahead of the
-                    competition.
+                Influencer marketing is a powerful way to connect with your target audience authentically. By collaborating with the right influencers, brands can enhance credibility, boost engagement, and drive conversions.
                 </p>
 
                 <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw]">
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Why is Influencer Marketing essential for your business?</strong></p>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>What is influencer marketing and how does it work?</strong></p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>How to create and implement an effective social media strategy?</strong></p>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>How can influencers help promote your brand effectively?</strong></p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Which platforms are best suited for your industry?</strong></p>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Best strategies for running successful influencer campaigns.</strong></p>
                     </li>
                 </ul>
 
@@ -165,27 +156,28 @@
 
             <!-- Right Content Section -->
             <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
-                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Influencer Marketing for Businesses
+                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">What is Influencer Marketing?
                 </h2>
                 <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
-                    Your customers are on social media—are you? Platforms like Facebook, Instagram, LinkedIn, and
-                    Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
-                    sales. A well-crafted social media strategy ensures that your business stays ahead of the
-                    competition.
+                Influencer marketing involves partnering with content creators who have a dedicated following to promote your brand. This strategy helps increase brand awareness, build trust, and generate high-quality leads through authentic recommendations.
                 </p>
 
                 <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw]">
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Why is Influencer Marketing essential for your business?</strong></p>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Brand Awareness:</strong> Reach a larger audience through trusted voices in your industry.</p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>How to create and implement an effective social media strategy?</strong></p>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Authentic Engagement:</strong> Build credibility through organic and relatable content.</p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Which platforms are best suited for your industry?</strong></p>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Targeted Marketing:</strong> Connect with niche audiences that align with your brand.</p>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Higher Conversions:</strong> Leverage influencer trust to boost sales and engagement.</p>
                     </li>
                 </ul>
 
@@ -198,7 +190,7 @@
         </section>
 
         <!-- Why Digital Community Management Matters Section -->
-        <section class="fade w-full flex flex-col items-center max-[599px]:gap-4 relative">
+        <section class="fade w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20 max-[599px]:mt-10">
             <!-- Heading -->
             <div class="headings flex gap-2 items-center justify-start">
                 <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">

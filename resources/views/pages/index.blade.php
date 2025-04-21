@@ -219,8 +219,8 @@
             <div
                 class="card-1 w-[32%] max-[1025px]:w-[48%] max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#327493] pt-28">
                 <img class="w-[40%] absolute right-[10%] top-0" src="./assets/images/Homepage/social1.png" alt="">
-                <h1 class="text-[8vh] text-[#F5F7FF]">Social <br> Media</h1>
-                <div class="flex flex-col mt-2 gap-y-3">
+                <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Social <br> Media</h1>
+                <div class="flex flex-col mt-6 gap-y-3">
                     <a href="{{ route('social-media-marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
@@ -254,9 +254,9 @@
                 </div>
             </div>
             <div
-                class="card-2 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0] pt-28 pb-[2.2rem]">
+                class="card-2 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0] pt-36 pb-[2.0rem]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social2.png" alt="">
-                <h1 class="text-[8vh] text-[#F5F7FF]">Digital <br> Marketing</h1>
+                <h1 class="text-[8vh] text-[#F5F7FF] leading-tight -translate-y-6">Digital <br> Marketing</h1>
                 <div class="flex flex-col mt-2 gap-y-3">
                     <a href="{{ route('Digital Marketing Strategy') }}">
                         <div
@@ -293,10 +293,10 @@
                 </div>
             </div>
             <div
-                class="card-3 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392] pt-28 pb-[5.8rem]">
+                class="card-3 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392] pt-32 pb-[6.5rem]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social3.png" alt="">
-                <h1 class="text-[8vh] text-[#F5F7FF]">Mobile <br> Marketing</h1>
-                <div class="flex flex-col mt-2 gap-y-3">
+                <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Mobile <br> Marketing</h1>
+                <div class="flex flex-col mt-4 gap-y-3">
                     <a href="{{ route('Whatsapp Marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
@@ -327,8 +327,8 @@
                 class="card-4 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#30679E] pt-28">
                 <img class="w-[45%] absolute right-[20%] top-0" src="./assets/images/Homepage/social4.png"
                     alt="">
-                <h1 class="text-[8vh] text-[#F5F7FF]">Visual <br> Designing</h1>
-                <div class="flex flex-col mt-2 gap-y-3">
+                <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Visual <br> Designing</h1>
+                <div class="flex flex-col mt-6 gap-y-3">
                     <a href="{{ route('Graphic Designing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
@@ -366,8 +366,8 @@
             <div
                 class="card-5 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#8A6597] pt-[6.7rem]">
                 <img class="w-[25%] absolute left-0 top-0" src="./assets/images/Homepage/social5.png" alt="">
-                <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF]">Web <br> Development</h1>
-                <div class="flex flex-col mt-2 gap-y-3">
+                <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
+                <div class="flex flex-col mt-6 gap-y-3">
                     <a href="{{ route('Website Design & Development') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
@@ -405,8 +405,8 @@
             <div
                 class="card-6 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#37456E] pt-28">
                 <img class="w-[40%] absolute right-0 top-0" src="./assets/images/Homepage/social6.png" alt="">
-                <h1 class="text-[8vh] text-[#F5F7FF]">Content <br> Creation</h1>
-                <div class="flex flex-col mt-2 gap-y-3">
+                <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Content <br> Creation</h1>
+                <div class="flex flex-col mt-6 gap-y-3">
                     <a href="{{ route('Seo Content Writing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">

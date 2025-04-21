@@ -5,24 +5,18 @@
         <section
             class="fade hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Social media/Social media Optimization/Banner.png');">
-            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
-        shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
-        hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
-        transition-all duration-300">
-                Get in Touch
-            </button>
+            <button class="text-white max-[599px]:text-[3vw] translate-x-[45%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+  Talk to us
+</button>
         </section>
 
         <!-- Mobile Hero Section -->
         <section
-            class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+            class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[30vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Social media/Social media Optimization/Banner.png');">
-            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
-            shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
-            hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
-            transition-all duration-300">
-                Get in Touch
-            </button>
+            <button class="text-white text-[3vw] translate-x-[45%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+  Talk to us
+</button>
         </section>
 
         <!-- Company Section Starts Here -->
@@ -119,32 +113,29 @@
 
             <!-- Right Content Section -->
             <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
-                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Social Media Optimization for Businesses
+                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Optimize Your Social Media for Maximum Impact
                 </h2>
-                <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
-                    Your customers are on social media—are you? Platforms like Facebook, Instagram, LinkedIn, and
-                    Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
-                    sales. A well-crafted social media strategy ensures that your business stays ahead of the
-                    competition.
+                <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
+                Having a social media presence is not enough—optimizing it ensures that your brand reaches the right audience, engages effectively, and stands out from the competition. Social Media Optimization (SMO) helps enhance brand credibility, improve search rankings, and drive meaningful interactions.
                 </p>
 
-                <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw]">
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Why is social media Optimization essential for your business?</strong></p>
+                <ul class="space-y-4 text-gray-800 text-[1.2vw] max-[599px]:text-[3.2vw]">
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>What is social media optimization, and why does it matter?</strong></p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>How to create and implement an effective social media strategy?</strong></p>
+                    <li class="flex items-center gap-4">
+                    <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>How can SMO improve engagement and brand recognition?</strong></p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Which platforms are best suited for your industry?</strong></p>
+                    <li class="flex items-center gap-4">
+                    <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Best techniques to optimize content, profiles, and interactions.</strong></p>
                     </li>
                 </ul>
 
                 <button
-                    class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
+                    class="mt-10 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
                     Contact Us
                 </button>
             </div>
@@ -165,32 +156,33 @@
 
             <!-- Right Content Section -->
             <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
-                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Social Media Optimization for Businesses
+                <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">Why Social Media Optimization Matters?
                 </h2>
-                <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
-                    Your customers are on social media—are you? Platforms like Facebook, Instagram, LinkedIn, and
-                    Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
-                    sales. A well-crafted social media strategy ensures that your business stays ahead of the
-                    competition.
+                <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
+                Social media optimization is the key to making your brand more discoverable, interactive, and engaging. A well-optimized profile and strategy help you connect with your audience, improve user experience, and drive organic traffic.
                 </p>
 
-                <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw]">
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Why is social media Optimization essential for your business?</strong></p>
+                <ul class="space-y-4 text-gray-800 text-[1.2vw] max-[599px]:text-[3.2vw]">
+                    <li class="flex items-center gap-4">
+                        <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Profile Enhancement: </strong> Create professional, keyword-rich bios and visually appealing layouts..</p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>How to create and implement an effective social media strategy?</strong></p>
+                    <li class="flex items-center gap-4">
+                    <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Content Strategy:</strong> Structure posts for better readability, engagement, and reach.</p>
                     </li>
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>Which platforms are best suited for your industry?</strong></p>
+                    <li class="flex items-center gap-4">
+                    <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Hashtag & SEO Strategy:</strong> Use relevant keywords and trending hashtags to maximize visibility.</p>
+                    </li>
+                    <li class="flex items-center gap-4">
+                    <span class="bg-blue-600 inline-block w-4 h-4 rounded-full"></span>
+                        <p><strong>Community Engagement:</strong> Foster strong relationships with followers through meaningful interactions.</p>
                     </li>
                 </ul>
 
                 <button
-                    class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
+                    class="mt-10 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
                     Contact Us
                 </button>
             </div>
@@ -198,7 +190,7 @@
         </section>
 
         <!-- Why Digital Optimization Matters Section -->
-        <section class="fade w-full flex flex-col items-center max-[599px]:gap-4 relative">
+        <section class="fade w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20">
             <!-- Heading -->
             <div class="headings flex gap-2 items-center justify-start">
                 <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">

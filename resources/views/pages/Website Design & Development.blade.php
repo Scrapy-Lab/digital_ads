@@ -3,26 +3,14 @@
 
         <!-- Hero Section -->
         <section
-            class="hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+            class="hero w-full h-[100vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Development/Website Designing & Development/Banner.png');">
-            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
-        shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
-        hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
-        transition-all duration-300">
-                Get in Touch
-            </button>
         </section>
 
         <!-- Mobile Hero Section -->
         <section
-            class="hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+            class="hero w-full h-[100vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Development/Website Designing & Development/Banner.png');">
-            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
-            shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
-            hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
-            transition-all duration-300">
-                Get in Touch
-            </button>
         </section>
 
         <!-- Company Section Starts Here -->
@@ -198,7 +186,7 @@
         </section>
 
         <!-- Why Digital Community Management Matters Section -->
-        <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative">
+        <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10" >
             <!-- Heading -->
             <div class="headings flex gap-2 items-center justify-start">
                 <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
