@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contct Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-         @font-face {
-            font-family: 'font2';
-            src: url("./assets/fonts/HelveticaNowDisplay-Regular.ttf");
-        }
-        @font-face {
-            font-family: 'font1';
-            src: url('./assets/fonts/Inter.ttf');
-        }
-    </style>
-</head>
-
-<body>
-    <main class="relative font-[font1]">
-         @include('layouts.header')
+@extends('layouts.app')
+@section('content')
 
         <!-- About's Hero Section Starts Here-->
         <section
@@ -196,77 +175,4 @@
         </section>
         <!-- About's Contact Section Starts Here -->
 
-       @include('layouts.footer')
-    </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
-    <script>
-        // Initialize Lenis
-        const lenis = new Lenis({
-            autoRaf: true,
-        });
-
-        const menu = document.querySelector(".mobileMenu");
-    const menuOpen = document.querySelector(".menu-icon");
-    const menuClose = document.querySelector(".close-icon");
-
-    menuOpen.addEventListener("click", () => {
-        menu.classList.remove("hidden");
-        menuOpen.classList.add("hidden");
-        menuClose.classList.remove("hidden");
-    });
-
-    menuClose.addEventListener("click", () => {
-        menu.classList.add("hidden");
-        menuOpen.classList.remove("hidden");
-        menuClose.classList.add("hidden");
-    });
-
-    function toggleServices() {
-    const menu = document.getElementById('servicesMenu');
-    menu.classList.toggle('hidden');
-  }
-    function toggleAbout() {
-    const menu = document.getElementById('aboutMenu');
-    menu.classList.toggle('hidden');
-  }
-
-  const fades = document.querySelectorAll(".fade");
-
-gsap.from("nav .logo", {
-    opacity: 0,
-    y: -50,
-    duration: 0.5,
-    willChange: "transform opacity",
-});
-gsap.fromTo("nav a", {
-    opacity: 0,
-    y: -50,
-}, {
-    opacity: 1,
-    y: 0,
-    willChange: "transform opacity",
-    stagger: 0.1,
-}, ">");
-
-fades.forEach(fade => {
-    gsap.fromTo(fade, {
-        opacity: 0,
-        y: 50,
-    }, {
-        opacity: 1,
-        y: 0,
-        willChange: "transform, opacity",
-        scrollTrigger: {
-            trigger: fade,
-            start: "top center",
-            end: "bottom center",
-        }
-    });
-});
-    </script>
-</body>
-
-</html>
+        @endsection

@@ -1,63 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seo Content Writing - The Digital Add</title>
-    <meta name="description"
-        content="Expert Seo Content Writing services to grow your business and engage your audience effectively." />
-    <meta name="author" content="The Digital Add" />
-
-    <meta property="og:title" content="Seo Content Writing - Saxxam Media" />
-    <meta property="og:description"
-        content="Expert Seo Content Writing services to grow your business and engage your audience effectively." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@saxxammedia" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#4a68e4',
-                        secondary: '#ff7b33',
-                        accent: '#f2b636',
-                        'blue-gradient': '#1c2e72',
-                    },
-                }
-            }
-        }
-    </script>
-    <style>
-        @font-face {
-            font-family: 'font2';
-            src: url("./assets/fonts/HelveticaNowDisplay-Regular.ttf");
-        }
-
-        @font-face {
-            font-family: 'font1';
-            src: url('./assets/fonts/Inter.ttf');
-        }
-    </style>
-</head>
-
-<body>
-    <main class="bg-[#F3F5FE] overflow-hidden font-[font1]">
-
-        @include('layouts.header')
+@extends('layouts.app')
+@section('content')
 
         <!-- Hero Section -->
         <section
             class="hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Content Creation/Seo Content Writing/Banner.png');">
-            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13] 
+            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
         shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
         hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
         transition-all duration-300">
@@ -69,7 +17,7 @@
         <section
             class="hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Content Creation/Seo Content Writing/Banner.png');">
-            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13] 
+            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
             shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
             hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
             transition-all duration-300">
@@ -616,72 +564,4 @@
         </section>
 
 
-      @include('layouts.footer')
-
-        <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <!-- JavaScript -->
-        <script>
-            // Initialize Lenis
-            const lenis = new Lenis({
-                autoRaf: true,
-            });
-
-            //Swiper Js Code 
-            var swiper = new Swiper(".mySwiper", {
-                loop: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                spaceBetween: 30,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-            });
-
-            var companySwiper = new Swiper('.companySwiper', {
-                slidesPerView: 5,
-                breakpoints: {
-                    0: {
-                        slidesPerView: 2,
-                        spaceBetween: 10,
-                    },
-                    600: {
-                        slidesPerView: 5,
-                        spaceBetween: 20,
-                    },
-                },
-                loop: true,
-                grabCursor: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-            });
-
-            const menu = document.querySelector(".mobileMenu");
-            const menuOpen = document.querySelector(".menu-icon");
-            const menuClose = document.querySelector(".close-icon");
-
-            menuOpen.addEventListener("click", () => {
-                menu.classList.remove("hidden");
-                menuOpen.classList.add("hidden");
-                menuClose.classList.remove("hidden");
-            });
-
-            menuClose.addEventListener("click", () => {
-                menu.classList.add("hidden");
-                menuOpen.classList.remove("hidden");
-                menuClose.classList.add("hidden");
-            });
-        </script>
-         
-</body>
-
-</html>
+        @endsection

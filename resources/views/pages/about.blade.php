@@ -1,50 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Digital Add</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <style>
-        @font-face {
-            font-family: 'font2';
-            src: url("./assets/fonts/HelveticaNowDisplay-Regular.ttf");
-        }
-
-        @font-face {
-            font-family: 'font1';
-            src: url('./assets/fonts/Inter.ttf');
-        }
-
-        .swiper-pagination-bullet {
-            background-color: #e5e5e5;
-            /* light gray */
-            opacity: 1;
-            margin: 0 6px;
-            border-radius: 9999px;
-            /* full circle */
-            transition: background-color 0.3s;
-        }
-
-        .swiper-pagination-bullet-active {
-            background-color: #001260;
-            /* deep navy blue */
-        }
-    </style>
-</head>
-
-<body class="font-[font1]">
-   @include('layouts.header')
-
-    <main class="overflow-hidden">
+@extends('layouts.app')
+@section('content')
+    {{-- <main class="overflow-hidden"> --}}
 
         <!-- About's Hero Section Starts Here-->
         <section
             class="fade w-full h-screen relative flex items-center justify-center bg-[linear-gradient(279.16deg,#4A32FF_-27.33%,#001C3C_38.47%,#27ACFF_108.93%)] overflow-hidden">
             <div class="w-full h-full">
-                <img class="w-full h-full object-cover object-top scale-150" src="./assets/images/Aboutpage/aboutbg1.png" alt="">
+                <img class="w-full h-full object-cover object-top scale-150" src="./assets/images/Aboutpage/aboutbg1.png"
+                    alt="">
             </div>
             <div
                 class="overlay absolute bottom-0 text-white w-[85%] rounded-t-[40px] h-[60%] flex items-center justify-center flex-col gap-6 text-center bg-[url(./assets/images/Globalimages/grains.png)] backdrop-blur-md mx-auto shadow-[12px_30px_14.3px_0px_#00000040] border-2 bg-clip-border border-image-source[linear-gradient(130.38deg, #FFFFFF 57.86%, rgba(152, 255, 206, 0.68) 74.98%, #3771C8 89.11%, #7E69FF 100.67%)]">
@@ -67,7 +30,9 @@
                 <div class="w-1/2 max-[599px]:w-full px-16 max-[599px]:px-0 py-4 flex items-center justify-center flex-col">
                     <h1 class="text-[#001362] text-[6.5vw] font-black">Our <span class="text-[#FFA616]">Vision</span>.
                     </h1>
-                    <p class=" text-[1.4vw] max-[599px]:text-[3.4vw] max-[599px]:pt-3 pl-6 max-[599px]:px-4 text-[#083E68] w-[90%] max-[599px]:w-full">These
+                    <p
+                        class=" text-[1.4vw] max-[599px]:text-[3.4vw] max-[599px]:pt-3 pl-6 max-[599px]:px-4 text-[#083E68] w-[90%] max-[599px]:w-full">
+                        These
                         seven principles highlight our fundamental beliefs as a
                         team and as a business. Our core values attract and unite
                         individuals focused on building a stable, desirable work
@@ -79,7 +44,9 @@
                 <div class="w-1/2 max-[599px]:w-full flex items-center px-16 max-[599px]:px-0 pt-4 justify-center flex-col">
                     <h1 class="text-[#001362] text-[6vw] font-black">Our <span class="text-[#FFA616]">Mission</span>.
                     </h1>
-                    <p class=" text-[1.4vw] max-[599px]:text-[3.4vw] max-[599px]:pt-3 pl-6 max-[599px]:px-4 text-[#083E68] w-[90%] max-[599px]:w-full">These
+                    <p
+                        class=" text-[1.4vw] max-[599px]:text-[3.4vw] max-[599px]:pt-3 pl-6 max-[599px]:px-4 text-[#083E68] w-[90%] max-[599px]:w-full">
+                        These
                         seven principles highlight our fundamental beliefs as a
                         team and as a business. Our core values attract and unite
                         individuals focused on building a stable, desirable work
@@ -197,7 +164,7 @@
         <section
             class="fade Our-Journey w-full relative pt-20 max-[1025px]:py-10 max-[599px]:py-5 pb-10 max-[599px]:px-0 flex flex-col items-center justify-center bg-[linear-gradient(278.17deg,#4F92F1_35.62%,#4F92F1_49.14%,#2E548B_110.84%)]">
             <h1 class="text-white text-[6.5vw] font-black text-center">Our <span class="text-[#FFD471]">Journey</span>.
-            <img class="pt-10" src="./assets/images/Aboutpage/Group 1261156942.png" alt="">
+                <img class="pt-10" src="./assets/images/Aboutpage/Group 1261156942.png" alt="">
         </section>
         <!-- About's Our Journey Section Starts Here -->
 
@@ -328,12 +295,12 @@
         <!-- About's Our Team Section Starts Here -->
 
         <!-- About's Contact Section Starts Here -->
-        <section
-            class="fade bg-[#F5F7FF] w-full relative flex items-center justify-center overflow-hidden pt-20 pb-10">
+        <section class="fade bg-[#F5F7FF] w-full relative flex items-center justify-center overflow-hidden pt-20 pb-10">
             <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
                 <!-- Left Side with Rocket Illustration -->
                 <div class="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
-                    <img src="./assets/images/Globalimages/boostImage.png" alt="Rocket illustration" class="w-full max-w-md">
+                    <img src="./assets/images/Globalimages/boostImage.png" alt="Rocket illustration"
+                        class="w-full max-w-md">
                 </div>
 
                 <!-- Right Side with Text and Button -->
@@ -381,102 +348,7 @@
         </section>
         <!-- About's Contact Section Ends Here -->
 
-        @include('layouts.footer')
+        {{-- @include('layouts.footer') --}}
 
-    </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-        // Initialize Lenis
-        const lenis = new Lenis({
-            autoRaf: true,
-        });
-
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                768: {
-                    slidesPerView: 2
-                },
-                1024: {
-                    slidesPerView: 3
-                }
-            }
-        });
-
-        const menu = document.querySelector(".mobileMenu");
-        const menuOpen = document.querySelector(".menu-icon");
-        const menuClose = document.querySelector(".close-icon");
-
-        menuOpen.addEventListener("click", () => {
-            menu.classList.remove("hidden");
-            menuOpen.classList.add("hidden");
-            menuClose.classList.remove("hidden");
-        });
-
-        menuClose.addEventListener("click", () => {
-            menu.classList.add("hidden");
-            menuOpen.classList.remove("hidden");
-            menuClose.classList.add("hidden");
-        });
-
-
-        function toggleServices() {
-            const menu = document.getElementById('servicesMenu');
-            menu.classList.toggle('hidden');
-        }
-        function toggleAbout() {
-            const menu = document.getElementById('aboutMenu');
-            menu.classList.toggle('hidden');
-        }
-
-        const fades = document.querySelectorAll(".fade");
-
-gsap.from(".anim", {
-    opacity: 0,
-    x: -100,
-    duration: 0.5,
-    willChange: "transform opacity",
-});
-gsap.from("nav .logo", {
-    opacity: 0,
-    y: -50,
-    duration: 0.5,
-    willChange: "transform opacity",
-});
-gsap.fromTo("nav a", {
-    opacity: 0,
-    y: -50,
-}, {
-    opacity: 1,
-    y: 0,
-    willChange: "transform opacity",
-    stagger: 0.1,
-}, ">");
-
-fades.forEach(fade => {
-    gsap.fromTo(fade, {
-        opacity: 0,
-        y: 50,
-    }, {
-        opacity: 1,
-        y: 0,
-        willChange: "transform, opacity",
-        scrollTrigger: {
-            trigger: fade,
-            start: "top center",
-            end: "bottom center",
-        }
-    });
-});
-    </script>
-</body>
-
-</html>
+    {{-- </main> --}}
+@endsection

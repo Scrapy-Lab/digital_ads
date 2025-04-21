@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Digital Add</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <style>
         @font-face {
             font-family: 'font2';
@@ -18,14 +17,29 @@
             font-family: 'font1';
             src: url('./assets/fonts/Inter.ttf');
         }
+
+        .swiper-pagination-bullet {
+            background-color: #e5e5e5;
+            /* light gray */
+            opacity: 1;
+            margin: 0 6px;
+            border-radius: 9999px;
+            /* full circle */
+            transition: background-color 0.3s;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #001260;
+            /* deep navy blue */
+        }
     </style>
 </head>
 
-<body>
-
+<body class="font-[font1]">
+    @include('layouts.header')
     <main class="bg-[#F5F7FF] overflow-hidden">
 
-        @include('layouts.header')
+        {{-- @include('layouts.header') --}}
 
         @yield('content')
 
@@ -61,7 +75,82 @@
             clickable: true,
         },
     });
-    
+
+    var companySwiper = new Swiper('.companySwiper', {
+        slidesPerView: 5,
+        breakpoints: {
+            0: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            600: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+            },
+        },
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+
+    const menu = document.querySelector(".mobileMenu");
+    const menuOpen = document.querySelector(".menu-icon");
+    const menuClose = document.querySelector(".close-icon");
+
+    menuOpen.addEventListener("click", () => {
+        menu.classList.remove("hidden");
+        menuOpen.classList.add("hidden");
+        menuClose.classList.remove("hidden");
+    });
+
+    menuClose.addEventListener("click", () => {
+        menu.classList.add("hidden");
+        menuOpen.classList.remove("hidden");
+        menuClose.classList.add("hidden");
+    });
+
+    const fades = document.querySelectorAll(".fade");
+
+    gsap.from(".anim", {
+        opacity: 0,
+        x: -100,
+        duration: 0.5,
+        willChange: "transform opacity",
+    });
+    gsap.from("nav .logo", {
+        opacity: 0,
+        y: -50,
+        duration: 0.5,
+        willChange: "transform opacity",
+    });
+    gsap.fromTo("nav a", {
+        opacity: 0,
+        y: -50,
+    }, {
+        opacity: 1,
+        y: 0,
+        willChange: "transform opacity",
+        stagger: 0.1,
+    }, ">");
+
+    fades.forEach(fade => {
+        gsap.fromTo(fade, {
+            opacity: 0,
+            y: 50,
+        }, {
+            opacity: 1,
+            y: 0,
+            willChange: "transform, opacity",
+            scrollTrigger: {
+                trigger: fade,
+                start: "top center",
+                end: "bottom center",
+            }
+        });
+    });
 </script>
 
 </html>

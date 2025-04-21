@@ -1,63 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
+@section('content')
+    {{-- <main class="bg-[#F3F5FE] overflow-hidden font-[font1]"> --}}
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bulk Sms - The Digital Add</title>
-    <meta name="description"
-        content="Expert Bulk Sms services to grow your business and engage your audience effectively." />
-    <meta name="author" content="The Digital Add" />
-
-    <meta property="og:title" content="Bulk Sms - Saxxam Media" />
-    <meta property="og:description"
-        content="Expert Bulk Sms services to grow your business and engage your audience effectively." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@saxxammedia" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#4a68e4',
-                        secondary: '#ff7b33',
-                        accent: '#f2b636',
-                        'blue-gradient': '#1c2e72',
-                    },
-                }
-            }
-        }
-    </script>
-    <style>
-        @font-face {
-            font-family: 'font2';
-            src: url("./assets/fonts/HelveticaNowDisplay-Regular.ttf");
-        }
-
-        @font-face {
-            font-family: 'font1';
-            src: url('./assets/fonts/Inter.ttf');
-        }
-    </style>
-</head>
-
-<body>
-    <main class="bg-[#F3F5FE] overflow-hidden font-[font1]">
-
-        @include('layouts.header')
+        {{-- @include('layouts.header') --}}
 
         <!-- Hero Section -->
         <section
             class="hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Mobile Marketing/Bulk sms/banner.png');">
-            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13] 
+            <button class="px-16 py-3 translate-x-[68%]  max-[1025px]:translate-x-14 translate-y-20 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[4vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
         shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
         hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
         transition-all duration-300">
@@ -69,7 +20,7 @@
         <section
             class="hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
             style="background-image: url('/assets/images/Services/Mobile Marketing/Bulk sms/Banner.png');">
-            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13] 
+            <button class="px-16 max-[599px]:px-8 max-[599px]:py-2 py-3 -ml-2 translate-y-12 text-[1.5vw] max-[1025px]:text-[2vw] max-[599px]:text-[3vw] tracking-[0] mt-4 w-fit font-[600] text-[#F47815] bg-white border-2 border-[#F27A13]
             shadow-[0px_4px_19px_2px_#FFC6996B] rounded-md
             hover:bg-[linear-gradient(92.21deg,_#F47A14_37.26%,_#FFC917_126.39%)] hover:text-white hover:border-transparent
             transition-all duration-300">
@@ -616,9 +567,9 @@
         </section>
 
 
-        @include('layouts.footer')
+        {{-- @include('layouts.footer') --}}
 
-        <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+        {{-- <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <!-- JavaScript -->
         <script>
@@ -627,7 +578,7 @@
                 autoRaf: true,
             });
 
-            //Swiper Js Code 
+            //Swiper Js Code
             var swiper = new Swiper(".mySwiper", {
                 loop: true,
                 autoplay: {
@@ -681,7 +632,6 @@
                 menuClose.classList.add("hidden");
             });
         </script>
-         
-</body>
+          --}}
 
-</html>
+@endsection
