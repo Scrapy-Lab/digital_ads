@@ -10,12 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         @font-face {
-            font-family: font1;
-            src: url("assets/fonts/HelveticaNowDisplay-Regular.ttf");
+            font-family: 'font2';
+            src: url("./assets/fonts/HelveticaNowDisplay-Regular.ttf");
         }
 
-        * {
-            font-family: font1;
+        @font-face {
+            font-family: 'font1';
+            src: url('./assets/fonts/Inter.ttf');
         }
     </style>
 </head>
@@ -32,6 +33,8 @@
 
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
@@ -58,6 +61,7 @@
             clickable: true,
         },
     });
+    
 </script>
 
 </html>
