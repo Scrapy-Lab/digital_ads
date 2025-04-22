@@ -44,7 +44,7 @@
         @yield('content')
 
         @include('layouts.footer')
-
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

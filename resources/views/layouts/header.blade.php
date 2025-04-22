@@ -172,7 +172,7 @@
     </nav>
 </header>
 <!-- Header Ends Here-->
-
+{{--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script>
@@ -238,4 +238,4 @@ const nav2 = document.getElementById("mainNavbar");
 
         prevScroll = currentScroll;
     });
-</script>
+</script> --}}
