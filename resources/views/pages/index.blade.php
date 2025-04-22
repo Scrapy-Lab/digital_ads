@@ -258,7 +258,7 @@
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social2.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight -translate-y-6">Digital <br> Marketing</h1>
                 <div class="flex flex-col mt-2 gap-y-3">
-                    <a href="{{ route('Digital Marketing Strategy') }}">
+                    <a href="{{ route('digital-marketing-strategy') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Digital Marketing Strategy</h1>
