@@ -297,7 +297,7 @@
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social3.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Mobile <br> Marketing</h1>
                 <div class="flex flex-col mt-4 gap-y-3">
-                    <a href="{{ route('Whatsapp Marketing') }}">
+                    <a href="{{ route('whatsapp-marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Whatsapp Marketing</h1>
