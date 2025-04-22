@@ -235,7 +235,7 @@
                             <img class="w-7 h-7 cursor-pointer" src="./assets/images/Homepage/arrowMain.png" alt="">
                         </div>
                     </a>
-                    <a href="{{ route('social media Community Management') }}">
+                    <a href="{{ route('social-media-community-management') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Social Media Community Management</h1>
@@ -243,7 +243,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Influencer Marketing') }}">
+                    <a href="{{ route('influencer-marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Influencer Marketing</h1>
@@ -266,7 +266,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Search Engine Marketing') }}">
+                    <a href="{{ route('search-engine-marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">SEM (Search Engine Marketing)</h1>
@@ -282,7 +282,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Online Reputation Management') }}">
+                    <a href="{{ route('online-reputation-management') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">ORM (Online Reputation Marketing)</h1>
@@ -305,7 +305,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Voice Sms') }}">
+                    <a href="{{ route('voice-sms') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Voice SMS </h1>
@@ -313,7 +313,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Bulk Sms') }}">
+                    <a href="{{ route('bulk-sms') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Bulk SMS</h1>
@@ -329,7 +329,7 @@
                     alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Visual <br> Designing</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
-                    <a href="{{ route('Graphic Designing') }}">
+                    <a href="{{ route('graphic-designing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Graphic Designing</h1>
@@ -337,7 +337,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Logo Designing') }}">
+                    <a href="{{ route('logo-designing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Logo Designing</h1>
@@ -345,7 +345,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('PhotoGraphy') }}">
+                    <a href="{{ route('photography') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Photography</h1>
@@ -353,7 +353,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('VideoGraphy') }}">
+                    <a href="{{ route('videography') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">VideoGraphy</h1>
@@ -368,7 +368,7 @@
                 <img class="w-[25%] absolute left-0 top-0" src="./assets/images/Homepage/social5.png" alt="">
                 <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
-                    <a href="{{ route('Website Design & Development') }}">
+                    <a href="{{ route('website-design-and-development') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Website Designing & Development</h1>
@@ -376,7 +376,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Ecommerce Development') }}">
+                    <a href="{{ route('ecommerce-development') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Ecommerce Development</h1>
@@ -384,7 +384,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Wordpress Website Development') }}">
+                    <a href="{{ route('wordpress-website-development') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Wordpress Website Development</h1>
@@ -392,7 +392,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Website Manintanance') }}">
+                    <a href="{{ route('website-manintanance') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Website Maintanance<h1>
@@ -407,7 +407,7 @@
                 <img class="w-[40%] absolute right-0 top-0" src="./assets/images/Homepage/social6.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Content <br> Creation</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
-                    <a href="{{ route('Seo Content Writing') }}">
+                    <a href="{{ route('content-writing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">SEO Content Writing</h1>
@@ -415,7 +415,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Blog Writing') }}">
+                    <a href="{{ route('blog-writing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Blog Writing</h1>
@@ -423,7 +423,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Promotional Writing') }}">
+                    <a href="{{ route('promotional-writing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Promotional Writing</h1>
@@ -431,7 +431,7 @@
                                 alt="">
                         </div>
                     </a>
-                    <a href="{{ route('Copy Writing') }}">
+                    <a href="{{ route('copy-writing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Copywriting</h1>
