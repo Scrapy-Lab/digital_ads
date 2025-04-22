@@ -228,7 +228,7 @@
                             <img class="w-7 h-7 cursor-pointer" src="./assets/images/Homepage/arrowMain.png" alt="">
                         </div>
                     </a>
-                    <a href="{{ route('social media optimization') }}">
+                    <a href="{{ route('social-media-optimization') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
                             <h1 class="text-[2.5vh] font-semibold">Social Media Optimization</h1>
