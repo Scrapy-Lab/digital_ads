@@ -88,9 +88,9 @@
 
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full">
-            <img src="/assets/images/Services/Development/Ecommerce Development/img1.png" alt="Community Management Visual"
+            <img src="./assets/images/Services/Development/Ecommerce Development/img1.png" alt="Community Management Visual"
                 class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-            <img src="/assets/images/Services/Development/Ecommerce Development/img1.png" alt="Community Management Visual"
+            <img src="./assets/images/Services/Development/Ecommerce Development/img1.png" alt="Community Management Visual"
                 class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
         </div>
 
@@ -136,7 +136,7 @@
         <div class="relative w-[40%] max-[1025px]:w-full">
             <img src="./assets/images/Services/Development/Ecommerce Development/Frame 1261155783.png"
                 alt="Community Management Visual" class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-            <img src="/assets/images/Services/Development/Ecommerce Development/Frame 1261155783.png"
+            <img src="./assets/images/Services/Development/Ecommerce Development/Frame 1261155783.png"
                 alt="Community Management Visual" class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
         </div>
 

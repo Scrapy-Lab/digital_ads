@@ -88,9 +88,9 @@
 
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full">
-            <img src="/assets/images/Services/Digital Marketing/Digital Marketing Strategy/Img1.png"
+            <img src="./assets/images/Services/Digital Marketing/Digital Marketing Strategy/Img1.png"
                 alt="Community Management Visual" class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-            <img src="/assets/images/Services/Digital marketing/Digital marketing strategy/Img1.png"
+            <img src="./assets/images/Services/Digital marketing/Digital marketing strategy/Img1.png"
                 alt="Community Management Visual" class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
         </div>
 
@@ -136,7 +136,7 @@
         <div class="relative w-[40%] max-[1025px]:w-full">
             <img src="./assets/images/Services/Digital Marketing/Digital Marketing Strategy/img2.png"
                 alt="Community Management Visual" class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-            <img src="/assets/images/Services/Digital marketing/Digital marketing strategy/img2.png"
+            <img src="./assets/images/Services/Digital marketing/Digital marketing strategy/img2.png"
                 alt="Community Management Visual" class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
         </div>
 

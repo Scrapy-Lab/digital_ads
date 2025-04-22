@@ -104,9 +104,9 @@
 
             <!-- Left Image Section -->
             <div class="relative w-[40%] max-[1025px]:w-full">
-                <img src="/assets/images/Services/Social media/Social media marketing/Img 1.png" alt="Marketing Visual"
+                <img src="./assets/images/Services/Social media/Social media marketing/Img 1.png" alt="Marketing Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-                <img src="/assets/images/Mobile Responsive/Social media marketing/Img 1.png" alt="Marketing Visual"
+                <img src="./assets/images/Mobile Responsive/Social media marketing/Img 1.png" alt="Marketing Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
             </div>
 
@@ -152,7 +152,7 @@
             <div class="relative w-[40%] max-[1025px]:w-full">
                 <img src="./assets/images/Services/Social media/Social media marketing/img2.png" alt="Marketing Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-                <img src="/assets/images/Mobile Responsive/Social media marketing/Img2.png" alt="Marketing Visual"
+                <img src="./assets/images/Mobile Responsive/Social media marketing/Img2.png" alt="Marketing Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
             </div>
 

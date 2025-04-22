@@ -99,9 +99,9 @@
 
             <!-- Left Image Section -->
             <div class="relative w-[40%] max-[1025px]:w-full">
-                <img src="/assets/images/Services/Digital Marketing/Online Reputation Management/Img1.png" alt="Community Management Visual"
+                <img src="./assets/images/Services/Digital Marketing/Online Reputation Management/Img1.png" alt="Community Management Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-                <img src="/assets/images/Services/Digital marketing/Online Reputation Management/Img1.png" alt="Community Management Visual"
+                <img src="./assets/images/Services/Digital marketing/Online Reputation Management/Img1.png" alt="Community Management Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
             </div>
 
@@ -147,7 +147,7 @@
             <div class="relative w-[40%] max-[1025px]:w-full">
                 <img src="./assets/images/Services/Digital Marketing/Online Reputation Management/img2.png" alt="Community Management Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-                <img src="/assets/images/Services/Digital marketing/Online Reputation Management/img2.png" alt="Community Management Visual"
+                <img src="./assets/images/Services/Digital marketing/Online Reputation Management/img2.png" alt="Community Management Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
             </div>
 

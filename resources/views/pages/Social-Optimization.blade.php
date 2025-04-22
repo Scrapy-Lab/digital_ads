@@ -105,9 +105,9 @@
 
             <!-- Left Image Section -->
             <div class="relative w-[40%] max-[1025px]:w-full">
-                <img src="/assets/images/Services/Social media/Social media optimization/Frame 4558.png" alt="Optimization Visual"
+                <img src="./assets/images/Services/Social media/Social media optimization/Frame 4558.png" alt="Optimization Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-                <img src="/assets/images/Mobile Responsive/Social media Optimization/Img 1.png" alt="Optimization Visual"
+                <img src="./assets/images/Mobile Responsive/Social media Optimization/Img 1.png" alt="Optimization Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
             </div>
 
@@ -150,7 +150,7 @@
             <div class="relative w-[40%] max-[1025px]:w-full">
                 <img src="./assets/images/Services/Social media/Social media Optimization/Frame 1261155762.png" alt="Optimization Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-                <img src="/assets/images/Mobile Responsive/Social media Optimization/Img2.png" alt="Optimization Visual"
+                <img src="./assets/images/Mobile Responsive/Social media Optimization/Img2.png" alt="Optimization Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
             </div>
 
