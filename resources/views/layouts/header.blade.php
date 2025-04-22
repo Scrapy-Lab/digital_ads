@@ -172,19 +172,19 @@
     </nav>
 </header>
 <!-- Header Ends Here-->
-{{--
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script>
     const wrapper = document.getElementById("servicesDropdownWrapper");
-    const menu = document.getElementById("servicesMenu");
+    const servicesMenu = document.getElementById("servicesMenu");
 
     wrapper.addEventListener("mouseenter", () => {
-        menu.classList.remove("hidden");
+        servicesMenu.classList.remove("hidden");
     });
 
-    menu.addEventListener("mouseleave", () => {
-        menu.classList.add("hidden");
+    servicesMenu.addEventListener("mouseleave", () => {
+        servicesMenu.classList.add("hidden");
     });
 
     gsap.registerPlugin(ScrollTrigger);
@@ -238,4 +238,4 @@ const nav2 = document.getElementById("mainNavbar");
 
         prevScroll = currentScroll;
     });
-</script> --}}
+</script>

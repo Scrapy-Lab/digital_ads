@@ -7,6 +7,7 @@
     <title>The Digital Add</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @font-face {
             font-family: 'font2';
@@ -33,6 +34,7 @@
             /* deep navy blue */
         }
     </style>
+     {{-- @vite('resources/css/app.css') --}}
 </head>
 
 <body class="font-[font1]">
@@ -44,7 +46,7 @@
         @yield('content')
 
         @include('layouts.footer')
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
