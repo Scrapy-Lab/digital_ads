@@ -4,7 +4,7 @@
         <!-- Hero Section -->
         <section
             class="fade hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
-            style="background-image: url('./assets/images/Services/Social media/Social media Optimization/Banner.png');">
+            style="background-image: url('./assets/images/Services/Social media/Social media optimization/Banner.png');">
             <button class="text-white max-[599px]:text-[3vw] translate-x-[45%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
   Talk to us
 </button>
@@ -13,7 +13,7 @@
         <!-- Mobile Hero Section -->
         <section
             class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[30vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
-            style="background-image: url('./assets/images/Services/Social media/Social media Optimization/Banner.png');">
+            style="background-image: url('./assets/images/Services/Social media/Social media optimization/Banner.png');">
             <button class="text-white text-[3vw] translate-x-[45%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
   Talk to us
 </button>
@@ -148,7 +148,7 @@
 
             <!-- Left Image Section -->
             <div class="relative w-[40%] max-[1025px]:w-full">
-                <img src="./assets/images/Services/Social media/Social media Optimization/Frame 1261155762.png" alt="Optimization Visual"
+                <img src="./assets/images/Services/Social media/Social media optimization/Frame 1261155762.png" alt="Optimization Visual"
                     class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
                 <img src="./assets/images/Mobile Responsive/Social media Optimization/Img2.png" alt="Optimization Visual"
                     class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
