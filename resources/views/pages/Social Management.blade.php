@@ -4,7 +4,7 @@
         <!-- Hero Section -->
         <section
             class="fade hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
-            style="background-image: url('/assets/images/Services/Social media/Social media Community Management/Banner.png');">
+            style="background-image: url('./assets/images/Services/Social media/Social media Community Management/Banner.png');">
             <button class="text-white max-[599px]:text-[3vw] translate-x-[40%] max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
   Talk to us
 </button>
@@ -13,7 +13,7 @@
         <!-- Mobile Hero Section -->
         <section
             class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[30vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
-            style="background-image: url('/assets/images/Services/Social media/Social media Community Management/Banner.png');">
+            style="background-image: url('./assets/images/Services/Social media/Social media Community Management/Banner.png');">
             <button class="text-white max-[599px]:text-[3vw] translate-x-[45%] max-[599px]:translate-x-[-10%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
   Talk to us
 </button>
