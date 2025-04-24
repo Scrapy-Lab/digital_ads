@@ -195,8 +195,10 @@ const nav = document.getElementById("topNav");
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
 
+  console.log("currentScroll" ,currentScroll ,"previousScroll" ,previousScroll)
   if (currentScroll > previousScroll) {
     // Scrolling Down
+
     gsap.to(nav, {
       y: -100, // hide upward
       duration: 0.4,
@@ -220,7 +222,7 @@ const nav2 = document.getElementById("mainNavbar");
     window.addEventListener("scroll", () => {
         let currentScroll = window.scrollY;
 
-        if (currentScroll > prevScroll && currentScroll > 100) {
+        if (currentScroll > prevScroll && currentScroll > 7) {
             // User scrolling down
             gsap.to(nav2, {
                 y: -55,
