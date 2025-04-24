@@ -448,7 +448,7 @@
     <!-- Teastimonials Section Starts Here -->
     <section class="fade w-full pt-32 max-[599px]:pt-6 overflow-hidden">
         <div class="relative w-full h-full">
-            <div class="absolute w-[28%] right-0 -top-[12.2vh] max-[1025px]:hidden z-30">
+            <div class="absolute w-[28%] right-0 max-[1300px]:-top-[8.5vh] -top-[12.2vh] max-[1025px]:hidden z-30">
                 <img class="w-full h-full object-cover" src="./assets/images/Globalimages/testimonialBg.png"
                     alt="">
             </div>

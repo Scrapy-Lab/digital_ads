@@ -11,9 +11,9 @@
                         <ul
                             class="flex flex-col gap-6 text-[1.2vw] max-[1025px]:text-[2.8vw] max-[599px]:text-[3.2vw] text-white">
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Contact Us</li>
-                            <li>+1 (999) 999-99-99</li>
-                            <li>hello@logoipsum.com</li>
-                            <li>London</li>
+                            <li class="cursor-pointer">+1 (999) 999-99-99</li>
+                            <li class="cursor-pointer">hello@logoipsum.com</li>
+                            <li class="cursor-pointer">London</li>
                         </ul>
                     </div>
                 </div>
@@ -24,35 +24,35 @@
                     <div class="info">
                         <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[3.2vw]">
                             <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] max-[599px]:text-[3.5vw] mb-4 uppercase">Info</li>
-                            <li>Company</li>
-                            <li>Products</li>
-                            <li>Enginerring</li>
-                            <li>Services</li>
-                            <li>Productuon</li>
+                            <li class="cursor-pointer">Company</li>
+                            <li class="cursor-pointer">Products</li>
+                            <li class="cursor-pointer">Enginerring</li>
+                            <li class="cursor-pointer">Services</li>
+                            <li class="cursor-pointer">Productuon</li>
                         </ul>
                     </div>
                     <div class="about">
                         <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[3.2vw]">
                             <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] max-[599px]:text-[3.5vw] mb-4 uppercase">About Us</li>
-                            <li>Gallery</li>
-                            <li>Technologies</li>
-                            <li>Contacts</li>
+                            <li class="cursor-pointer">Gallery</li>
+                            <li class="cursor-pointer">Technologies</li>
+                            <li class="cursor-pointer">Contacts</li>
                         </ul>
                     </div>
                     <div class="about">
                         <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[3.2vw]">
                             <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] max-[599px]:text-[3.5vw] mb-4 uppercase">About Us</li>
-                            <li>Gallery</li>
-                            <li>Technologies</li>
-                            <li>Contacts</li>
+                            <li class="cursor-pointer">Gallery</li>
+                            <li class="cursor-pointer">Technologies</li>
+                            <li class="cursor-pointer">Contacts</li>
                         </ul>
                     </div>
                     <div class="about">
                         <ul class="flex flex-col text-[1.2vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[3.2vw]">
                             <li class="font-bold text-[1.5vw] max-[1025px]:text-[3.0vw] max-[599px]:text-[3.5vw] mb-4 uppercase">About Us</li>
-                            <li>Gallery</li>
-                            <li>Technologies</li>
-                            <li>Contacts</li>
+                            <li class="cursor-pointer">Gallery</li>
+                            <li class="cursor-pointer">Technologies</li>
+                            <li class="cursor-pointer">Contacts</li>
                         </ul>
                     </div>
                 </div>

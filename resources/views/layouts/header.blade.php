@@ -42,7 +42,7 @@
     <!-- Main Navbar -->
     <nav
     id="mainNavbar"
-        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-4 flex justify-between items-center z-30 bg-[#F5F7FF]">
+        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-4 flex justify-between items-center z-[9999] bg-[#F5F7FF]">
         <!-- Logo -->
         <div class="logo w-[13%] max-[1025px]:w-[20%] max-[599px]:w-1/2">
             <a href="{{route('home')}}"><img class="w-full h-full object-cover" src="./assets/images/Globalimages/logo.svg" alt=""></a>
@@ -160,7 +160,7 @@
 
         <!-- Mobile Menu -->
         <div
-            class="mobileMenu hidden w-full h-[92.5%] fixed bottom-0 left-0 z-10 bg-[#F5F7FF] transition-all duration-300 flex flex-col justify-center items-center text-center text-[5vw]">
+            class="mobileMenu hidden w-full h-[90.2vh] mt-16 fixed top-0 left-0 z-10 bg-[#F5F7FF] transition-all duration-300 flex flex-col justify-center items-center text-center text-[5vw]">
             <ul class="flex flex-col gap-6">
                 <li><a href="{{route('home')}}">Home</a></li>
                 <li><a href="{{route('about')}}">About</a></li>
