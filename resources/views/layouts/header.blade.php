@@ -222,7 +222,7 @@ const nav2 = document.getElementById("mainNavbar");
     window.addEventListener("scroll", () => {
         let currentScroll = window.scrollY;
 
-        if (currentScroll > prevScroll && currentScroll > 7) {
+        if (currentScroll > prevScroll && currentScroll > 5) {
             // User scrolling down
             gsap.to(nav2, {
                 y: -55,
