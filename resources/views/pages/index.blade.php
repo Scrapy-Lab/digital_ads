@@ -4,7 +4,7 @@
 
     <!-- Hero Section Starts Here -->
     <section
-        class="fade hero w-full h-[90vh] max-[1025px]:h-[60vh] max-[599px]:h-[80vh] bg-[url(./assets/images/Homepage/Banner.png)] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4">
+        class="fade hero w-full min-h-screen max-[1025px]:h-[60vh] max-[599px]:h-[80vh] bg-[url(./assets/images/Homepage/Banner.png)] bg-cover max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4">
 
         <div class="relative w-1/2 max-[1025px]:w-[70%] max-[599px]:w-full whitespace-nowrap max-[599px]:whitespace-normal">
 
@@ -47,7 +47,7 @@
     <!-- Hero Section Ends Here -->
 
     <!-- Company Section Starts Here -->
-    <section class="fade companySwiper w-full px-4 py-8 max-[599px]:py-4 -mt-6 max-[1024px]:-mt-20 max-[1300px]:-mt-36 max-[599px]:mt-0">
+    <section class="fade companySwiper w-full px-4 py-8 max-[599px]:py-4">
         <div class="swiper-wrapper flex gap-4">
 
             <!-- Slide 1 -->
@@ -215,12 +215,12 @@
                 deliver results. From Digital marketing to SEO, content strategy, or social media marketing in
                 Delhi, you name it and we will deliver it.</p>
         </div>
-        <div class="w-full flex gap-3 flex-wrap items-center justify-center mt-10 max-[599px]:mt-0">
+        <div class="w-full h-full flex gap-3 flex-wrap items-center justify-center mt-10 max-[599px]:mt-0">
             <div
-                class="card-1 w-[32%] max-[1025px]:w-[48%] max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#327493] pt-28">
+                class="card-1 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%] max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#327493]">
                 <img class="w-[40%] absolute right-[10%] top-0" src="./assets/images/Homepage/social1.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Social <br> Media</h1>
-                <div class="flex flex-col mt-6 gap-y-3">
+                <div class="flex flex-col mt-4 gap-y-3">
                     <a href="{{ route('social-media-marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
@@ -254,7 +254,7 @@
                 </div>
             </div>
             <div
-                class="card-2 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0] pt-36 max-[1300px]:pt-14 pb-[2.0rem]">
+                class="card-2 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social2.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight -translate-y-6">Digital <br> Marketing</h1>
                 <div class="flex flex-col mt-2 gap-y-3">
@@ -293,10 +293,10 @@
                 </div>
             </div>
             <div
-                class="card-3 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392] pt-32 max-[1300px]:pt-26 pb-[6.5rem] max-[1300px]:pb-[6rem]">
+                class="card-3 w-[32%] h-[70vh] flex flex-col justify-center max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social3.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Mobile <br> Marketing</h1>
-                <div class="flex flex-col mt-4 gap-y-3">
+                <div class="flex flex-col mt-2 gap-y-3">
                     <a href="{{ route('whatsapp-marketing') }}">
                         <div
                             class="w-full cursor-pointer rounded-xl shadow pr-2 pl-4 py-2 bg-[#F5F7FF] text-[#163D4F] hover:text-[#3D3600] hover:bg-yellow-300 transition-all flex justify-between items-center">
@@ -324,7 +324,7 @@
                 </div>
             </div>
             <div
-                class="card-4 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#30679E] pt-28">
+                class="card-4 w-[32%]  h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#30679E]">
                 <img class="w-[45%] absolute right-[20%] top-0" src="./assets/images/Homepage/social4.png"
                     alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Visual <br> Designing</h1>
@@ -364,7 +364,7 @@
                 </div>
             </div>
             <div
-                class="card-5 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#8A6597] pt-[6.7rem] max-[1300px]:pt-[3.2rem]">
+                class="card-5 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#8A6597]">
                 <img class="w-[25%] absolute left-0 top-0" src="./assets/images/Homepage/social5.png" alt="">
                 <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
@@ -403,7 +403,7 @@
                 </div>
             </div>
             <div
-                class="card-6 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#37456E] pt-28">
+                class="card-6 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#37456E]">
                 <img class="w-[40%] absolute right-0 top-0" src="./assets/images/Homepage/social6.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Content <br> Creation</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
@@ -448,7 +448,7 @@
     <!-- Teastimonials Section Starts Here -->
     <section class="fade w-full pt-32 max-[599px]:pt-6 overflow-hidden">
         <div class="relative w-full h-full">
-            <div class="absolute w-[28%] right-0 max-[1300px]:-top-[8.5vh] -top-[12.2vh] max-[1025px]:hidden z-30">
+            <div class="absolute w-[28%] right-0 -top-[6rem] max-[1025px]:hidden z-30">
                 <img class="w-full h-full object-cover" src="./assets/images/Globalimages/testimonialBg.png"
                     alt="">
             </div>

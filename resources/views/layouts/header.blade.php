@@ -66,7 +66,7 @@
 
                     <!-- Dropdown Menu -->
                     <div id="servicesMenu"
-                        class="absolute top-full left-1/2 -translate-x-[60%] mt-2 hidden w-[60vw] bg-white text-[#040d2a] shadow-lg z-50 transition-all duration-300 rounded-xl">
+                        class="absolute top-full left-1/2 -translate-x-[60%] mt-6 hidden w-[60vw] bg-white text-[#040d2a] shadow-lg z-50 transition-all duration-300 rounded-xl">
                         <div class="flex">
                             <!-- Sidebar -->
                             <div class="w-[30%] pr-6 bg-[#E8EDFF] px-4 px-2 py-10 mx-4">
