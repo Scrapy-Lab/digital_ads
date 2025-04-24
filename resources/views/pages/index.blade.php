@@ -47,7 +47,7 @@
     <!-- Hero Section Ends Here -->
 
     <!-- Company Section Starts Here -->
-    <section class="fade companySwiper w-full px-4 py-8 max-[599px]:py-4 -mt-6 max-[1005px]:-mt-0 max-[599px]:mt-0">
+    <section class="fade companySwiper w-full px-4 py-8 max-[599px]:py-4 -mt-6 max-[1024px]:-mt-20 max-[1300px]:-mt-36 max-[599px]:mt-0">
         <div class="swiper-wrapper flex gap-4">
 
             <!-- Slide 1 -->
@@ -254,7 +254,7 @@
                 </div>
             </div>
             <div
-                class="card-2 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0] pt-36 pb-[2.0rem]">
+                class="card-2 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0] pt-36 max-[1300px]:pt-14 pb-[2.0rem]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social2.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight -translate-y-6">Digital <br> Marketing</h1>
                 <div class="flex flex-col mt-2 gap-y-3">
@@ -293,7 +293,7 @@
                 </div>
             </div>
             <div
-                class="card-3 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392] pt-32 pb-[6.5rem]">
+                class="card-3 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392] pt-32 max-[1300px]:pt-26 pb-[6.5rem] max-[1300px]:pb-[6rem]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social3.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Mobile <br> Marketing</h1>
                 <div class="flex flex-col mt-4 gap-y-3">
@@ -364,7 +364,7 @@
                 </div>
             </div>
             <div
-                class="card-5 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#8A6597] pt-[6.7rem]">
+                class="card-5 w-[32%] max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#8A6597] pt-[6.7rem] max-[1300px]:pt-[3.2rem]">
                 <img class="w-[25%] absolute left-0 top-0" src="./assets/images/Homepage/social5.png" alt="">
                 <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
                 <div class="flex flex-col mt-6 gap-y-3">

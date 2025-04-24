@@ -33,7 +33,7 @@
             background-color: #001260;
             /* deep navy blue */
         }
-        @media (min-width: 1200px) {
+        /* @media (min-width: 1200px) {
             .h-\[90vh\]{
 
                 height: 860px !important;
@@ -47,7 +47,7 @@
                 height: 74vh !important;
             }
 
-        }
+        } */
     </style>
      {{-- @vite('resources/css/app.css') --}}
 </head>
