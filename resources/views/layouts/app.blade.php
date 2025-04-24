@@ -40,6 +40,14 @@
             }
 
         }
+
+        @media (min-width: 1028px) and (max-width: 1128px) {
+            .h-\[90vh\]{
+
+                height: 74vh !important;
+            }
+
+        }
     </style>
      {{-- @vite('resources/css/app.css') --}}
 </head>
