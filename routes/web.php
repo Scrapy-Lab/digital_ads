@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -16,13 +17,9 @@ Route::get('contact', function () {
     return view('pages.contact');
 })->name('contact');
 
-Route::get('social-media-marketing', function () {
-    return view('pages.social media marketing');
-})->name('social-media-marketing');
+Route::get('social-media-marketing', [ServiceController::class, 'socialMediaMarketing'])->name('social-media-marketing');
 
-Route::get('social-media-optimization', function () {
-    return view('pages.Social-Optimization');
-})->name('social-media-optimization');
+Route::get('social-media-optimization', [ServiceController::class, 'socialMediaOptimization'])->name('social-media-optimization');
 
 Route::get('social-media-community-management', function () {
     return view('pages.Social Management');

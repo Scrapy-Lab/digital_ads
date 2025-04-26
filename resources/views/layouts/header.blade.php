@@ -195,7 +195,7 @@ const nav = document.getElementById("topNav");
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
 
-  console.log("currentScroll" ,currentScroll ,"previousScroll" ,previousScroll)
+//   console.log("currentScroll" ,currentScroll ,"previousScroll" ,previousScroll)
   if (currentScroll > previousScroll) {
     // Scrolling Down
 

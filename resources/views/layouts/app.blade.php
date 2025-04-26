@@ -33,6 +33,7 @@
             background-color: #001260;
             /* deep navy blue */
         }
+
         /* @media (min-width: 1200px) {
             .h-\[90vh\]{
 
@@ -49,7 +50,9 @@
 
         } */
     </style>
-     {{-- @vite('resources/css/app.css') --}}
+
+    @livewireStyles
+    {{-- @vite('resources/css/app.css') --}}
 </head>
 
 <body class="font-[font1]">
@@ -68,6 +71,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    @livewireScripts
 </body>
 
 <script>
