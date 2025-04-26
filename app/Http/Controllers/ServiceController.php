@@ -90,7 +90,7 @@ class ServiceController extends Controller
 
 
 
-        return view('pages.social media marketing', compact('data'));
+        return view('pages.service', compact('data'));
     }
     public function socialMediaOptimization() {
 
@@ -151,6 +151,6 @@ class ServiceController extends Controller
             ]
         ];
 
-        return view('pages.social media marketing', compact('data'));
+        return view('pages.service', compact('data'));
     }
 }
