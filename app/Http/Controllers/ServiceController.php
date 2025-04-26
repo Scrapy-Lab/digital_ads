@@ -12,15 +12,34 @@ class ServiceController extends Controller
     // public function __construct()
     // {
 
-    // $this->data = [
+    //  $data = [
 
     //     'banner_image' => "",
     //     'section_1' => [
     //         'banner_img' => '',
+    //         'mobile_banner_img' => ""
     //         'title' => '',
     //         'subtitle' => '',
     //         'bullet_points' => []
     //     ],
+    //     'section_2' => [
+    //         'banner_img' => '',
+    //         'mobile_banner_img' => "",
+    //         'title' => '',
+    //         'subtitle' => '',
+    //         'bullet_points' => [
+    //             '',
+    //             '',
+    //             ''
+    //         ]
+    //     ],
+    //     'faqs' => [
+
+    //         [
+    //             'que' => "",
+    //             'ans' => "",
+    //         ]
+    //     ]
     // ];
     // }
 
@@ -148,6 +167,101 @@ class ServiceController extends Controller
                     'ans' => "We track engagement, growth, leads, traffic, conversions, and ROI — giving you full insight into what's working.",
                 ],
 
+            ]
+        ];
+
+        return view('pages.service', compact('data'));
+    }
+
+    public function socialMediaCommunityManagement(){
+
+       $data = [
+
+            'banner_image' => "assets/images/Services/Social media/Social media Community Management/Banner.png",
+            'section_1' => [
+                'banner_img' => 'assets/images/Services/Social media/Social media Community Management/img 1.png',
+                "mobile_banner_img" => "assets/images/Mobile Responsive/Social media Management/Img1.png",
+                'title' => 'Why Social Media Community Management Matters',
+                'subtitle' => ' A thriving online community strengthens brand loyalty, enhances customer relationships, and boosts engagement. Effective community management ensures that your brand stays connected with its audience, fostering trust and long-term relationships.',
+                'bullet_points' => [
+                    'What is social media community management?',
+                    'How does it improve brand reputation and engagement?',
+                    'Best practices for managing an online community effectively.'
+                ]
+            ],
+            'section_2' => [
+                'banner_img' => 'assets/images/Services/Social media/Social media Community Management/img2.png',
+                'mobile_banner_img' => "assets/images/Mobile Responsive/Social media Management/img2.png",
+                'title' => 'What is Social Media Community Management?',
+                'subtitle' => 'Social Media Community Management is all about building and nurturing relationships with your audience. By engaging with followers, addressing concerns, and creating meaningful conversations, you can foster a loyal and active community around your brand.',
+                'bullet_points' => [
+                    '<strong>Real-Time Engagement:</strong> Respond to comments, messages, and mentions promptly.',
+                    '<strong>Customer Relationship Building:</strong> Foster genuine interactions and create a sense of belonging.',
+                    '<strong>Which platforms are best suited for your industry?Content Moderation:</strong> Ensure discussions stay positive and relevant to your brand.'
+                ]
+            ],
+            'faqs' => [
+
+                [
+                    'que' => "How quickly will I see results from social media Community Management?",
+                    'ans' => "Results vary based on your industry, audience, and strategy. Generally, you'll see initial engagement improvements within 1-2 months, with more significant ROI developing over 3-6 months.",
+                ],
+                [
+                    'que' => "Which social media platforms should my business use?",
+                    'ans' => "This depends on your target audience, industry, and content strategy. We'll help you identify where your customers are most active for effective resource use."
+                ],
+                [
+                    'que' => "How much should I budget for social media advertising?",
+                    "ans" => "Start with a modest test budget ($500–$1000/month) and scale up once you identify what works best for your audience and goals."
+                ],
+                [
+                    'que' => "How do you measure social media Community Management success?",
+                    "ans" => "We track engagement, growth, leads, traffic, conversions, and ROI — giving full insight into what's working."
+                ],
+                [
+                    'que' => "How much should I budget for social media advertising?",
+                    "ans" => "Start with a modest test budget ($500–$1000/month) and scale up once you identify what works best for your audience and goals."
+                ],
+                [
+                    'que' => "How do you measure social media Community Management success?",
+                    "ans" => "We track engagement, growth, leads, traffic, conversions, and ROI — giving you full insight into what's working."
+                ],
+            ]
+        ];
+
+        return view('pages.service', compact('data'));
+    }
+
+    public function influencerMarketing(){
+
+
+        $data = [
+
+            'banner_image' => "",
+            'section_1' => [
+                'banner_img' => '',
+                'mobile_banner_img' => "",
+                'title' => '',
+                'subtitle' => '',
+                'bullet_points' => []
+            ],
+            'section_2' => [
+                'banner_img' => '',
+                'mobile_banner_img' => "",
+                'title' => '',
+                'subtitle' => '',
+                'bullet_points' => [
+                    '',
+                    '',
+                    ''
+                ]
+            ],
+            'faqs' => [
+
+                [
+                    'que' => "",
+                    'ans' => "",
+                ]
             ]
         ];
 

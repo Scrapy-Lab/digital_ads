@@ -21,9 +21,7 @@ Route::get('social-media-marketing', [ServiceController::class, 'socialMediaMark
 
 Route::get('social-media-optimization', [ServiceController::class, 'socialMediaOptimization'])->name('social-media-optimization');
 
-Route::get('social-media-community-management', function () {
-    return view('pages.Social Management');
-})->name('social-media-community-management');
+Route::get('social-media-community-management', [ServiceController::class, 'socialMediaCommunityManagement'])->name('social-media-community-management');
 
 Route::get('influencer-marketing', function () {
     return view('pages.Influencer');
