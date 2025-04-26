@@ -4,10 +4,10 @@
 
     {{-- @dd($data) --}}
     <section
-        class="fade hero w-full h-[90vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        class="fade hero w-screen h-[90vh] bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
         <button
-            class="text-white max-[599px]:text-[3vw] translate-x-[90%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] translate-x-[80%] max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
             Talk to us
         </button>
     </section>
@@ -24,7 +24,7 @@
 
 
     <!-- Company Section Starts Here -->
-    <section class="fade companySwiper w-full px-4 py-8 -mt-6 max-[1005px]:-mt-0 max-[599px]:mt-0">
+    <section class="fade companySwiper w-full px-4 py-8">
         @livewire('clients')
     </section>
     <!-- Company Section Starts Here -->
@@ -42,13 +42,13 @@
 
         <!-- Right Content Section -->
         <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
-            <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
+            <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
                 {{ $data['section_1']['subtitle'] }}
             </p>
 
-            <ul class="space-y-4 text-gray-800 text-[1.2vw] max-[599px]:text-[3.2vw]">
+            <ul class="space-y-4 text-gray-800 text-[1.2vw] min-[2550px]:text-[1.vw] max-[599px]:text-[3.2vw]">
 
                 @foreach ($data['section_1']['bullet_points'] as $point)
                     <li class="flex items-center gap-4">
@@ -59,7 +59,7 @@
             </ul>
 
             <button
-                class="mt-10 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
+                class="mt-10 max-[599px]:mt-3 min-[2550px]:text-[1.3vw] max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
                 Contact Us
             </button>
         </div>
@@ -80,7 +80,7 @@
 
         <!-- Right Content Section -->
         <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
-            <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
+            <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
                 {{ $data['section_2']['subtitle'] }}
@@ -97,7 +97,7 @@
             </ul>
 
             <button
-                class="mt-10 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
+                class="mt-10 max-[599px]:mt-3 min-[2550px]:text-[1.3vw] max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
                 Contact Us
             </button>
         </div>
@@ -149,10 +149,10 @@
                     Questions</span>
             </div>
             <div
-                class="flex flex-col md:flex-row gap-10 items-center md:items-start max-[599px]:gap-5 max-[599px]:text-[3.5vw]">
+                class="flex flex-col md:flex-row gap-10 items-center md:items-start max-[599px]:gap-5 max-[599px]:text-[3.5vw] min-[2550px]:text-[1.3vw]">
                 <!-- Right Image Section -->
                 <!-- Left Content - FAQ Items -->
-                <div class="md:w-[60%]">
+                <div class="md:w-[60%] min-[2550px]:w-[80%]">
                     <div class="space-y-6 w-full">
                         @php
                             $i = 1;
@@ -206,7 +206,7 @@
     <!-- Teastimonials Section Starts Here -->
     <section class="fade w-full py-32 max-[599px]:py-10 overflow-hidden">
         <div class="relative w-full h-full">
-            <div class="absolute w-[28%] right-0 -top-[12.2vh] max-[1025px]:hidden z-30">
+            <div class="absolute w-[28%] right-0 -top-[12.2vh] min-[2550px]:-top-[13.3vh] max-[1025px]:hidden z-30">
                 <img class="w-full h-full object-cover" src="./assets/images/Globalimages/testimonialBg.png"
                     alt="">
             </div>
@@ -240,10 +240,10 @@
                             <!-- Content -->
                             <div class="z-10 relative">
                                 <h4
-                                    class="text-xl font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
+                                    class="text-xl min-[2550px]:text-[1.3vw] font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
                                     What they say <br>
                                     about us?</h4>
-                                <p class="text-sm" style="line-height: 30px;">
+                                <p class="text-sm min-[2550px]:text-[1.1vw]" style="line-height: 30px;">
                                     Ask agreed answer rather joy nature admire wisdom. Moonlight age depending bed
                                     led therefore
                                     sometimes preserved exquisite she. An fail up so shot leaf wise in. Minuter
@@ -261,7 +261,7 @@
                                 class="flex flex-col md:flex-row md:items-center md:justify-between mt-10 max-[599px]:mb-3 z-10 relative">
                                 <div>
                                     <h3 class="text-4xl font-bold">Veronica Gleason</h3>
-                                    <p class="text-sm opacity-80">Dynamic Functionality Designer</p>
+                                    <p class="text-sm opacity-80 min-[2550px]:text-[0.8vw]">Dynamic Functionality Designer</p>
                                 </div>
                                 <div class="flex mt-3 md:mt-0 space-x-1 text-3xl">
                                     <span>★</span><span>★</span><span>★</span><span>★</span><span
@@ -288,10 +288,10 @@
                             <!-- Content -->
                             <div class="z-10 relative">
                                 <h4
-                                    class="text-xl font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
+                                    class="text-xl min-[2550px]:text-[1.3vw] font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
                                     What they say <br>
                                     about us?</h4>
-                                <p class="text-sm" style="line-height: 30px;">
+                                <p class="text-sm min-[2550px]:text-[1.1vw]" style="line-height: 30px;">
                                     Ask agreed answer rather joy nature admire wisdom. Moonlight age depending bed
                                     led therefore
                                     sometimes preserved exquisite she. An fail up so shot leaf wise in. Minuter
@@ -309,7 +309,7 @@
                                 class="flex flex-col md:flex-row md:items-center md:justify-between mt-10 max-[599px]:mb-3 z-10 relative">
                                 <div>
                                     <h3 class="text-4xl font-bold">Veronica Gleason</h3>
-                                    <p class="text-sm opacity-80">Dynamic Functionality Designer</p>
+                                    <p class="text-sm opacity-80 min-[2550px]:text-[0.8vw]">Dynamic Functionality Designer</p>
                                 </div>
                                 <div class="flex mt-3 md:mt-0 space-x-1 text-3xl">
                                     <span>★</span><span>★</span><span>★</span><span>★</span><span
@@ -383,7 +383,7 @@
     </script>
 
     <!-- Book A Free Consultation Section -->
-    <section class="fade relative py-16 max-[1025px]:py-6 overflow-hidden">
+    <section class="relative py-16 max-[1025px]:py-6 overflow-hidden">
 
         <div class="absolute inset-0 w-full h-full pointer-events-none">
             <img class="w-full h-full object-cover" src="./assets/images/Globalimages/CTA.png" alt="" />

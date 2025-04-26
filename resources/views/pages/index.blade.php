@@ -215,9 +215,9 @@
                 deliver results. From Digital marketing to SEO, content strategy, or social media marketing in
                 Delhi, you name it and we will deliver it.</p>
         </div>
-        <div class="w-full h-full flex gap-3 flex-wrap items-center justify-center mt-10 max-[599px]:mt-0">
+        <div class="w-full h-full flex gap-3 min-[2550px]:gap-6 flex-wrap items-center justify-center mt-10 max-[599px]:mt-0">
             <div
-                class="card-1 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%] max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#327493]">
+                class="card-1 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%] max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#327493]">
                 <img class="w-[40%] absolute right-[10%] top-0" src="./assets/images/Homepage/social1.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Social <br> Media</h1>
                 <div class="flex flex-col mt-4 gap-y-3">
@@ -254,7 +254,7 @@
                 </div>
             </div>
             <div
-                class="card-2 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#6775D0]">
+                class="card-2 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#6775D0]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social2.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight -translate-y-6">Digital <br> Marketing</h1>
                 <div class="flex flex-col mt-2 gap-y-3">
@@ -293,7 +293,7 @@
                 </div>
             </div>
             <div
-                class="card-3 w-[32%] h-[70vh] flex flex-col justify-center max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#479392]">
+                class="card-3 w-[32%] h-[70vh] flex flex-col justify-center max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#479392]">
                 <img class="w-[35%] absolute right-0 top-0" src="./assets/images/Homepage/social3.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Mobile <br> Marketing</h1>
                 <div class="flex flex-col mt-2 gap-y-3">
@@ -324,7 +324,7 @@
                 </div>
             </div>
             <div
-                class="card-4 w-[32%]  h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#30679E]">
+                class="card-4 w-[32%]  h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#30679E]">
                 <img class="w-[45%] absolute right-[20%] top-0" src="./assets/images/Homepage/social4.png"
                     alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Visual <br> Designing</h1>
@@ -364,7 +364,7 @@
                 </div>
             </div>
             <div
-                class="card-5 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#8A6597]">
+                class="card-5 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#8A6597]">
                 <img class="w-[25%] absolute left-0 top-0" src="./assets/images/Homepage/social5.png" alt="">
                 <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
@@ -403,7 +403,7 @@
                 </div>
             </div>
             <div
-                class="card-6 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 max-[599px]:p-4 bg-[#37456E]">
+                class="card-6 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%] max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#37456E]">
                 <img class="w-[40%] absolute right-0 top-0" src="./assets/images/Homepage/social6.png" alt="">
                 <h1 class="text-[8vh] text-[#F5F7FF] leading-tight">Content <br> Creation</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
@@ -448,7 +448,7 @@
     <!-- Teastimonials Section Starts Here -->
     <section class="fade w-full pt-32 max-[599px]:pt-6 overflow-hidden">
         <div class="relative w-full h-full">
-            <div class="absolute w-[28%] right-0 -top-[6rem] max-[1025px]:hidden z-30">
+            <div class="absolute w-[28%] right-0 -top-[12.2vh] min-[2550px]:-top-[13.3vh]  max-[1025px]:hidden z-30">
                 <img class="w-full h-full object-cover" src="./assets/images/Globalimages/testimonialBg.png"
                     alt="">
             </div>
@@ -482,10 +482,10 @@
                             <!-- Content -->
                             <div class="z-10 relative">
                                 <h4
-                                    class="text-xl font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
+                                    class="text-xl min-[2550px]:text-[1.3vw] font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
                                     What they say <br>
                                     about us?</h4>
-                                <p class="text-sm" style="line-height: 30px;">
+                                <p class="text-sm min-[2550px]:text-[1.1vw]" style="line-height: 30px;">
                                     Ask agreed answer rather joy nature admire wisdom. Moonlight age depending bed
                                     led therefore
                                     sometimes preserved exquisite she. An fail up so shot leaf wise in. Minuter
@@ -503,7 +503,7 @@
                                 class="flex flex-col md:flex-row md:items-center md:justify-between mt-10 max-[599px]:mb-3 z-10 relative">
                                 <div>
                                     <h3 class="text-4xl font-bold">Veronica Gleason</h3>
-                                    <p class="text-sm opacity-80">Dynamic Functionality Designer</p>
+                                    <p class="text-sm opacity-80 min-[2550px]:text-[0.8vw]">Dynamic Functionality Designer</p>
                                 </div>
                                 <div class="flex mt-3 md:mt-0 space-x-1 text-3xl">
                                     <span>★</span><span>★</span><span>★</span><span>★</span><span
@@ -530,10 +530,10 @@
                             <!-- Content -->
                             <div class="z-10 relative">
                                 <h4
-                                    class="text-xl font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
+                                    class="text-xl min-[2550px]:text-[1.3vw] font-medium mb-5 max-[599px]:mb-3 leading-tight tracking-wide uppercase">
                                     What they say <br>
                                     about us?</h4>
-                                <p class="text-sm" style="line-height: 30px;">
+                                <p class="text-sm min-[2550px]:text-[1.1vw]" style="line-height: 30px;">
                                     Ask agreed answer rather joy nature admire wisdom. Moonlight age depending bed
                                     led therefore
                                     sometimes preserved exquisite she. An fail up so shot leaf wise in. Minuter
@@ -551,7 +551,7 @@
                                 class="flex flex-col md:flex-row md:items-center md:justify-between mt-10 max-[599px]:mb-3 z-10 relative">
                                 <div>
                                     <h3 class="text-4xl font-bold">Veronica Gleason</h3>
-                                    <p class="text-sm opacity-80">Dynamic Functionality Designer</p>
+                                    <p class="text-sm opacity-80 min-[2550px]:text-[0.8vw]">Dynamic Functionality Designer</p>
                                 </div>
                                 <div class="flex mt-3 md:mt-0 space-x-1 text-3xl">
                                     <span>★</span><span>★</span><span>★</span><span>★</span><span

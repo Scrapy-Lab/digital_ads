@@ -3,7 +3,7 @@
     <!-- Top Navigation (Email, Phone, Brochure) -->
     <nav
     id="topNav"
-        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-2.5 bg-[#001361] text-white flex flex-wrap items-center justify-end gap-6 max-[1025px]:gap-4 text-[.8vw] max-[1025px]:text-sm max-[599px]:text-xs max-[599px]:hidden">
+        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-2.5 bg-[#001361] text-white flex flex-wrap items-center justify-end gap-6 max-[1025px]:gap-4 text-[.8vw] min-[2550px]:text-[1vw] max-[1025px]:text-sm max-[599px]:text-xs max-[599px]:hidden">
 
         <!-- Email -->
         <div class="flex items-center gap-2">
@@ -27,13 +27,13 @@
         </div>
 
         <!-- Buttons -->
-        <div class="flex items-center w-[27%] max-[1024px]:w-[40%] gap-2 max-[599px]:flex-col max-[599px]:items-start max-[599px]:w-full">
+        <div class="flex items-center w-[27%] max-[1024px]:w-[40%] text-[.8vw] min-[2550px]:text-[1vw] max-[1025px]:text-sm max-[599px]:text-xs gap-2 max-[599px]:flex-col max-[599px]:items-start max-[599px]:w-full">
             <button
-                class="px-4 py-2 border-2 border-white rounded-full text-xs max-[1025px]:text-sm w-full max-[599px]:w-full">
+                class="px-4 py-2 border-2 border-white rounded-full w-full max-[599px]:w-full">
                 Company Brochure
             </button>
             <button
-                class="px-4 py-2 border-2 border-white rounded-full text-xs max-[1025px]:text-sm w-full max-[599px]:w-full">
+                class="px-4 py-2 border-2 border-white rounded-full w-full max-[599px]:w-full">
                 Test Our Services
             </button>
         </div>
@@ -42,7 +42,7 @@
     <!-- Main Navbar -->
     <nav
     id="mainNavbar"
-        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-4 flex justify-between items-center z-[9999] bg-[#F5F7FF]">
+        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-4 min-[2550px]:py-6 flex justify-between items-center z-[9999] bg-[#F5F7FF]">
         <!-- Logo -->
         <div class="logo w-[13%] max-[1025px]:w-[20%] max-[599px]:w-1/2">
             <a href="{{route('home')}}"><img class="w-full h-full object-cover" src="./assets/images/Globalimages/logo.svg" alt=""></a>
@@ -57,7 +57,7 @@
 
         <!-- Desktop Menu -->
         <div class="menu max-[599px]:hidden">
-            <ul class="flex gap-6 text-[1vw] max-[1025px]:text-sm text-[#001361] font-medium">
+            <ul class="flex gap-6 text-[1vw] min-[2550px]:text-[1.2vw] max-[1025px]:text-sm text-[#001361] font-medium">
                 <li><a href="{{route('home')}}" class="hover:text-orange-500 transition-all relative group">Home</a>
                 </li>
 
@@ -200,7 +200,7 @@ window.addEventListener("scroll", () => {
     // Scrolling Down
 
     gsap.to(nav, {
-      y: -100, // hide upward
+      y: "-100%", // hide upward
       duration: 0.4,
       ease: "power2.out"
     });
@@ -225,7 +225,7 @@ const nav2 = document.getElementById("mainNavbar");
         if (currentScroll > prevScroll && currentScroll > 5) {
             // User scrolling down
             gsap.to(nav2, {
-                y: -55,
+                y: "-90%",
                 duration: 0.4,
                 ease: "power2.out"
             });

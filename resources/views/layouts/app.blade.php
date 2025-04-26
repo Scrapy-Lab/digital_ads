@@ -148,16 +148,6 @@
         duration: 0.5,
         willChange: "transform opacity",
     });
-    gsap.fromTo("nav a", {
-        opacity: 0,
-        y: -50,
-    }, {
-        opacity: 1,
-        y: 0,
-        willChange: "transform opacity",
-        stagger: 0.1,
-    }, ">");
-
     fades.forEach(fade => {
         gsap.fromTo(fade, {
             opacity: 0,

@@ -1,6 +1,6 @@
 <!-- Footer Starts Here-->
 <footer
-            class="w-full flex items-center max-[1025px]:flex-col gap-4 max-[1025px]:gap-2 px-14 max-[1025px]:px-0 py-4 relative">
+            class="w-full flex items-center max-[1025px]:flex-col gap-4 min-[2550px]:gap-20 max-[1025px]:gap-2 px-14 max-[1025px]:px-0 py-4 relative">
             <div class="left w-[25%] max-[1025px]:w-full h-full px-6 py-6 max-[1025px]:py-0">
                 <div
                     class="box py-8 rounded-2xl flex items-center justify-between flex-col bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]">
@@ -58,20 +58,20 @@
                 </div>
                 <div
                     class="social mt-14 max-[1025px]:mt-7 pr-10 max-[1025px]:pr-0 flex justify-between items-center max-[1025px]:flex-col max-[1025px]:gap-4 w-full border-t border-gray-200 pt-8">
-                    <div class="flex gap-2">
-                        <a href="#" class="w-14 h-14 overflow-hidden">
+                    <div class="flex gap-2 min-[2550px]:gap-4">
+                        <a href="#" class="w-14 min-[2550px]:w-28 h-14 min-[2550px]:h-28 overflow-hidden">
                             <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
                                 src="./assets/images/Globalimages/fb.png" alt="Facebook">
                         </a>
-                        <a href="#" class="w-14 h-14 overflow-hidden">
+                        <a href="#" class="w-14 min-[2550px]:w-28 h-14 min-[2550px]:h-28 overflow-hidden">
                             <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
                                 src="./assets/images/Globalimages/inst.png" alt="Instagram">
                         </a>
-                        <a href="#" class="w-14 h-14 overflow-hidden">
+                        <a href="#" class="w-14 min-[2550px]:w-28 h-14 min-[2550px]:h-28 overflow-hidden">
                             <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
                                 src="./assets/images/Globalimages/ytb.png" alt="YouTube">
                         </a>
-                        <a href="#" class="w-14 h-14 overflow-hidden">
+                        <a href="#" class="w-14 min-[2550px]:w-28 h-14 min-[2550px]:h-28 overflow-hidden">
                             <img class="w-full h-full object-cover rounded-full transition-all duration-300 hover:bg-[linear-gradient(120.02deg,#4F92F1_-6.05%,#4F92F1_9.3%,#2E548B_79.32%)]"
                                 src="./assets/images/Globalimages/tweet.png" alt="Twitter">
                         </a>
