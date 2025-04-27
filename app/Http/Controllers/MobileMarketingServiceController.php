@@ -13,8 +13,8 @@ class MobileMarketingServiceController extends Controller
 
             'banner_image' => "assets/images/Services/Mobile Marketing/Whatsapp Marketing/Banner.png",
             'section_1' => [
-                'banner_img' => '/assets/images/Services/Mobile Marketing/Whatsapp Marketing/Img1.png',
-                'mobile_banner_img' => "/assets/images/Services/Mobile Marketing/Whatsapp Marketing/Img1.png",
+                'banner_img' => 'assets/images/Services/Mobile Marketing/Whatsapp Marketing/img1.png',
+                'mobile_banner_img' => "assets/images/Services/Mobile Marketing/Whatsapp Marketing/img1.png",
                 'title' => 'Whatsapp Marketing for Businesses',
                 'subtitle' => ' Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
@@ -93,8 +93,8 @@ class MobileMarketingServiceController extends Controller
 
             'banner_image' => "assets/images/Services/Mobile Marketing/Voice Sms/Bannner.png",
             'section_1' => [
-                'banner_img' => 'assets/images/Services/Mobile Marketing/Voice Sms/Img1.png',
-                'mobile_banner_img' => "assets/images/Services/Mobile Marketing/Voice Sms/Img1.png",
+                'banner_img' => 'assets/images/Services/Mobile Marketing/Voice Sms/img1.png',
+                'mobile_banner_img' => "assets/images/Services/Mobile Marketing/Voice Sms/img1.png",
                 'title' => 'Voice Sms for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
@@ -173,8 +173,8 @@ class MobileMarketingServiceController extends Controller
 
             'banner_image' => "assets/images/Services/Mobile Marketing/Bulk sms/Bannner.png",
             'section_1' => [
-                'banner_img' => 'assets/images/Services/Mobile Marketing/Bulk sms/Img1.png',
-                'mobile_banner_img' => "assets/images/Services/Mobile Marketing/Bulk sms/Img1.png",
+                'banner_img' => 'assets/images/Services/Mobile Marketing/Bulk sms/img1.png',
+                'mobile_banner_img' => "assets/images/Services/Mobile Marketing/Bulk sms/img1.png",
                 'title' => 'Bulk sms for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
