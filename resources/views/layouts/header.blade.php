@@ -70,17 +70,17 @@
                         <div class="flex">
                             <!-- Sidebar -->
                             <div class="w-[30%] pr-6 bg-[#E8EDFF] px-4 px-2 py-10 mx-4">
-                                <h2 class="text-xl font-bold mb-4">Services</h2>
-                                <p class="text-sm text-gray-500 leading-relaxed">
+                                <h2 class="text-xl min-[2550px]:text-[1.5vw] font-bold mb-4">Services</h2>
+                                <p class="text-sm min-[2550px]:text-[.9vw] text-gray-500 leading-relaxed">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                 </p>
                             </div>
 
                             <!-- Service columns -->
                             <div class="w-[70%] flex flex-wrap gap-x-12 gap-y-8 py-10 px-6">
-                                <div class="w-[150px]">
+                                <div class="w-[135px] min-[2550px]:w-[250px]">
                                     <h3 class="font-semibold mb-2">Social Media</h3>
-                                    <ul class="text-sm text-gray-600 space-y-1">
+                                    <ul class="text-sm min-[2550px]:text-[.9vw] text-gray-600 space-y-1 min-[2550px]:space-y-3">
                                         <li><a href="{{route('social-media-marketing')}}">Social Media Marketing</a></li>
                                         <li><a href="{{route('social-media-optimization')}}">Social Media Optimization</a></li>
                                         <li><a href="{{route('social-media-community-management')}}">Social Media Community Managamenet</a></li>
@@ -88,9 +88,9 @@
                                     </ul>
                                 </div>
 
-                                <div class="w-[150px]">
+                                <div class="w-[135px] min-[2550px]:w-[250px]">
                                     <h3 class="font-semibold mb-2">Digital Marketing</h3>
-                                    <ul class="text-sm text-gray-600 space-y-1">
+                                    <ul class="text-sm min-[2550px]:text-[.9vw] text-gray-600 space-y-1 min-[2550px]:space-y-3">
                                         <li><a href="{{route('digital-marketing-strategy')}}">Digital Marketing Strategy</a></li>
                                         <li><a href="{{route('search-engine-marketing')}}">Search Engine Marketing</a></li>
                                         <li><a href="{{route('digital-social-media-marketing')}}">Social Media Marketing</a></li>
@@ -98,18 +98,18 @@
                                     </ul>
                                 </div>
 
-                                <div class="w-[150px]">
+                                <div class="w-[135x] min-[2550px]:w-[250px]">
                                     <h3 class="font-semibold mb-2">Mobile Marketing</h3>
-                                    <ul class="text-sm text-gray-600 space-y-1">
+                                    <ul class="text-sm min-[2550px]:text-[.9vw] text-gray-600 space-y-1 min-[2550px]:space-y-3">
                                         <li><a href="{{route('whatsapp-marketing')}}">Whatsapp Marketing</a></li>
                                         <li><a href="{{route('voice-sms')}}">Voice SMS</a></li>
                                         <li><a href="{{route('bulk-sms')}}">Bulk SMS</a></li>
                                     </ul>
                                 </div>
 
-                                <div class="w-[150px]">
+                                <div class="w-[135px] min-[2550px]:w-[250px]">
                                     <h3 class="font-semibold mb-2">Visual Designing</h3>
-                                    <ul class="text-sm text-gray-600 space-y-1">
+                                    <ul class="text-sm min-[2550px]:text-[.9vw] text-gray-600 space-y-1 min-[2550px]:space-y-3">
                                         <li><a href="{{route('graphic-designing')}}">Graphic Designing</a></li>
                                         <li><a href="{{route('logo-designing')}}">Logo Designing</a></li>
                                         <li><a href="{{route('photography')}}">PhotoGraphy</a></li>
@@ -117,9 +117,9 @@
                                     </ul>
                                 </div>
 
-                                <div class="w-[150px]">
+                                <div class="w-[135px] min-[2550px]:w-[250px]">
                                     <h3 class="font-semibold mb-2">Website Development</h3>
-                                    <ul class="text-sm text-gray-600 space-y-1">
+                                    <ul class="text-sm min-[2550px]:text-[.9vw] text-gray-600 space-y-1 min-[2550px]:space-y-3">
                                         <li><a href="{{route('website-design-and-development')}}">Website Design & Development</a></li>
                                         <li><a href="{{route('ecommerce-development')}}">Ecommerce Development</a></li>
                                         <li><a href="{{route('wordpress-website-development')}}">Wordpress Website Development</a></li>
@@ -127,9 +127,9 @@
                                     </ul>
                                 </div>
 
-                                <div class="w-[150px]">
+                                <div class="w-[135px] min-[2550px]:w-[250px]">
                                     <h3 class="font-semibold mb-2">Content Creation</h3>
-                                    <ul class="text-sm text-gray-600 space-y-1">
+                                    <ul class="text-sm min-[2550px]:text-[.9vw] text-gray-600 space-y-1 min-[2550px]:space-y-3">
                                         <li><a href="{{route('content-writing')}}">SEO Content Writing</a></li>
                                         <li><a href="{{route('blog-writing')}}">Blog Writing</a></li>
                                         <li><a href="{{route('promotional-writing')}}">Promotional Writing</a></li>

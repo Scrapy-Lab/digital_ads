@@ -9,7 +9,7 @@
         <div class="relative w-1/2 max-[1025px]:w-[70%] max-[599px]:w-full whitespace-nowrap max-[599px]:whitespace-normal">
 
             <div
-                class="relative font-[font2] flex flex-col -mt-20 text-white leading-[1] max-[599px]:leading-tight items-start inset-0">
+                class="relative font-[font2] flex flex-col text-white leading-[1] max-[599px]:leading-tight items-start inset-0">
 
                 <!-- Subheading -->
                 <h3 class="text-[3.5vw] max-[1025px]:text-[4.5vw] max-[599px]:text-[9vw] font-[400] tracking-[0]">
