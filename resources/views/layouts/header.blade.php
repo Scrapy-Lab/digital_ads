@@ -3,7 +3,7 @@
     <!-- Top Navigation (Email, Phone, Brochure) -->
     <nav
     id="topNav"
-        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-2.5 bg-[#001361] text-white flex flex-wrap items-center justify-end gap-6 max-[1025px]:gap-4 text-[.8vw] min-[2550px]:text-[1vw] max-[1025px]:text-sm max-[599px]:text-xs max-[599px]:hidden">
+        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-2.5 bg-[#001361] text-white flex flex-wrap items-center justify-end gap-6 max-[1025px]:gap-4 text-[.8vw] min-[2550px]:text-[1vw] max-[1025px]:text-sm max-[599px]:text-[2.3vw]">
 
         <!-- Email -->
         <div class="flex items-center gap-2">
@@ -27,7 +27,7 @@
         </div>
 
         <!-- Buttons -->
-        <div class="flex items-center w-[27%] max-[1024px]:w-[40%] text-[.8vw] min-[2550px]:text-[1vw] max-[1025px]:text-sm max-[599px]:text-xs gap-2 max-[599px]:flex-col max-[599px]:items-start max-[599px]:w-full">
+        <div class="flex max-[1020px]:hidden items-center w-[27%] max-[1024px]:w-[40%] text-[.8vw] min-[2550px]:text-[1vw] max-[1025px]:text-sm max-[599px]:text-xs gap-2 max-[599px]:flex-col max-[599px]:items-start max-[599px]:w-full">
             <button
                 class="px-4 py-2 border-2 border-white rounded-full w-full max-[599px]:w-full">
                 Company Brochure
@@ -195,21 +195,19 @@ const nav = document.getElementById("topNav");
 window.addEventListener("scroll", () => {
   const currentScroll = window.scrollY;
 
-//   console.log("currentScroll" ,currentScroll ,"previousScroll" ,previousScroll)
+//   console.log("currentScroll" ,currentScroll ,"previousScroll" ,previousScroll)  
   if (currentScroll > previousScroll) {
     // Scrolling Down
 
     gsap.to(nav, {
       y: "-100%", // hide upward
-      duration: 0.4,
-      ease: "power2.out"
+      duration: 0.5,
     });
   } else {
     // Scrolling Up
     gsap.to(nav, {
       y: 0, // show again
-      duration: 0.4,
-      ease: "power2.out"
+      duration: 0.5,
     });
   }
 
@@ -217,26 +215,60 @@ window.addEventListener("scroll", () => {
 });
 
 const nav2 = document.getElementById("mainNavbar");
+
     let prevScroll = window.scrollY;
 
     window.addEventListener("scroll", () => {
         let currentScroll = window.scrollY;
+        let mm = gsap.matchMedia();
 
-        if (currentScroll > prevScroll && currentScroll > 5) {
+mm.add("(min-width: 50px)", () => {
+    if (currentScroll > prevScroll && currentScroll > 5) {
             // User scrolling down
             gsap.to(nav2, {
-                y: "-90%",
-                duration: 0.4,
-                ease: "power2.out"
+                y: "-65%",
+                duration: 0.5,
             });
         } else {
             // User scrolling up
             gsap.to(nav2, {
                 y: 0,
-                duration: 0.4,
-                ease: "power2.out"
+                duration: 0.5,
             });
         }
+});
+mm.add("(min-width: 1025px)", () => {
+    if (currentScroll > prevScroll && currentScroll > 5) {
+            // User scrolling down
+            gsap.to(nav2, {
+                y: "-100%",
+                duration: 0.5,
+            });
+        } else {
+            // User scrolling up
+            gsap.to(nav2, {
+                y: 0,
+                duration: 0.5,
+            });
+        }
+});
+
+mm.add("(min-width: 2500px)", () => {
+    if (currentScroll > prevScroll && currentScroll > 5) {
+            // User scrolling down
+            gsap.to(nav2, {
+                y: "-70%",
+                duration: 0.5,
+            });
+        } else {
+            // User scrolling up
+            gsap.to(nav2, {
+                y: 0,
+                duration: 0.5,
+            });
+        }
+});
+
 
         prevScroll = currentScroll;
     });

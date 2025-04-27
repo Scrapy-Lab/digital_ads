@@ -4,7 +4,7 @@
 
     <!-- Hero Section Starts Here -->
     <section
-        class="fade hero w-full min-h-screen max-[1025px]:h-[60vh] max-[599px]:h-[80vh] bg-[url(./assets/images/Homepage/Banner.png)] bg-cover max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4">
+        class="fade hero w-full min-h-[95vh] min-[2550px]:min-h-[70vh] max-[1025px]:h-[60vh] max-[599px]:h-[80vh] bg-[url(./assets/images/Homepage/Banner.png)] bg-cover max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4">
 
         <div class="relative w-1/2 max-[1025px]:w-[70%] max-[599px]:w-full whitespace-nowrap max-[599px]:whitespace-normal">
 

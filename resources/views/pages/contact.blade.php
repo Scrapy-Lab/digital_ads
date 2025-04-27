@@ -3,7 +3,7 @@
 
         <!-- About's Hero Section Starts Here-->
         <section
-            class="fade w-full h-screen relative flex items-center justify-center bg-[linear-gradient(279.16deg,#4A32FF_-27.33%,#001C3C_38.47%,#27ACFF_108.93%)] overflow-hidden">
+            class="fade w-full h-[95vh] min-[2550px]:h-[80vh] relative flex items-center justify-center bg-[linear-gradient(279.16deg,#4A32FF_-27.33%,#001C3C_38.47%,#27ACFF_108.93%)] overflow-hidden">
             <div class="w-full h-full">
                 <img class="w-full h-full object-cover object-top" src="./assets/images/Contactpage/12.png" alt="">
             </div>
@@ -35,7 +35,7 @@
             <div
                 class="border-2 border-white/20 rounded-xl px-4 md:px-6 py-6 bg-white/10 backdrop-blur-lg shadow-lg mt-12 flex flex-col md:flex-row gap-8 md:gap-0">
                 <div
-                    class="p-4 w-full md:w-[45%] bg-black/10 backdrop-blur-sm rounded-lg shadow-lg flex flex-col gap-4">
+                    class="p-4 min-[2550px]:p-10 w-full md:w-[45%] bg-black/10 backdrop-blur-sm rounded-lg shadow-lg flex flex-col gap-4">
                     <h1 class="text-white text-[5vw] md:text-[2.5vw] font-bold">Contact Information</h1>
                     <div class="w-full flex items-center">
                         <img class="w-[3.5vh] h-[3vh]" src="./assets/images/Contactpage/Vector.png" alt="">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-[55%] md:pl-14">
-                    <form action="" class="flex flex-col w-full gap-6 p-4 md:p-8">
+                    <form action="" class="flex flex-col w-full gap-6 p-4 md:p-8 min-[2550px]:text-[1.5vw]">
                         <div class="flex flex-col md:flex-row gap-4">
                             <div class="w-full md:w-[55%]">
                                 <label class="text-white mb-2 block">First Name</label>
@@ -85,7 +85,7 @@
 
                         <div class="w-full">
                             <label class="text-white mb-2 block">Subject</label>
-                            <div class="flex flex-wrap gap-4 text-white text-sm md:text-base">
+                            <div class="flex flex-wrap gap-4 text-white text-sm md:text-base min-[2550px]:text-[1.3vw]">
                                 <label class="flex items-center gap-2">
                                     <input type="radio" name="subject" value="general">
                                     General Inquiry
@@ -113,7 +113,7 @@
                         </div>
                         <div class="flex justify-end">
                             <button
-                                class="px-8 md:px-12 py-2 md:py-3 rounded-lg bg-orange-500 w-fit font-bold text-white mt-4 hover:bg-transparent outline-none hover:text-orange-500 hover:border-2 hover:border-orange-500 transition-all duration-300 float-right text-sm md:text-base"
+                                class="px-8 md:px-12 py-2 md:py-3 min-[2550px]:py-5 rounded-lg bg-orange-500 w-fit font-bold text-white mt-4 hover:bg-transparent outline-none hover:text-orange-500 hover:border-2 hover:border-orange-500 transition-all duration-300 float-right text-sm md:text-base min-[2550px]:text-[1.3vw]"
                                 type="submit">Send Message</button>
                         </div>
                     </form>
@@ -122,57 +122,56 @@
         </section>
 
         <!-- About's Contact Section Starts Here -->
-        <section
-            class="fade bg-[#F5F7FF] w-full relative flex items-center justify-center overflow-hidden pt-20 pb-10">
-            <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-                <!-- Left Side with Rocket Illustration -->
-                <div class="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
-                    <img src="./assets/images/Globalimages/boostImage.png" alt="Rocket illustration" class="w-full max-w-md">
-                </div>
-
-                <!-- Right Side with Text and Button -->
-                <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
-                    <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E] text-center md:text-left">
-                        Boost Your <span class="text-[#1D3F6E] border-b-4 border-[#FF6F1F]">Online</span>
-                    </h1>
-                    <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
-                        Presence
-                    </h1>
-
-                    <!-- Contact Button -->
-                    <button
-                        class="mt-6 bg-[#FF6F1F] text-white text-lg px-12 py-2 rounded-md hover:bg-[#E05F1C] transition-all">
-                        Contact Us
-                    </button>
-                </div>
+        <section class="fade bg-[#F5F7FF] w-full relative flex items-center justify-center overflow-hidden pt-20 pb-10">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <!-- Left Side with Rocket Illustration -->
+            <div class="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
+                <img src="./assets/images/Globalimages/boostImage.png" alt="Rocket illustration" class="w-full max-w-md">
             </div>
 
-            <!-- Small decorative elements -->
-            <div class="absolute top-10 right-1/4 w-6 h-6 text-[#1D3F6E]">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <circle cx="12" cy="12" r="4"></circle>
-                    <line x1="12" y1="2" x2="12" y2="4"></line>
-                    <line x1="12" y1="20" x2="12" y2="22"></line>
-                    <line x1="2" y1="12" x2="4" y2="12"></line>
-                    <line x1="20" y1="12" x2="22" y2="12"></line>
-                </svg>
-            </div>
+            <!-- Right Side with Text and Button -->
+            <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+                <h1 class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] text-center md:text-left">
+                    Boost Your <span class="text-[#1D3F6E] border-b-4 border-[#FF6F1F]">Online</span>
+                </h1>
+                <h1 class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
+                    Presence
+                </h1>
 
-            <!-- Butterfly/Bowtie element -->
-            <div class="absolute top-1/4 right-10 w-16 h-16">
-                <svg viewBox="0 0 24 24" fill="none" stroke="#4A7DFF" stroke-width="1">
-                    <path d="M12 2L8 7L12 9L16 7L12 2Z"></path>
-                    <path d="M12 9L8 11L12 16L16 11L12 9Z"></path>
-                    <circle cx="12" cy="9" r="1" fill="#4A7DFF"></circle>
-                </svg>
+                <!-- Contact Button -->
+                <button
+                    class="mt-6 bg-[#FF6F1F] text-white text-lg min-[2550px]:text-[1.5vw] px-12 py-2 min-[2550px]:py-4 rounded-md hover:bg-[#E05F1C] transition-all">
+                    Contact Us
+                </button>
             </div>
+        </div>
 
-            <!-- Additional small decorative dots -->
-            <div class="absolute top-10 left-1/4 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
-            <div class="absolute top-20 left-1/3 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
-            <div class="absolute top-15 left-2/3 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
-        </section>
+        <!-- Small decorative elements -->
+        <div class="absolute top-10 right-1/4 w-6 h-6 text-[#1D3F6E]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="4"></circle>
+                <line x1="12" y1="2" x2="12" y2="4"></line>
+                <line x1="12" y1="20" x2="12" y2="22"></line>
+                <line x1="2" y1="12" x2="4" y2="12"></line>
+                <line x1="20" y1="12" x2="22" y2="12"></line>
+            </svg>
+        </div>
+
+        <!-- Butterfly/Bowtie element -->
+        <div class="absolute top-1/4 right-10 w-16 h-16">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#4A7DFF" stroke-width="1">
+                <path d="M12 2L8 7L12 9L16 7L12 2Z"></path>
+                <path d="M12 9L8 11L12 16L16 11L12 9Z"></path>
+                <circle cx="12" cy="9" r="1" fill="#4A7DFF"></circle>
+            </svg>
+        </div>
+
+        <!-- Additional small decorative dots -->
+        <div class="absolute top-10 left-1/4 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
+        <div class="absolute top-20 left-1/3 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
+        <div class="absolute top-15 left-2/3 w-1 h-1 bg-[#1D3F6E] rounded-full"></div>
+    </section>
         <!-- About's Contact Section Starts Here -->
 
         @endsection
