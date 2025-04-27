@@ -4,7 +4,7 @@
 
     <!-- About's Hero Section Starts Here-->
     <section
-        class="fade w-full h-screen relative flex items-center justify-center bg-[linear-gradient(279.16deg,#4A32FF_-27.33%,#001C3C_38.47%,#27ACFF_108.93%)] overflow-hidden">
+        class="fade w-full h-[95vh] min-[2550px]:h-[80vh] relative flex items-center justify-center bg-[linear-gradient(279.16deg,#4A32FF_-27.33%,#001C3C_38.47%,#27ACFF_108.93%)] overflow-hidden">
         <div class="w-full h-full">
             <img class="w-full h-full object-cover object-top scale-150" src="./assets/images/Aboutpage/aboutbg1.png"
                 alt="">
@@ -75,7 +75,7 @@
                     <span class="text-[#FFA616]">Experience</span>
                 </h1>
                 <p
-                    class="text-sm max-[599px]:text-[2.5vw] md:text-base lg:text-[1.3vw] mt-6 md:mt-12 w-[85%] md:w-[80%] lg:w-[70%] text-center text-white">
+                    class="text-sm max-[599px]:text-[2.5vw] min-[2550px]:text-[1.3vw] min-[2550px]:leading-tight md:text-base lg:text-[1.3vw] mt-6 md:mt-12 w-[85%] md:w-[80%] lg:w-[70%] text-center text-white">
                     These seven principles highlight our fundamental beliefs as a team and as a business. Our core
                     values attract and unite
                     individuals focused on building a stable, desirable work environment and providing exceptional
@@ -170,7 +170,7 @@
 
     <!-- About's Our Team Section Starts Here -->
     <section class="fade py-16 px-20 max-[599px]:px-0 max-[599px]:py-10 bg-white text-center">
-        <h2 class="text-4xl font-bold">
+        <h2 class="text-4xl min-[2550px]:text-[3.5vw] font-bold">
             <span class="text-[#0C0C5F]">Our </span><span class="text-[#FFA500]">Team</span>
         </h2>
 
@@ -182,11 +182,11 @@
                     <div class="rounded-lg p-4 mb-4">
                         <img src="./assets/images/Aboutpage/team2.png" class="mx-auto rounded-md" alt="Team Member">
                     </div>
-                    <h3 class="text-lg font-semibold">Need a team?</h3>
-                    <p class="text-sm text-gray-600 mt-2">
+                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
+                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2 min-[2550px]:mt-3">
                         I will help you build a team of top talent to boost your business reach its potential.
                     </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm">
+                    <a href="#" class="mt-4 min-[2550px]:mt-6 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
                             <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
@@ -200,11 +200,11 @@
                     <div class="rounded-lg p-4 mb-4">
                         <img src="./assets/images/Aboutpage/team3.png" class="mx-auto rounded-md" alt="Team Member">
                     </div>
-                    <h3 class="text-lg font-semibold">Need a team?</h3>
-                    <p class="text-sm text-gray-600 mt-2">
+                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
+                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
                         I will help you build a team of top talent to boost your business reach its potential.
                     </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm">
+                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
                             <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
@@ -218,11 +218,11 @@
                     <div class=" rounded-lg p-4 mb-4">
                         <img src="./assets/images/Aboutpage/team1.png" class="mx-auto rounded-md" alt="Team Member">
                     </div>
-                    <h3 class="text-lg font-semibold">Need a team?</h3>
-                    <p class="text-sm text-gray-600 mt-2">
+                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
+                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
                         I will help you build a team of top talent to boost your business reach its potential.
                     </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm">
+                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
                             <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
@@ -236,11 +236,11 @@
                     <div class="rounded-lg p-4 mb-4">
                         <img src="./assets/images/Aboutpage/team2.png" class="mx-auto rounded-md" alt="Team Member">
                     </div>
-                    <h3 class="text-lg font-semibold">Need a team?</h3>
-                    <p class="text-sm text-gray-600 mt-2">
+                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
+                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2 min-[2550px]:mt-3">
                         I will help you build a team of top talent to boost your business reach its potential.
                     </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm">
+                    <a href="#" class="mt-4 min-[2550px]:mt-6 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
                             <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
@@ -254,11 +254,11 @@
                     <div class="rounded-lg p-4 mb-4">
                         <img src="./assets/images/Aboutpage/team3.png" class="mx-auto rounded-md" alt="Team Member">
                     </div>
-                    <h3 class="text-lg font-semibold">Need a team?</h3>
-                    <p class="text-sm text-gray-600 mt-2">
+                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
+                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
                         I will help you build a team of top talent to boost your business reach its potential.
                     </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm">
+                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
                             <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
@@ -272,11 +272,11 @@
                     <div class=" rounded-lg p-4 mb-4">
                         <img src="./assets/images/Aboutpage/team1.png" class="mx-auto rounded-md" alt="Team Member">
                     </div>
-                    <h3 class="text-lg font-semibold">Need a team?</h3>
-                    <p class="text-sm text-gray-600 mt-2">
+                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
+                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
                         I will help you build a team of top talent to boost your business reach its potential.
                     </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm">
+                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
                         <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
                             viewBox="0 0 24 24">
                             <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
@@ -304,16 +304,16 @@
 
             <!-- Right Side with Text and Button -->
             <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
-                <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E] text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] text-center md:text-left">
                     Boost Your <span class="text-[#1D3F6E] border-b-4 border-[#FF6F1F]">Online</span>
                 </h1>
-                <h1 class="text-4xl md:text-5xl font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
                     Presence
                 </h1>
 
                 <!-- Contact Button -->
                 <button
-                    class="mt-6 bg-[#FF6F1F] text-white text-lg px-12 py-2 rounded-md hover:bg-[#E05F1C] transition-all">
+                    class="mt-6 bg-[#FF6F1F] text-white text-lg min-[2550px]:text-[1.5vw] px-12 py-2 min-[2550px]:py-4 rounded-md hover:bg-[#E05F1C] transition-all">
                     Contact Us
                 </button>
             </div>
