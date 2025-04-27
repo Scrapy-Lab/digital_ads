@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MobileMarketingService extends Controller
+class MobileMarketingServiceController extends Controller
 {
     public function WhatsappMarketing()
     {
