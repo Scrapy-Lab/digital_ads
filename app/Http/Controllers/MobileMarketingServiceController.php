@@ -83,7 +83,7 @@ class MobileMarketingServiceController extends Controller
             ]
         ];
 
-        return view('pages.mobile-marketing', compact('data'));
+        return view('pages.mobile-marketing-service', compact('data'));
     }
 
 
