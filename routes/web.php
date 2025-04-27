@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SocialMediaServiceController;
+use App\Http\Controllers\DigitalMarketingServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -17,31 +18,21 @@ Route::get('contact', function () {
     return view('pages.contact');
 })->name('contact');
 
-Route::get('social-media-marketing', [ServiceController::class, 'socialMediaMarketing'])->name('social-media-marketing');
+Route::get('social-media-marketing', [SocialMediaServiceController::class, 'socialMediaMarketing'])->name('social-media-marketing');
 
-Route::get('social-media-optimization', [ServiceController::class, 'socialMediaOptimization'])->name('social-media-optimization');
+Route::get('social-media-optimization', [SocialMediaServiceController::class, 'socialMediaOptimization'])->name('social-media-optimization');
 
-Route::get('social-media-community-management', [ServiceController::class, 'socialMediaCommunityManagement'])->name('social-media-community-management');
+Route::get('social-media-community-management', [SocialMediaServiceController::class, 'socialMediaCommunityManagement'])->name('social-media-community-management');
 
-Route::get('influencer-marketing', function () {
-    return view('pages.Influencer');
-})->name('influencer-marketing');
+Route::get('influencer-marketing',[SocialMediaServiceController::class, 'influencerMarketing'])->name('influencer-marketing');
 
-Route::get('digital-marketing-strategy', function () {
-    return view('pages.Digital Marketing Strategy');
-})->name('digital-marketing-strategy');
+Route::get('digital-marketing-strategy', [DigitalMarketingServiceController::class, 'digitalMarketingStrategy'])->name('digital-marketing-strategy');
 
-Route::get('search-engine-marketing', function () {
-    return view('pages.Search Engine Marketing');
-})->name('search-engine-marketing');
+Route::get('search-engine-marketing', [DigitalMarketingServiceController::class, 'searchEngineMarketing'])->name('search-engine-marketing');
 
-Route::get('digital-social-media-marketing', function () {
-    return view('pages.Social Marketing');
-})->name('digital-social-media-marketing');
+Route::get('digital-social-media-marketing',[DigitalMarketingServiceController::class, 'digitalSocialMediaMarketing'])->name('digital-social-media-marketing');
 
-Route::get('online-reputation-management', function () {
-    return view('pages.Online Reputation Management');
-})->name('online-reputation-management');
+Route::get('online-reputation-management', [DigitalMarketingServiceController::class, 'onlineReputationManagement'])->name('online-reputation-management');
 
 Route::get('whatsapp-marketing', function () {
     return view('pages.Whatsapp Marketing');

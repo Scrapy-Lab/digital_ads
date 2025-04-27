@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ServiceController extends Controller
+class SocialMediaServiceController extends Controller
 {
 
     // private $data;
@@ -109,9 +109,10 @@ class ServiceController extends Controller
 
 
 
-        return view('pages.service', compact('data'));
+        return view('pages.social-media-service', compact('data'));
     }
-    public function socialMediaOptimization() {
+    public function socialMediaOptimization()
+    {
 
 
         $data =  [
@@ -170,12 +171,13 @@ class ServiceController extends Controller
             ]
         ];
 
-        return view('pages.service', compact('data'));
+        return view('pages.social-media-service', compact('data'));
     }
 
-    public function socialMediaCommunityManagement(){
+    public function socialMediaCommunityManagement()
+    {
 
-       $data = [
+        $data = [
 
             'banner_image' => "assets/images/Services/Social media/Social media Community Management/Banner.png",
             'section_1' => [
@@ -229,42 +231,70 @@ class ServiceController extends Controller
             ]
         ];
 
-        return view('pages.service', compact('data'));
+        return view('pages.social-media-service', compact('data'));
     }
 
-    public function influencerMarketing(){
+    public function influencerMarketing()
+    {
 
 
         $data = [
 
-            'banner_image' => "",
+            'banner_image' => "assets/images/Services/Social media/Influencer Marketing/Banner.png",
             'section_1' => [
-                'banner_img' => '',
-                'mobile_banner_img' => "",
-                'title' => '',
-                'subtitle' => '',
-                'bullet_points' => []
+                'banner_img' => 'assets/images/Services/Social media/Influencer Marketing/Img1.png',
+                'mobile_banner_img' => "assets/images/Mobile Responsive/INfluencer Marketing/img1.png",
+                'title' => 'Leverage Influencers to Expand Your Reach',
+                'subtitle' => 'Influencer marketing is a powerful way to connect with your target audience authentically. By collaborating with the right influencers, brands can enhance credibility, boost engagement, and drive conversions.',
+                'bullet_points' => [
+                    'What is influencer marketing and how does it work?',
+                    'How can influencers help promote your brand effectively?',
+                    'Best strategies for running successful influencer campaigns.'
+                ]
             ],
             'section_2' => [
-                'banner_img' => '',
-                'mobile_banner_img' => "",
-                'title' => '',
-                'subtitle' => '',
+                'banner_img' => 'assets/images/Services/Social media/Influencer marketing/img2.png',
+                'mobile_banner_img' => "assets/images/Mobile Responsive/INfluencer Marketing/Img2.png",
+                'title' => 'What is Influencer Marketing?',
+                'subtitle' => 'Influencer marketing involves partnering with content creators who have a dedicated following to promote your brand. This strategy helps increase brand awareness, build trust, and generate high-quality leads through authentic recommendations.',
                 'bullet_points' => [
-                    '',
-                    '',
-                    ''
+                    '<strong>Brand Awareness:</strong> Reach a larger audience through trusted voices in your industry.',
+                    '<strong>Authentic Engagement:</strong> Build credibility through organic and relatable content.',
+                    '<strong>Targeted Marketing:</strong> Connect with niche audiences that align with your brand.',
+                    '<strong>Higher Conversions:</strong> Leverage influencer trust to boost sales and engagement.'
                 ]
             ],
             'faqs' => [
 
                 [
-                    'que' => "",
-                    'ans' => "",
-                ]
+                    'que' => "How quickly will I see results from social media Community Management?",
+                    'ans' => "Results vary based on your industry, audience, and strategy. Generally, you'll see initial engagement improvements within 1-2 months, with more significant ROI developing over 3-6 months.",
+                ],
+                [
+                    'que' => "Which social media platforms should my business use?",
+                    'ans' => "This depends on your target audience, industry, and content strategy. We'll help you identify where your customers are most active for effective resource use.",
+                ],
+                [
+                    'que' => "How much should I budget for social media advertising?",
+                    'ans' => "Start with a modest test budget ($500–$1000/month) and scale up once you identify what works best for your audience and goals.",
+                ],
+                [
+                    'que' => "How do you measure Influencer Marketing success?",
+                    'ans' => "We track engagement, growth, leads, traffic, conversions, and ROI — giving you full insight into what's working.",
+                ],
+                [
+                    'que' => "How much should I budget for social media advertising?",
+                    'ans' => "Start with a modest test budget ($500–$1000/month) and scale up once you identify what works best for your audience and goals.",
+                ],
+                [
+                    'que' => "How do you measure Influencer Marketing success?",
+                    'ans' => "We track engagement, growth, leads, traffic, conversions, and ROI — giving you full insight into what's working.",
+                ],
             ]
         ];
 
-        return view('pages.service', compact('data'));
+        return view('pages.social-media-service', compact('data'));
     }
+
+
 }
