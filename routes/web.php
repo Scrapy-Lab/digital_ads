@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\SocialMediaServiceController;
 use App\Http\Controllers\DigitalMarketingServiceController;
+use App\Http\Controllers\MobileMarketingService;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -34,17 +35,11 @@ Route::get('digital-social-media-marketing',[DigitalMarketingServiceController::
 
 Route::get('online-reputation-management', [DigitalMarketingServiceController::class, 'onlineReputationManagement'])->name('online-reputation-management');
 
-Route::get('whatsapp-marketing', function () {
-    return view('pages.Whatsapp Marketing');
-})->name('whatsapp-marketing');
+Route::get('whatsapp-marketing',[MobileMarketingService::class, 'WhatsappMarketing'])->name('whatsapp-marketing');
 
-Route::get('voice-sms', function () {
-    return view('pages.Voice sms');
-})->name('voice-sms');
+Route::get('voice-sms', [MobileMarketingService::class, 'voiceSms'])->name('voice-sms');
 
-Route::get('bulk-sms', function () {
-    return view('pages.Bulk sms');
-})->name('bulk-sms');
+Route::get('bulk-sms', [MobileMarketingService::class, 'bulkSms'])->name('bulk-sms');
 
 Route::get('graphic-designing', function () {
     return view('pages.Graphic Designing');
