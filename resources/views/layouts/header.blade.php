@@ -149,7 +149,7 @@
                     </a>
                 </li>
 
-                <li><a href="portfolio.html" class="hover:text-orange-500 transition-all relative group">Blog</a>
+                <li><a href="blog.html" class="hover:text-orange-500 transition-all relative group">Blog</a>
                 </li>
                 <li><a href="portfolio.html" class="hover:text-orange-500 transition-all relative group">Portfolio</a>
                 </li>
@@ -164,7 +164,7 @@
             <ul class="flex flex-col gap-6">
                 <li><a href="{{route('home')}}">Home</a></li>
                 <li><a href="{{route('about')}}">About</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="Contact.html">Contact Us</a></li>
             </ul>
