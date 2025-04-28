@@ -10,7 +10,7 @@ class ContentCreationServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Content Creation/Seo Content/Bannner.png",
+            'banner_image' => "assets/images/Services/Content Creation/Seo Content/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Content Creation/Seo Content/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content/img1.png",
@@ -91,7 +91,7 @@ class ContentCreationServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Content Creation/Blog Writing/Bannner.png",
+            'banner_image' => "assets/images/Services/Content Creation/Blog Writing/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Content Creation/Blog Writing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Content Creation/Blog Writing/img1.png",
@@ -171,7 +171,7 @@ class ContentCreationServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Content Creation/Promotional Writing/Bannner.png",
+            'banner_image' => "assets/images/Services/Content Creation/Promotional Writing/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Content Creation/Promotional Writing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Content Creation/Promotional Writing/img1.png",
@@ -251,7 +251,7 @@ class ContentCreationServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Content Creation/Copy Writing/Bannner.png",
+            'banner_image' => "assets/images/Services/Content Creation/Copy Writing/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Content Creation/Copy Writing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Content Creation/Copy Writing/img1.png",
