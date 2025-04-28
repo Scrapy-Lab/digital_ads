@@ -174,123 +174,7 @@
             <span class="text-[#0C0C5F]">Our </span><span class="text-[#FFA500]">Team</span>
         </h2>
 
-        <div class="swiper mySwiper mt-10 max-[599px]:mt-0 px-5">
-            <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide bg-white rounded-xl p-6">
-                    <div class="rounded-lg p-4 mb-4">
-                        <img src="./assets/images/Aboutpage/team2.png" class="mx-auto rounded-md" alt="Team Member">
-                    </div>
-                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
-                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2 min-[2550px]:mt-3">
-                        I will help you build a team of top talent to boost your business reach its potential.
-                    </p>
-                    <a href="#" class="mt-4 min-[2550px]:mt-6 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-                        </svg>
-                        EMAIL ANDRE
-                    </a>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide bg-white rounded-xl p-6">
-                    <div class="rounded-lg p-4 mb-4">
-                        <img src="./assets/images/Aboutpage/team3.png" class="mx-auto rounded-md" alt="Team Member">
-                    </div>
-                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
-                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
-                        I will help you build a team of top talent to boost your business reach its potential.
-                    </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-                        </svg>
-                        EMAIL ANDRE
-                    </a>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide bg-white rounded-xl p-6">
-                    <div class=" rounded-lg p-4 mb-4">
-                        <img src="./assets/images/Aboutpage/team1.png" class="mx-auto rounded-md" alt="Team Member">
-                    </div>
-                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
-                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
-                        I will help you build a team of top talent to boost your business reach its potential.
-                    </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-                        </svg>
-                        EMAIL ANDRE
-                    </a>
-                </div>
-
-                <!-- Slide 4 -->
-                <div class="swiper-slide bg-white rounded-xl p-6">
-                    <div class="rounded-lg p-4 mb-4">
-                        <img src="./assets/images/Aboutpage/team2.png" class="mx-auto rounded-md" alt="Team Member">
-                    </div>
-                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
-                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2 min-[2550px]:mt-3">
-                        I will help you build a team of top talent to boost your business reach its potential.
-                    </p>
-                    <a href="#" class="mt-4 min-[2550px]:mt-6 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-                        </svg>
-                        EMAIL ANDRE
-                    </a>
-                </div>
-
-                <!-- Slide 5 -->
-                <div class="swiper-slide bg-white rounded-xl p-6">
-                    <div class="rounded-lg p-4 mb-4">
-                        <img src="./assets/images/Aboutpage/team3.png" class="mx-auto rounded-md" alt="Team Member">
-                    </div>
-                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
-                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
-                        I will help you build a team of top talent to boost your business reach its potential.
-                    </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-                        </svg>
-                        EMAIL ANDRE
-                    </a>
-                </div>
-
-                <!-- Slide 6 -->
-                <div class="swiper-slide bg-white rounded-xl p-6">
-                    <div class=" rounded-lg p-4 mb-4">
-                        <img src="./assets/images/Aboutpage/team1.png" class="mx-auto rounded-md" alt="Team Member">
-                    </div>
-                    <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">Need a team?</h3>
-                    <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2">
-                        I will help you build a team of top talent to boost your business reach its potential.
-                    </p>
-                    <a href="#" class="mt-4 inline-flex items-center text-pink-600 text-sm min-[2550px]:text-[1vw]">
-                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" stroke-width="2"
-                            viewBox="0 0 24 24">
-                            <path d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-                        </svg>
-                        EMAIL ANDRE
-                    </a>
-                </div>
-
-
-            </div>
-
-            <!-- Pagination Dots -->
-            <div class="swiper-pagination translate-y-3"></div>
-        </div>
+        @livewire('our-team')
     </section>
     <!-- About's Our Team Section Starts Here -->
 
@@ -304,10 +188,12 @@
 
             <!-- Right Side with Text and Button -->
             <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
-                <h1 class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] text-center md:text-left">
+                <h1
+                    class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] text-center md:text-left">
                     Boost Your <span class="text-[#1D3F6E] border-b-4 border-[#FF6F1F]">Online</span>
                 </h1>
-                <h1 class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
+                <h1
+                    class="text-4xl md:text-5xl min-[2550px]:text-[3.5vw] font-bold text-[#1D3F6E] mt-2 text-center md:text-left">
                     Presence
                 </h1>
 
