@@ -5,7 +5,7 @@
             <!-- Slide 1 -->
             <div class="swiper-slide bg-white rounded-xl p-6">
                 <div class="rounded-lg p-4 mb-4">
-                    <img src="./assets/images/Aboutpage/team2.png" class="mx-auto rounded-md" alt="Team Member">
+                    <img src="{{ asset('storage/our-teams/'.$getTeams->photo)}}" class="mx-auto rounded-md" alt="Team Member">
                 </div>
                 <h3 class="text-lg min-[2550px]:text-[1.3vw] font-semibold">{{ $getTeams->name }}</h3>
                 <p class="text-sm min-[2550px]:text-[.9vw] text-gray-600 mt-2 m in-[2550px]:mt-3">
