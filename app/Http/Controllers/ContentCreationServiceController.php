@@ -10,10 +10,10 @@ class ContentCreationServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Content Creation/SEO Content Writing/Banner.png",
+            'banner_image' => "assets/images/Services/Content Creation/Seo Content Writing/Banner.png",
             'section_1' => [
-                'banner_img' => 'assets/images/Services/Content Creation/SEO Content Writing/img1.png',
-                'mobile_banner_img' => "assets/images/Services/Content Creation/SEO Content Writing/img1.png",
+                'banner_img' => 'assets/images/Services/Content Creation/Seo Content Writing/img1.png',
+                'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content Writing/img1.png",
                 'title' => 'SEO Content Writing for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
@@ -26,8 +26,8 @@ class ContentCreationServiceController extends Controller
                 ]
             ],
             'section_2' => [
-                'banner_img' => 'assets/images/Services/Content Creation/SEO Content Writing/img2.png',
-                'mobile_banner_img' => "assets/images/Services/Content Creation/SEO Content Writing/img2.png",
+                'banner_img' => 'assets/images/Services/Content Creation/Seo Content Writing/img2.png',
+                'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content Writing/img2.png",
                 'title' => 'SEO Content Writing for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
