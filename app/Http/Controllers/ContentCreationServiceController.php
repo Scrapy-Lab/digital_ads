@@ -10,31 +10,31 @@ class ContentCreationServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Content Creation/Seo Content Writing/Bannner.png",
+            'banner_image' => "assets/images/Services/Content Creation/Seo Content/Bannner.png",
             'section_1' => [
-                'banner_img' => 'assets/images/Services/Content Creation/Seo Content Writing/img1.png',
-                'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content Writing/img1.png",
-                'title' => 'Seo Content Writing for Businesses',
+                'banner_img' => 'assets/images/Services/Content Creation/Seo Content/img1.png',
+                'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content/img1.png",
+                'title' => 'Seo Content for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
                     sales. A well-crafted Digital Markeing strategy ensures that your business stays ahead of the
                     competition.',
                 'bullet_points' => [
-                    'Why is  Seo Content Writing essential for your business?',
+                    'Why is  Seo Content essential for your business?',
                     'How to create and implement an effective Digital Markeing strategy?',
                     'Which platforms are best suited for your industry?'
                 ]
             ],
             'section_2' => [
-                'banner_img' => 'assets/images/Services/Content Creation/Seo Content Writing/img2.png',
-                'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content Writing/img2.png",
-                'title' => 'Seo Content Writing for Businesses',
+                'banner_img' => 'assets/images/Services/Content Creation/Seo Content/img2.png',
+                'mobile_banner_img' => "assets/images/Services/Content Creation/Seo Content/img2.png",
+                'title' => 'Seo Content for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
                     Twitter provide endless opportunities to grow your brand, engage with your audience, and drive
                     sales. A well-crafted Digital Markeing strategy ensures that your business stays ahead of the
                     competition.',
                 'bullet_points' => [
-                    '<strong>Why is Seo Content Writing essential for your business?</strong>',
+                    '<strong>Why is Seo Content essential for your business?</strong>',
                     '<strong>How to create and implement an effective Digital Markeing strategy?</strong>',
                     '<strong>Which platforms are best suited for your industry?</strong>'
                 ]
