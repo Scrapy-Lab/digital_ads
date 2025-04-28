@@ -3,6 +3,7 @@
 use App\Http\Controllers\SocialMediaServiceController;
 use App\Http\Controllers\DigitalMarketingServiceController;
 use App\Http\Controllers\MobileMarketingServiceController;
+use App\Http\Controllers\WebsiteDevelopmentServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -41,37 +42,21 @@ Route::get('voice-sms', [MobileMarketingServiceController::class, 'voiceSms'])->
 
 Route::get('bulk-sms', [MobileMarketingServiceController::class, 'bulkSms'])->name('bulk-sms');
 
-Route::get('graphic-designing', function () {
-    return view('pages.Graphic Designing');
-})->name('graphic-designing');
+Route::get('graphic-designing', [MobileMarketingServiceController::class, 'graphicDesigning'])->name('graphic-designing');
 
-Route::get('logo-designing', function () {
-    return view('pages.Logo Designing');
-})->name('logo-designing');
+Route::get('logo-designing',  [MobileMarketingServiceController::class, 'logoDesigning'])->name('logo-designing');
 
-Route::get('photography', function () {
-    return view('pages.Photography');
-})->name('photography');
+Route::get('photography',  [MobileMarketingServiceController::class, 'photography'])->name('photography');
 
-Route::get('videography', function () {
-    return view('pages.Videography');
-})->name('videography');
+Route::get('videography',  [MobileMarketingServiceController::class, 'videography'])->name('videography');
 
-Route::get('website-design-and-development', function () {
-    return view('pages.Website Design & Development');
-})->name('website-design-and-development');
+Route::get('website-design-and-development', [WebsiteDevelopmentServiceController::class, 'websiteDesigAndDevelopment'])->name('website-design-and-development');
 
-Route::get('ecommerce-development', function () {
-    return view('pages.Ecommerce Development');
-})->name('ecommerce-development');
+Route::get('ecommerce-development', [WebsiteDevelopmentServiceController::class, 'ecommerceDevelopment'])->name('ecommerce-development');
 
-Route::get('wordpress-website-development', function () {
-    return view('pages.Wordpress Website Development');
-})->name('wordpress-website-development');
+Route::get('wordpress-website-development',[WebsiteDevelopmentServiceController::class, 'wordpressWebsiteDevelopment'])->name('wordpress-website-development');
 
-Route::get('website-manintanance', function () {
-    return view('pages.Website Manintanance');
-})->name('website-manintanance');
+Route::get('website-manintanance', [WebsiteDevelopmentServiceController::class, 'websiteManintanance'])->name('website-manintanance');
 
 Route::get('content-writing', function () {
     return view('pages.Seo Content Writing');
