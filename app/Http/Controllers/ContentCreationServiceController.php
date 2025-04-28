@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ContentCreationServiceController extends Controller
 {
-    public function websiteDesigAndDevelopment(){
+    public function contentWriting(){
 
         $data = [
 

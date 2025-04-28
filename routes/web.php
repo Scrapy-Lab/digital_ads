@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\ContentCreationServiceController;
 use App\Http\Controllers\SocialMediaServiceController;
 use App\Http\Controllers\DigitalMarketingServiceController;
 use App\Http\Controllers\MobileMarketingServiceController;
+use App\Http\Controllers\VisualDesigningServiceController;
 use App\Http\Controllers\WebsiteDevelopmentServiceController;
 use Illuminate\Support\Facades\Route;
 
@@ -42,13 +44,13 @@ Route::get('voice-sms', [MobileMarketingServiceController::class, 'voiceSms'])->
 
 Route::get('bulk-sms', [MobileMarketingServiceController::class, 'bulkSms'])->name('bulk-sms');
 
-Route::get('graphic-designing', [MobileMarketingServiceController::class, 'graphicDesigning'])->name('graphic-designing');
+Route::get('graphic-designing', [VisualDesigningServiceController::class, 'graphicDesigning'])->name('graphic-designing');
 
-Route::get('logo-designing',  [MobileMarketingServiceController::class, 'logoDesigning'])->name('logo-designing');
+Route::get('logo-designing',  [VisualDesigningServiceController::class, 'logoDesigning'])->name('logo-designing');
 
-Route::get('photography',  [MobileMarketingServiceController::class, 'photography'])->name('photography');
+Route::get('photography',  [VisualDesigningServiceController::class, 'photography'])->name('photography');
 
-Route::get('videography',  [MobileMarketingServiceController::class, 'videography'])->name('videography');
+Route::get('videography',  [VisualDesigningServiceController::class, 'videography'])->name('videography');
 
 Route::get('website-design-and-development', [WebsiteDevelopmentServiceController::class, 'websiteDesigAndDevelopment'])->name('website-design-and-development');
 
@@ -58,21 +60,13 @@ Route::get('wordpress-website-development',[WebsiteDevelopmentServiceController:
 
 Route::get('website-manintanance', [WebsiteDevelopmentServiceController::class, 'websiteManintanance'])->name('website-manintanance');
 
-Route::get('content-writing', function () {
-    return view('pages.Seo Content Writing');
-})->name('content-writing');
+Route::get('content-writing', [ContentCreationServiceController::class, 'contentWriting'])->name('content-writing');
 
-Route::get('blog-writing', function () {
-    return view('pages.Blog Writing');
-})->name('blog-writing');
+Route::get('blog-writing', [ContentCreationServiceController::class, 'blogWriting'])->name('blog-writing');
 
-Route::get('promotional-writing', function () {
-    return view('pages.Promotional Writing');
-})->name('promotional-writing');
+Route::get('promotional-writing',  [ContentCreationServiceController::class, 'promotionalWriting'])->name('promotional-writing');
 
-Route::get('copy-writing', function () {
-    return view('pages.Copywriting');
-})->name('copy-writing');
+Route::get('copy-writing', [ContentCreationServiceController::class, 'copyWriting'])->name('copy-writing');
 
 Livewire::setScriptRoute(function($handle) {
     return Route::get('/'. env('FILAMENT_PATH') . '/livewire/livewire.js', $handle);
