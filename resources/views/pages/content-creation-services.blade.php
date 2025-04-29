@@ -30,7 +30,7 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;">
             <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
             </h2>
             <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
@@ -67,7 +67,7 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;">
             <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
             </h2>
             <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">

@@ -7,7 +7,7 @@
         class="fade hero w-screen {{ \Request::route()->getName() == "social-media-marketing" ? 'h-[90vh]': 'h-[75vh]' }}  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
         <button
-            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] translate-x-[80%] max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-[80%]': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
             Talk to us
         </button>
     </section>
@@ -41,7 +41,8 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;
+">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
@@ -59,7 +60,7 @@
             </ul>
 
             <button
-                class="mt-10 max-[599px]:mt-3 min-[2550px]:text-[1.3vw] max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
+                class="mt-10 max-[599px]:mt-3 min-[2550px]:text-[1.3vw] max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold">
                 Contact Us
             </button>
         </div>
@@ -79,7 +80,8 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white " style="box-shadow: -16px 5px 33px 2px #00000014;
+">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">

@@ -42,7 +42,8 @@
     <!-- Main Navbar -->
     <nav
     id="mainNavbar"
-        class="w-full px-20 max-[1025px]:px-6 max-[599px]:px-4 py-4 min-[2550px]:py-6 flex justify-between items-center z-[9999] bg-[#F5F7FF]">
+        class="w-full px-20  max-[1025px]:px-6 max-[599px]:px-4 py-4 min-[2550px]:py-6 flex justify-between items-center z-[9999] bg-[#F5F7FF]" style="box-shadow: 0px 4px 12px 0px #0000001C;
+">
         <!-- Logo -->
         <div class="logo w-[13%] max-[1025px]:w-[20%] max-[599px]:w-1/2">
             <a href="{{route('home')}}"><img class="w-full h-full object-cover" src="./assets/images/Globalimages/logo.svg" alt=""></a>

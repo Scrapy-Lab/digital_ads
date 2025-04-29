@@ -30,7 +30,7 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white"  style="box-shadow: -16px 5px 33px 2px #00000014;">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
@@ -68,7 +68,7 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white">
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
@@ -94,42 +94,57 @@
 
     </section>
 
-    <!-- Why Digital Community Management Matters Section -->
-    <section class="fade w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20">
-        <!-- Heading -->
-        <div class="headings flex gap-2 items-center justify-start">
-            <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
-                work
-            </span>
-            <span
-                class="capitalize font-semibold text-white text-[3.5vw] max-[599px]:text-[9.5vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
-                Process
-            </span>
-        </div>
+    <!-- Why Digital Marketing Matters Section -->
+    <section class="w-full relative min-h-[180vh] max-[1025px]:min-h-[70vh] min-[2550px]:min-h-[140vh] px-4 min-[2550px]:px-60 flex flex-col items-center justify-center bg-[url('{{ asset('assets/images/Globalimages/why-digital.png') }}')] bg-cover bg-center text-white">
 
-        <!-- Description -->
-        <div class="description w-[80%] max-[599px]:w-full">
-            <p
-                class="text-[1.3vw] max-[599px]:text-[3.3vw] font-medium text-[#000B28] leading-[2.2vw] max-[599px]:leading-6 tracking-wide text-center">
-                Our Approach to Elevate Your Brand’s Digital Markeing Presence
-            </p>
-        </div>
+<!-- Heading -->
+<div class="text-center mb-12 absolute top-16 left-1/2 -translate-x-1/2 max-[599px]:top-20 max-[1025px]:top-10 max-[1025px]:px-4 max-[599px]:w-full min-[2550px]:top-32">
+  <h2 class="text-4xl max-[1025px]:text-3xl max-[599px]:text-2xl min-[2550px]:text-6xl text-black leading-[50px] max-[1025px]:leading-[40px] max-[599px]:leading-[30px] min-[2550px]:leading-[70px]">
+    Why <span class="font-bold">Digital Marketing</span> <br> Matters?
+  </h2>
+</div>
 
-        <!-- Image -->
-        <div class="w-full h-full overflow-hidden -mt-36 max-[1025px]:-mt-20 max-[599px]:-mt-10 max-[599px]:hidden">
-            <img class="w-full h-full object-cover object-center" src="./assets/images/Globalimages/Work process.png"
-                alt="What We Do" />
-        </div>
-        <div class="w-full h-full overflow-hidden hidden -mt-36 max-[1025px]:-mt-20 max-[599px]:-mt-10 max-[599px]:block">
-            <img class="w-full h-full object-cover object-center" src="./assets/images/Globalimages/With text.png"
-                alt="What We Do" />
-        </div>
+<!-- Cards Container -->
+<div class="max-w-7xl mx-auto px-32 max-[1025px]:px-10 max-[599px]:px-4 min-[2550px]:px-0 grid grid-cols-1 sm:grid-cols-2 gap-10 max-[1025px]:gap-8 max-[599px]:gap-6 -mt-20 max-[1025px]:-mt-16 max-[599px]:-mt-10 min-[2550px]:gap-16 min-[2550px]:-mt-32">
+
+  <!-- Card 1 -->
+  <div>
+    <h3 class="text-5xl font-bold text-[#003049] mb-2 max-[1025px]:text-3xl max-[599px]:text-2xl min-[2550px]:text-7xl">Increases Brand Awareness</h3>
+    <p class="text-gray-700 text-base max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-2xl">
+      With billions of users online, digital marketing helps businesses reach a much wider audience compared to traditional marketing. Through platforms like social media, search engines, and email marketing, your brand can stay visible and relevant to potential customers across different channels.
+    </p>
+  </div>
+
+  <!-- Card 2 -->
+  <div>
+    <h3 class="text-5xl font-bold text-[#003049] mb-2 max-[1025px]:text-3xl max-[599px]:text-2xl min-[2550px]:text-7xl">Cost-Effective Marketing</h3>
+    <p class="text-gray-700 text-base max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-2xl">
+      Unlike expensive TV, radio, or print ads, digital marketing provides more affordable solutions with measurable outcomes. Pay-per-click (PPC) advertising, social media promotions, and content marketing allow businesses of all sizes to market effectively without overspending.
+    </p>
+  </div>
+
+  <!-- Card 3 -->
+  <div>
+    <h3 class="text-5xl font-bold text-[#003049] mb-2 max-[1025px]:text-3xl max-[599px]:text-2xl min-[2550px]:text-7xl">Data-Driven Decision Making</h3>
+    <p class="text-gray-700 text-base max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-2xl">
+      One of the biggest advantages of digital marketing is real-time analytics. You can track website traffic, customer behavior, and campaign performance instantly. With data-driven insights, you can refine your strategies, improve conversions, and maximize ROI.
+    </p>
+  </div>
+
+  <!-- Card 4 -->
+  <div>
+    <h3 class="text-5xl font-bold text-[#003049] mb-2 max-[1025px]:text-3xl max-[599px]:text-2xl min-[2550px]:text-7xl">Precise Audience Targeting</h3>
+    <p class="text-gray-700 text-base max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-2xl">
+      Traditional advertising reaches a broad audience, but digital marketing allows you to target specific demographics based on age, interests, location, online behavior, and more. This ensures your marketing budget is spent on reaching the right people who are more likely to convert into customers.
+    </p>
+  </div>
+
+</div>
+</section>
 
 
-    </section>
-
-    <section class="fade relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-white overflow-hidden bg-cover max-[1025px]:bg-[90%] max-[599px]:bg-left"
-        style="background-image: url('./assets/images/Globalimages/FAQ.png');">
+    <section class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-black overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"
+        style="background-image: url('./assets/images/Globalimages/Faq2.png');">
 
         <div class="container min-[2550px]:w-[80vw] min-[2550px]:mx-10 mx-auto px-4 py-10 relative z-10">
             <div class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10 min-[2550px]:translate-x-[30%]">
@@ -151,11 +166,11 @@
                             <!-- FAQ Item 1 -->
                             <div class="border-b border-white border-opacity-20 pb-4">
                                 <button class="flex items-start gap-3 w-full text-left hover:no-underline faq-btn">
-                                    <span class="text-yellow-300 font-bold">0{{$i}}</span>
+                                    <span class="text-black font-bold">0{{$i}}</span>
                                     <span class="flex-1 font-semibold">{{ $faq['que'] }}</span>
-                                    <span class="text-yellow-300 transition-transform duration-200 faq-icon">+</span>
+                                    <span class="text-black transition-transform duration-200 faq-icon">+</span>
                                 </button>
-                                <div class="ml-8 text-white text-opacity-80 mt-2 hidden faq-content">
+                                <div class="ml-8 text-black text-opacity-80 mt-2 hidden faq-content">
                                     <p>{{ $faq['ans'] }}</p>
                                 </div>
                             </div>
@@ -171,27 +186,33 @@
 
     <!-- JavaScript for FAQ toggle -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const faqButtons = document.querySelectorAll('.faq-btn');
+    document.addEventListener('DOMContentLoaded', function () {
+        const faqButtons = document.querySelectorAll('.faq-btn');
 
-            faqButtons.forEach(button => {
-                button.addEventListener('click', function() {
+        faqButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('.faq-icon');
 
-                    const content = this.nextElementSibling;
+                // Close all other contents
+                faqButtons.forEach(btn => {
+                    const otherContent = btn.nextElementSibling;
+                    const otherIcon = btn.querySelector('.faq-icon');
 
-                    content.classList.toggle('hidden');
-
-                    // Change the + to - or vice versa
-                    const icon = this.querySelector('.faq-icon');
-                    if (content.classList.contains('hidden')) {
-                        icon.textContent = '+';
-                    } else {
-                        icon.textContent = '-';
+                    if (btn !== this) {
+                        otherContent.classList.add('hidden');
+                        if (otherIcon) otherIcon.textContent = '+';
                     }
                 });
+
+                // Toggle current content
+                content.classList.toggle('hidden');
+                icon.textContent = content.classList.contains('hidden') ? '+' : '-';
             });
         });
-    </script>
+    });
+</script>
+
 
     <!-- Teastimonials Section Starts Here -->
     <section class="fade w-full py-32 max-[599px]:py-10 overflow-hidden">
