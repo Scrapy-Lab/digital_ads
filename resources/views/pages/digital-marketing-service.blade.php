@@ -164,7 +164,7 @@
                         @endphp
                         @foreach ($data['faqs'] as $faq)
                             <!-- FAQ Item 1 -->
-                            <div class="border-b border-white border-opacity-20 pb-4">
+                            <div class="border-b border-black border-opacity-20 pb-4">
                                 <button class="flex items-start gap-3 w-full text-left hover:no-underline faq-btn">
                                     <span class="text-black font-bold">0{{$i}}</span>
                                     <span class="flex-1 font-semibold">{{ $faq['que'] }}</span>

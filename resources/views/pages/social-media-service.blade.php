@@ -140,7 +140,7 @@
 
     </section>
 
-    <section class="fade relative px-20 max-[599px]:px-4 text-white overflow-hidden bg-cover"
+    <section class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[599px]:px-4 text-white overflow-hidden bg-cover"
         style="background-image: url('./assets/images/Globalimages/FAQ.png');">
 
         <div class="container mx-auto px-4 py-10 relative z-10">
