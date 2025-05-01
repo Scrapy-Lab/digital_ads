@@ -19,147 +19,140 @@
     <!-- Company Section Starts Here -->
 
     <!-- Unlock Exceptional Growth Opportunities Section -->
-    <section class="flex flex-col lg:flex-row items-center justify-between py-12 max-[1025px]:py-6">
+    <section class="flex flex-col items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
-        <!-- Left Image Section -->
-        <div class="relative w-[40%] max-[1025px]:w-full">
-            <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-            <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
-        </div>
+<div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
+    
+    <!-- Left Image Section -->
+    <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
+        <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
+            class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
+        <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
+            class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
+    </div>
+    
 
-        <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;">
-            <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
-            </h2>
-            <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
-                {{ $data['section_1']['subtitle'] }}
-            </p>
+    <!-- Right Content Section -->
+    <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
+        <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
+            {{ $data['section_1']['title'] }}
+        </h2>
+        <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700 min-[2550px]:text-2xl">
+            {{ $data['section_1']['subtitle'] }}
+        </p>
 
-            <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw]">
-                @foreach ($data['section_1']['bullet_points'] as $point)
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p><strong>{{ $point }}</strong></p>
-                    </li>
-                @endforeach
+        <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw] min-[2550px]:text-2xl">
+            @foreach ($data['section_1']['bullet_points'] as $point)
+                <li class="flex items-start">
+                    <span class="text-blue-600 mt-1 mr-2">•</span>
+                    <p>{!! $point !!}</p>
+                </li>
+            @endforeach
+            <li class="flex items-start">
+                <span class="text-blue-600 mt-1 mr-2">•</span>
+                <p><strong>How to create and implement an effective Digital Markeing strategy?</strong></p>
+            </li>
+            <li class="flex items-start">
+                <span class="text-blue-600 mt-1 mr-2">•</span>
+                <p><strong>Which platforms are best suited for your industry?</strong></p>
+            </li>
+        </ul>
 
-            </ul>
+        <button class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold min-[2550px]:text-2xl min-[2550px]:px-14 min-[2550px]:py-4">
+            Contact Us
+        </button>
+    </div>
+</div>
 
-            <button
-                class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
-                Contact Us
-            </button>
-        </div>
-
-    </section>
+</section>
 
 
-    <!-- Understanding Digital Community Management Strategy Section -->
-    <section class="flex flex-col lg:flex-row-reverse items-center justify-between ">
+<!-- Understanding Digital Community Management Strategy Section -->
+<section class="flex flex-col lg:flex-row-reverse items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
-        <!-- Left Image Section -->
-        <div class="relative w-[40%] max-[1025px]:w-full">
-            <img src="{{ $data['section_2']['banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-            <img src="{{ $data['section_2']['mobile_banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
-        </div>
+<div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
+    
+    <!-- Left Image Section -->
+    <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
+        <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
+            {{ $data['section_2']['title'] }}
+        </h2>
+        <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700 min-[2550px]:text-2xl">
+            {{ $data['section_2']['subtitle'] }}
+        </p>
 
-        <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white"  style="box-shadow: -16px 5px 33px 2px #00000014;">
-            <h2 class="text-xl lg:text-3xl font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
-            </h2>
-            <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700">
-                {{ $data['section_2']['subtitle'] }}
-            </p>
+        <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw] min-[2550px]:text-2xl">
+            @foreach ($data['section_2']['bullet_points'] as $point)
+                <li class="flex items-start">
+                    <span class="text-blue-600 mt-1 mr-2">•</span>
+                    <p>{!! $point !!}</p>
+                </li>
+            @endforeach
+            <li class="flex items-start">
+                <span class="text-blue-600 mt-1 mr-2">•</span>
+                <p><strong>How to create and implement an effective Digital Markeing strategy?</strong></p>
+            </li>
+            <li class="flex items-start">
+                <span class="text-blue-600 mt-1 mr-2">•</span>
+                <p><strong>Which platforms are best suited for your industry?</strong></p>
+            </li>
+        </ul>
 
-            <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw]">
-                @foreach ($data['section_2']['bullet_points'] as $point)
-                    <li class="flex items-start">
-                        <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p>{!! $point !!}</p>
-                    </li>
-                @endforeach
-            </ul>
+        <button class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold min-[2550px]:text-2xl min-[2550px]:px-14 min-[2550px]:py-4">
+            Contact Us
+        </button>
+    </div>
 
-            <button
-                class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-6 py-2 rounded font-semibold">
-                Contact Us
-            </button>
-        </div>
+    <!-- Right Content Section -->
+    <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
+        <img src="{{ $data['section_2']['banner_img'] }}" alt="Community Management Visual"
+            class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
+        <img src="{{ $data['section_2']['mobile_banner_img'] }}" alt="Community Management Visual"
+            class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
+    </div>
+</div>
 
-    </section>
+</section>
 
     <!-- Why Digital Community Management Matters Section -->
-    <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10">
-        <!-- Heading -->
-        <div class="headings flex gap-2 items-center justify-start">
-            <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
-                work
-            </span>
-            <span
-                class="capitalize font-semibold text-white text-[3.5vw] max-[599px]:text-[9.5vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
-                Process
-            </span>
-        </div>
-
-        <!-- Description -->
-        <div class="description w-[80%] max-[599px]:w-full">
-            <p
-                class="text-[1.3vw] max-[599px]:text-[3.3vw] font-medium text-[#000B28] leading-[2.2vw] max-[599px]:leading-6 tracking-wide text-center">
-                Our Approach to Elevate Your Brand’s Digital Markeing Presence
-            </p>
-        </div>
-
-        <!-- Image -->
-        <div class="w-full h-full overflow-hidden -mt-36 max-[1025px]:-mt-20 max-[599px]:-mt-10 max-[599px]:hidden">
-            <img class="w-full h-full object-cover object-center" src="./assets/images/Globalimages/Work process.png"
-                alt="What We Do" />
-        </div>
-        <div class="w-full h-full overflow-hidden hidden -mt-36 max-[1025px]:-mt-20 max-[599px]:-mt-10 max-[599px]:block">
-            <img class="w-full h-full object-cover object-center" src="./assets/images/Globalimages/With text.png"
-                alt="What We Do" />
-        </div>
-
-
+    <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10 max-[599px]:mt-4">
+  
+<img src="/assets/images/Globalimages/dev.png" alt="">
     </section>
 
-    <section class="relative px-20 max-[599px]:px-4 text-white overflow-hidden bg-cover"
-        style="background-image: url('./assets/images/Globalimages/FAQ.png');">
+    <section class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-black overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"
+        style="background-image: url('./assets/images/Globalimages/Faq2.png');">
 
-        <div class="container mx-auto px-4 py-10 relative z-10">
-            <div class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10">
+        <div class="container min-[2550px]:w-[80vw] min-[2550px]:mx-10 mx-auto px-4 py-10 relative z-10">
+            <div class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10 min-[2550px]:translate-x-[30%]">
                 <span class="capitalize font-[500] text-[3.5vw] max-[599px]:text-[9.5vw]">Frequentle Asked</span>
                 <span
                     class="capitalize rounded-md text-white text-[3.5vw] max-[599px]:text-[9.5vw] font-[600] bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] px-2 py-2 leading-none text-center">
                     Questions</span>
             </div>
             <div
-                class="flex flex-col md:flex-row gap-10 items-center md:items-start max-[599px]:gap-5 max-[599px]:text-[3.5vw]">
+                class="flex flex-col md:flex-row gap-10 max-[1025px]:gap-4 items-center md:items-start max-[599px]:gap-5 max-[599px]:text-[3.5vw] min-[2550px]:text-[1.3vw]">
                 <!-- Right Image Section -->
                 <!-- Left Content - FAQ Items -->
-                <div class="md:w-[60%]">
+                <div class="md:w-[60%] w-full min-[2550px]:w-[80%]">
                     <div class="space-y-6 w-full">
-
                         @php
                             $i = 1;
                         @endphp
                         @foreach ($data['faqs'] as $faq)
                             <!-- FAQ Item 1 -->
-                            <div class="border-b border-white border-opacity-20 pb-4">
+                            <div class="border-b border-black border-opacity-20 pb-4">
                                 <button class="flex items-start gap-3 w-full text-left hover:no-underline faq-btn">
-                                    <span class="text-yellow-300 font-bold">0{{ $i }}</span>
+                                    <span class="text-black font-bold">0{{$i}}</span>
                                     <span class="flex-1 font-semibold">{{ $faq['que'] }}</span>
-                                    <span class="text-yellow-300 transition-transform duration-200 faq-icon">+</span>
+                                    <span class="text-black transition-transform duration-200 faq-icon">+</span>
                                 </button>
-                                <div class="ml-8 text-white text-opacity-80 mt-2 hidden faq-content">
+                                <div class="ml-8 text-black text-opacity-80 mt-2 hidden faq-content">
                                     <p>{{ $faq['ans'] }}</p>
                                 </div>
                             </div>
                             @php
-                                $i++;
+                                $i++
                             @endphp
                         @endforeach
                     </div>
@@ -170,27 +163,32 @@
 
     <!-- JavaScript for FAQ toggle -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const faqButtons = document.querySelectorAll('.faq-btn');
+    document.addEventListener('DOMContentLoaded', function () {
+        const faqButtons = document.querySelectorAll('.faq-btn');
 
-            faqButtons.forEach(button => {
-                button.addEventListener('click', function() {
+        faqButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('.faq-icon');
 
-                    const content = this.nextElementSibling;
+                // Close all other contents
+                faqButtons.forEach(btn => {
+                    const otherContent = btn.nextElementSibling;
+                    const otherIcon = btn.querySelector('.faq-icon');
 
-                    content.classList.toggle('hidden');
-
-                    // Change the + to - or vice versa
-                    const icon = this.querySelector('.faq-icon');
-                    if (content.classList.contains('hidden')) {
-                        icon.textContent = '+';
-                    } else {
-                        icon.textContent = '-';
+                    if (btn !== this) {
+                        otherContent.classList.add('hidden');
+                        if (otherIcon) otherIcon.textContent = '+';
                     }
                 });
+
+                // Toggle current content
+                content.classList.toggle('hidden');
+                icon.textContent = content.classList.contains('hidden') ? '+' : '-';
             });
         });
-    </script>
+    });
+</script>
 
     <!-- Teastimonials Section Starts Here -->
     <section class="w-full py-32 max-[599px]:py-10 overflow-hidden">

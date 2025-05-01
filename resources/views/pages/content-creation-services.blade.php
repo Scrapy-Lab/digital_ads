@@ -19,7 +19,7 @@
     <!-- Company Section Starts Here -->
 
     <!-- Unlock Exceptional Growth Opportunities Section -->
-    <section class="flex flex-col lg:flex-row items-center justify-between py-12 max-[1025px]:py-6">
+    <section class="flex flex-col lg:flex-row-reverse items-center justify-between py-12 max-[1025px]:py-6">
 
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full">
@@ -56,7 +56,7 @@
 
 
     <!-- Understanding Digital Community Management Strategy Section -->
-    <section class="flex flex-col lg:flex-row-reverse items-center justify-between ">
+    <section class="flex flex-col lg:flex-row items-center justify-between ">
 
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full">
@@ -94,33 +94,62 @@
     <!-- Why Digital Community Management Matters Section -->
     <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10">
         <!-- Heading -->
-        <div class="headings flex gap-2 items-center justify-start">
-            <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
-                work
-            </span>
-            <span
+        <div class="headings flex gap-2 flex-col items-center justify-center leading-tight">
+       <div>
+       <span
                 class="capitalize font-semibold text-white text-[3.5vw] max-[599px]:text-[9.5vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
-                Process
+                Why SEO
+            </span>
+            <span class="capitalize ml-2 font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
+                Content
+            </span>
+       </div>
+            <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
+                 Writing Matters?
             </span>
         </div>
 
-        <!-- Description -->
-        <div class="description w-[80%] max-[599px]:w-full">
-            <p
-                class="text-[1.3vw] max-[599px]:text-[3.3vw] font-medium text-[#000B28] leading-[2.2vw] max-[599px]:leading-6 tracking-wide text-center">
-                Our Approach to Elevate Your Brand’s Digital Markeing Presence
-            </p>
-        </div>
+        <div class="w-full h-full flex gap-10 px-20 py-32 text-[#1a1a1a] items-center justify-center relative 
+  max-[1025px]:px-10 max-[1025px]:py-24 max-[1025px]:gap-12 
+  max-[599px]:flex-col max-[599px]:px-6 max-[599px]:py-20 max-[599px]:gap-16
+  min-[2550px]:px-48 min-[2550px]:py-40 min-[2550px]:gap-20">
 
-        <!-- Image -->
-        <div class="w-full h-full overflow-hidden -mt-36 max-[1025px]:-mt-20 max-[599px]:-mt-10 max-[599px]:hidden">
-            <img class="w-full h-full object-cover object-center" src="./assets/images/Globalimages/Work process.png"
-                alt="What We Do" />
-        </div>
-        <div class="w-full h-full overflow-hidden hidden -mt-36 max-[1025px]:-mt-20 max-[599px]:-mt-10 max-[599px]:block">
-            <img class="w-full h-full object-cover object-center" src="./assets/images/Globalimages/With text.png"
-                alt="What We Do" />
-        </div>
+  <!-- Column 1 -->
+  <div class="flex flex-col items-start gap-6 justify-center 
+  max-[1025px]:items-center max-[1025px]:text-center
+  min-[2550px]:gap-10 min-[2550px]:text-[22px]">
+
+  <h4 class="text-2xl font-semibold min-[2550px]:text-5xl">Boosts Search Engine Visibility</h4>
+
+  <p class="text-md min-[2550px]:text-2xl">With millions of websites competing for attention, SEO content writing ensures your website stands out. By targeting the right keywords and optimizing content, you can rank higher on search engines like Google, making it easier for potential customers to find you.</p>
+</div>
+
+
+  <!-- Column 2 -->
+  <div class="flex flex-col items-start gap-6 justify-center max-[1025px]:items-center max-[1025px]:text-center">
+    <div>
+      <h4 class="text-2xl min-[2550px]:text-5xl font-semibold mb-4">Drives Long-Term Results</h4>
+      <p class="text-md min-[2550px]:text-2xl">Unlike paid ads, which stop generating traffic once the budget runs out, SEO content provides sustainable, long-term results. Well-optimized content continues to attract organic traffic months or even years after publication.</p>
+    </div>
+
+    <div class="border-[2.68px] border-[#7f7f7f] text-white px-4 py-6 rounded-2xl w-full" style="background: linear-gradient(180deg, #2A6CAE 0%, #112D48 100%);">
+      <h4 class="text-2xl min-[2550px]:text-5xl font-semibold mb-4">Builds Trust and Credibility</h4>
+      <p class="text-md min-[2550px]:text-2xl">High-quality, informative content establishes your brand as a trusted authority in your industry. When users find value in your content, they are more likely to trust your products or services.</p>
+    </div>
+
+    <div>
+      <h4 class="text-2xl min-[2550px]:text-5xl font-semibold mb-4">Cost-Effective Marketing Strategy</h4>
+      <p class="text-md min-[2550px]:text-2xl">Compared to traditional advertising, SEO content writing is a cost-effective way to reach your target audience. It eliminates the need for expensive ad campaigns while delivering measurable results.</p>
+    </div>
+  </div>
+
+  <!-- Column 3 -->
+  <div class="flex flex-col items-start gap-6 justify-center max-[1025px]:items-center max-[1025px]:text-center">
+    <h4 class="text-2xl min-[2550px]:text-5xl font-semibold">Enhances User Experience</h4>
+    <p class="text-md min-[2550px]:text-2xl">SEO content writing isn’t just about pleasing search engines—it’s about creating content that resonates with your audience. By addressing their pain points and answering their questions, you improve user experience and encourage repeat visits.</p>
+  </div>
+</div>
+
 
 
     </section>

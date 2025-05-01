@@ -12,27 +12,27 @@
                             class="flex flex-col gap-2 text-[1.2vw] max-[1025px]:text-[2.8vw] max-[599px]:text-[3.2vw] text-white">
                             <div>
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Head Office</li>
-                            <li class="cursor-pointer text-[1vw]">308, 3rd Floor, Pal Tower, Sikanderpur Gurgaon - 122001</li>
+                            <li class="cursor-pointer text-[1vw] max-[599px]:text-[3vw] max-[1025px]:text-[2.5vw]">308, 3rd Floor, Pal Tower, Sikanderpur Gurgaon - 122001</li>
                             </div>
                             <div>
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Branch</li>
-                            <li class="cursor-pointer text-[1vw]">Nathu Nadhe Corner, BRT Road, Near Empire Estate Bridge, Vijay Nagar, Kalewadi, Pune-17</li>
+                            <li class="cursor-pointer text-[1vw] max-[599px]:text-[3vw] max-[1025px]:text-[2.5vw]">Nathu Nadhe Corner, BRT Road, Near Empire Estate Bridge, Vijay Nagar, Kalewadi, Pune-17</li>
                             </div>
                             <div>
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Sales Gurgaon</li>
-                            <li class="cursor-pointer text-[1vw]">+91-9999-23-8892</li>
+                            <li class="cursor-pointer text-[1vw] max-[599px]:text-[3vw] max-[1025px]:text-[2.5vw]">+91-9999-23-8892</li>
                             </div>
                             <div>
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Sales Pune</li>
-                            <li class="cursor-pointer text-[1vw]">+91-9999-11-8947</li>
+                            <li class="cursor-pointer text-[1vw] max-[599px]:text-[3vw] max-[1025px]:text-[2.5vw]">+91-9999-11-8947</li>
                             </div>
                             <div>
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Support</li>
-                            <li class="cursor-pointer text-[1vw]">+91-9599064933</li>
+                            <li class="cursor-pointer text-[1vw] max-[599px]:text-[3vw] max-[1025px]:text-[2.5vw]">+91-9599064933</li>
                             </div>
                             <div>
                             <li class="text-[#FDFF85] uppercase font-semibold -tracking-normal">Email ID</li>
-                            <li class="cursor-pointer text-[1vw]">info@thedigitaladd.in</li>
+                            <li class="cursor-pointer text-[1vw] max-[599px]:text-[3vw] max-[1025px]:text-[2.5vw]">info@thedigitaladd.in</li>
                             </div>
                         </ul>
                     </div>
