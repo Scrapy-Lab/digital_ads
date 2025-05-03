@@ -21,182 +21,316 @@
     <!-- Unlock Exceptional Growth Opportunities Section -->
     <section class="flex flex-col items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
-<div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
-    
-    <!-- Left Image Section -->
-    <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
-        <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
-            class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-        <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
-            class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
-    </div>
-    
+        <div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20"
+            style="box-shadow: -16px 5px 33px 2px #00000014;">
 
-    <!-- Right Content Section -->
-    <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
-        <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
-            {{ $data['section_1']['title'] }}
-        </h2>
-        <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700 min-[2550px]:text-2xl">
-            {{ $data['section_1']['subtitle'] }}
-        </p>
+            <!-- Left Image Section -->
+            <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
+                <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
+                    class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
+                <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
+                    class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
+            </div>
 
-        <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw] min-[2550px]:text-2xl">
-            @foreach ($data['section_1']['bullet_points'] as $point)
-                <li class="flex items-start">
-                    <span class="text-blue-600 mt-1 mr-2">•</span>
-                    <p>{!! $point !!}</p>
-                </li>
-            @endforeach
-            <li class="flex items-start">
-                <span class="text-blue-600 mt-1 mr-2">•</span>
-                <p><strong>How to create and implement an effective Digital Markeing strategy?</strong></p>
-            </li>
-            <li class="flex items-start">
-                <span class="text-blue-600 mt-1 mr-2">•</span>
-                <p><strong>Which platforms are best suited for your industry?</strong></p>
-            </li>
-        </ul>
 
-        <button class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold min-[2550px]:text-2xl min-[2550px]:px-14 min-[2550px]:py-4">
-            Contact Us
-        </button>
-    </div>
-</div>
+            <!-- Right Content Section -->
+            <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
+                <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
+                    {{ $data['section_1']['title'] }}
+                </h2>
+                <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700 min-[2550px]:text-2xl">
+                    {{ $data['section_1']['subtitle'] }}
+                </p>
 
-</section>
+                <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw] min-[2550px]:text-2xl">
+                    @foreach ($data['section_1']['bullet_points'] as $point)
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mt-1 mr-2">•</span>
+                            <p>{!! $point !!}</p>
+                        </li>
+                    @endforeach
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mt-1 mr-2">•</span>
+                        <p><strong>How to create and implement an effective Digital Markeing strategy?</strong></p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mt-1 mr-2">•</span>
+                        <p><strong>Which platforms are best suited for your industry?</strong></p>
+                    </li>
+                </ul>
+
+                <button
+                    class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold min-[2550px]:text-2xl min-[2550px]:px-14 min-[2550px]:py-4">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+
+    </section>
 
 
     <!-- Understanding Digital Community Management Strategy Section -->
     <section class="flex flex-co items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
-<div class="flex items-center flex-row-reverse justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
+        <div class="flex items-center flex-row-reverse justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20"
+            style="box-shadow: -16px 5px 33px 2px #00000014;">
+
+            <!-- Left Image Section -->
+            <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
+                <img src="{{ $data['section_2']['banner_img'] }}" alt="Community Management Visual"
+                    class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
+                <img src="{{ $data['section_2']['mobile_banner_img'] }}" alt="Community Management Visual"
+                    class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
+            </div>
+
+
+            <!-- Right Content Section -->
+            <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
+                <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
+                    {{ $data['section_2']['title'] }}
+                </h2>
+                <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700 min-[2550px]:text-2xl">
+                    {{ $data['section_2']['subtitle'] }}
+                </p>
+
+                <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw] min-[2550px]:text-2xl">
+                    @foreach ($data['section_2']['bullet_points'] as $point)
+                        <li class="flex items-start">
+                            <span class="text-blue-600 mt-1 mr-2">•</span>
+                            <p>{!! $point !!}</p>
+                        </li>
+                    @endforeach
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mt-1 mr-2">•</span>
+                        <p><strong>How to create and implement an effective Digital Markeing strategy?</strong></p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-blue-600 mt-1 mr-2">•</span>
+                        <p><strong>Which platforms are best suited for your industry?</strong></p>
+                    </li>
+                </ul>
+
+                <button
+                    class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold min-[2550px]:text-2xl min-[2550px]:px-14 min-[2550px]:py-4">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    @if (\Request::route()->getName() == 'bulk-sms')
     
-    <!-- Left Image Section -->
-    <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
-        <img src="{{ $data['section_2']['banner_img'] }}" alt="Community Management Visual"
-            class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg">
-        <img src="{{ $data['section_2']['mobile_banner_img'] }}" alt="Community Management Visual"
-            class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
-    </div>
-    
+    <section class="px-10 py-20 max-[1025px]:px-6 max-[1025px]:py-14 max-[599px]:px-4 max-[599px]:py-10 min-[2550px]:px-32 min-[2550px]:py-28">
+        <!-- Title -->
+        <div class="headings text-center flex gap-2 max-[1025px]:gap-1 max-[599px]:gap-0 max-[599px]:flex-col items-center justify-center mb-20 max-[1025px]:mb-14 max-[599px]:mb-10">
+          <span class="capitalize font-medium text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[9.5vw] min-[2550px]:text-[2.5vw] text-[#000B28]">
+            Bulk
+          </span>
+          <span class="capitalize font-semibold text-white text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[9.5vw] min-[2550px]:text-[2.5vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
+            Services
+          </span>
+        </div>
+      
+        <!-- Cards -->
+        <div class="flex flex-col items-center justify-center pb-10 pt-5">
+          <div class="flex flex-col md:flex-row p-4 max-[1025px]:p-2 max-[599px]:p-0 items-end">
+            <!-- Card 1 -->
+            <div class="w-[30%] max-[1025px]:w-full h-[40vh] max-[599px]:w-full text-white p-6 rounded-l-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
+              style="background: linear-gradient(124.71deg, #4F92F1 -3.35%, #4F92F1 21.96%, #2E548B 137.49%);">
+              <div class="flex items-center justify-center mb-4 border-2 bg-[#366AB4] w-fit rounded-xl p-4 min-[2550px]:p-6">
+                <img src="/assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
+              </div>
+              <h2 class="text-2xl min-[2550px]:text-6xl font-medium mb-2">Promotional SMS</h2>
+              <p class="text-sm min-[2550px]:text-2xl leading-[2]">
+                Securing your data and keeping it safe is a top priority and building an unbreachable API for bulk SMS management is the first step towards it.
+              </p>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="w-[30%] max-[1025px]:w-full h-[45vh] max-[599px]:w-full text-white p-6 rounded-t-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
+              style="background: linear-gradient(120.22deg, #F27B12 44.71%, #FFC71E 128.81%);">
+              <div class="flex items-center justify-center mb-4 border-2 w-fit rounded-xl p-4 min-[2550px]:p-6">
+                <img src="/assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
+              </div>
+              <h2 class="text-2xl min-[2550px]:text-6xl font-medium mb-2">Transactional SMS</h2>
+              <p class="text-sm min-[2550px]:text-2xl leading-[2]">
+                Securing your data and keeping it safe is a top priority and building an unbreachable API for bulk SMS management is the first step towards it.
+              </p>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="w-[30%] max-[1025px]:w-full h-[40vh] max-[599px]:w-full text-white p-6 rounded-r-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
+              style="background: linear-gradient(124.71deg, #4F92F1 -3.35%, #4F92F1 21.96%, #2E548B 137.49%);">
+              <div class="flex items-center justify-center mb-4 border-2 bg-[#366AB4] w-fit rounded-xl p-4 min-[2550px]:p-6">
+                <img src="/assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
+              </div>
+              <h2 class="text-2xl min-[2550px]:text-6xl font-medium mb-2">OTP Services</h2>
+              <p class="text-sm min-[2550px]:text-2xl leading-[2]">
+                Securing your data and keeping it safe is a top priority and building an unbreachable API for bulk SMS management is the first step towards it.
+              </p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Bulk Voice SMS Section -->
+        <div class="grid md:grid-cols-2 gap-10 items-center max-w-7xl min-[2550px]:max-w-full mx-auto px-6 max-[1025px]:px-4 max-[599px]:grid-cols-1 max-[599px]:px-4 max-[599px]:text-center min-[2550px]:gap-20">
+          <!-- Left Content -->
+          <div>
+            <h3 class="text-3xl min-[2550px]:text-7xl font-semibold mb-4 w-[80%] max-[1025px]:w-full max-[599px]:w-full">
+              Fuel Business Growth With Bulk Voice SMS
+            </h3>
+            <p class="text-md min-[2550px]:text-3xl w-[80%] max-[1025px]:w-full max-[599px]:w-full leading-relaxed">
+              Voice SMS marketing is an effective way to generate sales, especially when combined with other forms of SMS marketing.
+              In a variety of business domains, it is becoming essential. Studies show that bulk SMS marketing led to increased leads.
+              According to research from G2, bulk SMS marketing can increase ROI by 20% or more, higher customer lifetime value and a 15–20 percent lift in response rates.
+              Voice SMS marketing can be used to send one-to-one personalized messages to customers’ phones. This form of SMS marketing is especially powerful when it is personalized and custom-tailored to the individual customer.
+            </p>
+          </div>
+      
+          <!-- Right Image -->
+          <div class="flex justify-center max-[599px]:mt-6">
+            <img src="/assets/images/Globalimages/bulk-service.png" alt="Bulk Voice SMS" class="max-w-full h-auto min-[2550px]:w-[80%]">
+          </div>
+        </div>
+      </section>
+      
+      
+    @endif
 
-    <!-- Right Content Section -->
-    <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
-        <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
-            {{ $data['section_2']['title'] }}
-        </h2>
-        <p class="mb-6 max-[599px]:mb-3 max-[599px]:text-[3.2vw] text-gray-700 min-[2550px]:text-2xl">
-            {{ $data['section_2']['subtitle'] }}
-        </p>
+    @if (\Request::route()->getName() == 'whatsapp-marketing')
+        <section class="max-w-7xl mx-auto flex flex-col items-center gap-6">
+            <!-- Heading -->
+            <div
+                class="headings flex gap-2 items-center justify-center text-center max-[1025px]:flex-col max-[1025px]:items-start max-[1025px]:px-6 max-[599px]:px-4 min-[2550px]:gap-10 min-[2550px]:px-20">
+                <span
+                    class="capitalize font-medium text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[6vw] min-[2550px]:text-[2.2vw]">
+                    Explore our
+                </span>
+                <span
+                    class="capitalize font-semibold text-white text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[6vw] min-[2550px]:text-[2.2vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
+                    tools
+                </span>
+            </div>
 
-        <ul class="space-y-4 text-gray-800 max-[599px]:text-[3.2vw] min-[2550px]:text-2xl">
-            @foreach ($data['section_2']['bullet_points'] as $point)
-                <li class="flex items-start">
-                    <span class="text-blue-600 mt-1 mr-2">•</span>
-                    <p>{!! $point !!}</p>
-                </li>
-            @endforeach
-            <li class="flex items-start">
-                <span class="text-blue-600 mt-1 mr-2">•</span>
-                <p><strong>How to create and implement an effective Digital Markeing strategy?</strong></p>
-            </li>
-            <li class="flex items-start">
-                <span class="text-blue-600 mt-1 mr-2">•</span>
-                <p><strong>Which platforms are best suited for your industry?</strong></p>
-            </li>
-        </ul>
-
-        <button class="mt-6 max-[599px]:mt-3 max-[599px]:text-[3.2vw] border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition px-10 py-2 rounded font-semibold min-[2550px]:text-2xl min-[2550px]:px-14 min-[2550px]:py-4">
-            Contact Us
-        </button>
-    </div>
-</div>
-
-</section>
+            <!-- Description -->
+            <div class="description w-[75%] max-[599px]:w-full text-center">
+                <p
+                    class="text-[2vw] max-[599px]:text-[5vw] font-medium text-[#000B28] leading-[2.2vw] max-[599px]:leading-6 tracking-wide text-center">
+                    Drive Marketing, Sales & Support interactions on the World’s most popular social platforms
+                </p>
+            </div>
+            <button
+                class="capitalize font-semibold text-white text-[1.5vw] max-[1025px]:text-[3vw] max-[599px]:text-[4vw] min-[2550px]:text-[1.2vw] px-10 py-3 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
+                Book a Demo
+            </button>
+            
+            <img src="/assets/images/Globalimages/tool.png" alt="">
+        </section>
+    @endif
 
     <!-- Why Digital Community Management Matters Section -->
-    <section class="w-full flex flex-col items-center max-[1025px]:gap-6 max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10 max-[599px]:mt-8 min-[2550px]:mt-32">
-  <!-- Heading -->
-  <div class="headings flex gap-2 items-center justify-start max-[1025px]:flex-col max-[1025px]:items-start max-[1025px]:px-6 max-[599px]:px-4 min-[2550px]:gap-10 min-[2550px]:px-20">
-    <span class="capitalize font-medium text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[6vw] min-[2550px]:text-[2.2vw]">
-      Customize SMS Based On
-    </span>
-    <span
-      class="capitalize font-semibold text-white text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[6vw] min-[2550px]:text-[2.2vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
-      Customer Preferences
-    </span>
-  </div>
-
-  <div class="flex flex-wrap justify-center gap-6 max-w-6xl min-[2550px]:max-w-full mx-auto mt-10 max-[1025px]:px-6 max-[599px]:px-4 min-[2550px]:gap-10 min-[2550px]:mt-16">
-    
-    <!-- Card 1 -->
-    <div
-      class="w-full md:w-[70%] h-[45vh] max-[1025px]:h-auto max-[599px]:h-auto min-[2550px]:h-[38vh] text-white rounded-3xl px-10 max-[1025px]:px-6 max-[599px]:px-5 min-[2550px]:px-20 pt-10 pb-20 relative overflow-hidden"
-      style="background: linear-gradient(120deg, #4F92F1, #2E548B);">
-      <div class="z-10 relative">
-        <div class="flex items-center gap-2 mb-6">
-          <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16" src="/assets/images/Globalimages/mobilesvg1.svg" alt="">
+    <section
+        class="w-full flex flex-col items-center max-[1025px]:gap-6 max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10 max-[599px]:mt-8 min-[2550px]:mt-32">
+        <!-- Heading -->
+        <div
+            class="headings flex gap-2 items-center justify-start max-[1025px]:flex-col max-[1025px]:items-start max-[1025px]:px-6 max-[599px]:px-4 min-[2550px]:gap-10 min-[2550px]:px-20">
+            <span
+                class="capitalize font-medium text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[6vw] min-[2550px]:text-[2.2vw]">
+                Customize SMS Based On
+            </span>
+            <span
+                class="capitalize font-semibold text-white text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[6vw] min-[2550px]:text-[2.2vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
+                Customer Preferences
+            </span>
         </div>
-        <h2 class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">01. It’s quick and easy</h2>
-        <p class="text-white/90 text-[1.3vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[4vw] min-[2550px]:text-[0.95vw] font-[400] w-[70%] max-[1025px]:w-full">
-          Sending a text message is quicker than emailing someone or ringing them on the phone, so you can respond quickly to any questions or concerns.
-        </p>
-      </div>
-      <div class="absolute right-0 top-0 w-32 h-full md:w-[50%] md:h-full max-[1025px]:w-full min-[2550px]:w-[45%]">
-        <img src="/assets/images/Globalimages/mobile1.png" alt="decoration"
-          class="w-full h-full object-cover mix-blend-luminosity" />
-      </div>
-    </div>
 
-    <!-- Card 2 -->
-    <div
-      class="w-full md:w-[48%] h-[45vh] max-[1025px]:h-auto max-[599px]:h-auto min-[2550px]:h-[38vh] text-white rounded-3xl px-10 max-[1025px]:px-6 max-[599px]:px-5 min-[2550px]:px-14 pt-10 pb-20 relative overflow-hidden"
-      style="background: linear-gradient(120deg, #4F92F1, #2E548B);">
-      <div class="z-10 relative">
-        <div class="flex items-center gap-2 mb-6">
-          <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16" src="/assets/images/Globalimages/mobilesvg1.svg" alt="">
-        </div>
-        <h2 class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">02. It’s flexible</h2>
-        <p class="text-white/90 text-[1.3vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[4vw] min-[2550px]:text-[0.95vw] font-[400] w-[70%] max-[1025px]:w-full">
-          You can send text messages to anyone with an SMS-enabled phone, regardless of whether they have previously bought from you or not.
-        </p>
-      </div>
-      <div class="absolute right-0 top-0 w-32 h-full md:w-[70%] md:h-full max-[1025px]:w-full min-[2550px]:w-[60%]">
-        <img src="/assets/images/Globalimages/mobile2.png" alt="decoration"
-          class="w-full h-full object-cover mix-blend-luminosity" />
-      </div>
-    </div>
+        <div
+            class="flex flex-wrap justify-center gap-6 max-w-6xl min-[2550px]:max-w-full mx-auto mt-10 max-[1025px]:px-6 max-[599px]:px-4 min-[2550px]:gap-10 min-[2550px]:mt-16">
 
-    <!-- Card 3 -->
-    <div
-      class="w-full md:w-[48%] h-[45vh] max-[1025px]:h-auto max-[599px]:h-auto min-[2550px]:h-[38vh] text-white rounded-3xl px-10 max-[1025px]:px-6 max-[599px]:px-5 min-[2550px]:px-14 pt-10 pb-20 relative overflow-hidden"
-      style="background: linear-gradient(120deg, #4F92F1, #2E548B);">
-      <div class="z-10 relative">
-        <div class="flex items-center gap-2 mb-6">
-          <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16" src="/assets/images/Globalimages/mobilesvg2.svg" alt="">
+            <!-- Card 1 -->
+            <div class="w-full md:w-[70%] h-[45vh] max-[1025px]:h-auto max-[599px]:h-auto min-[2550px]:h-[38vh] text-white rounded-3xl px-10 max-[1025px]:px-6 max-[599px]:px-5 min-[2550px]:px-20 pt-10 pb-20 relative overflow-hidden"
+                style="background: linear-gradient(120deg, #4F92F1, #2E548B);">
+                <div class="z-10 relative">
+                    <div class="flex items-center gap-2 mb-6">
+                        <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16"
+                            src="/assets/images/Globalimages/mobilesvg1.svg" alt="">
+                    </div>
+                    <h2
+                        class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">
+                        01. It’s quick and easy</h2>
+                    <p
+                        class="text-white/90 text-[1.3vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[4vw] min-[2550px]:text-[0.95vw] font-[400] w-[70%] max-[1025px]:w-full">
+                        Sending a text message is quicker than emailing someone or ringing them on the phone, so you can
+                        respond quickly to any questions or concerns.
+                    </p>
+                </div>
+                <div
+                    class="absolute right-0 top-0 w-32 h-full md:w-[50%] md:h-full max-[1025px]:w-full min-[2550px]:w-[45%]">
+                    <img src="/assets/images/Globalimages/mobile1.png" alt="decoration"
+                        class="w-full h-full object-cover mix-blend-luminosity" />
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="w-full md:w-[48%] h-[45vh] max-[1025px]:h-auto max-[599px]:h-auto min-[2550px]:h-[38vh] text-white rounded-3xl px-10 max-[1025px]:px-6 max-[599px]:px-5 min-[2550px]:px-14 pt-10 pb-20 relative overflow-hidden"
+                style="background: linear-gradient(120deg, #4F92F1, #2E548B);">
+                <div class="z-10 relative">
+                    <div class="flex items-center gap-2 mb-6">
+                        <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16"
+                            src="/assets/images/Globalimages/mobilesvg1.svg" alt="">
+                    </div>
+                    <h2
+                        class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">
+                        02. It’s flexible</h2>
+                    <p
+                        class="text-white/90 text-[1.3vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[4vw] min-[2550px]:text-[0.95vw] font-[400] w-[70%] max-[1025px]:w-full">
+                        You can send text messages to anyone with an SMS-enabled phone, regardless of whether they have
+                        previously bought from you or not.
+                    </p>
+                </div>
+                <div
+                    class="absolute right-0 top-0 w-32 h-full md:w-[70%] md:h-full max-[1025px]:w-full min-[2550px]:w-[60%]">
+                    <img src="/assets/images/Globalimages/mobile2.png" alt="decoration"
+                        class="w-full h-full object-cover mix-blend-luminosity" />
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="w-full md:w-[48%] h-[45vh] max-[1025px]:h-auto max-[599px]:h-auto min-[2550px]:h-[38vh] text-white rounded-3xl px-10 max-[1025px]:px-6 max-[599px]:px-5 min-[2550px]:px-14 pt-10 pb-20 relative overflow-hidden"
+                style="background: linear-gradient(120deg, #4F92F1, #2E548B);">
+                <div class="z-10 relative">
+                    <div class="flex items-center gap-2 mb-6">
+                        <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16"
+                            src="/assets/images/Globalimages/mobilesvg2.svg" alt="">
+                    </div>
+                    <h2
+                        class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">
+                        03. It’s personal</h2>
+                    <p
+                        class="text-white/90 text-[1.3vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[4vw] min-[2550px]:text-[0.95vw] font-[400] w-[70%] max-[1025px]:w-full">
+                        Text messages are sent directly by you to the person you’re targeting, which makes them feel more
+                        valued and special.
+                    </p>
+                </div>
+                <div
+                    class="absolute right-0 top-0 w-32 h-full md:w-[80%] md:h-full max-[1025px]:w-full min-[2550px]:w-[60%]">
+                    <img src="/assets/images/Globalimages/mobile3.png" alt="decoration"
+                        class="w-full h-full object-cover mix-blend-luminosity" />
+                </div>
+            </div>
         </div>
-        <h2 class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">03. It’s personal</h2>
-        <p class="text-white/90 text-[1.3vw] max-[1025px]:text-[2.5vw] max-[599px]:text-[4vw] min-[2550px]:text-[0.95vw] font-[400] w-[70%] max-[1025px]:w-full">
-          Text messages are sent directly by you to the person you’re targeting, which makes them feel more valued and special.
-        </p>
-      </div>
-      <div class="absolute right-0 top-0 w-32 h-full md:w-[80%] md:h-full max-[1025px]:w-full min-[2550px]:w-[60%]">
-        <img src="/assets/images/Globalimages/mobile3.png" alt="decoration"
-          class="w-full h-full object-cover mix-blend-luminosity" />
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
 
 
     <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative my-20 max-[1025px]:my-10">
         <!-- Heading -->
-        <div class="headings flex gap-2 max-[599px]:gap-0 max-[599px]:flex-col items-center justify-start mb-20 max-[599px]:mb-10">
+        <div
+            class="headings flex gap-2 max-[599px]:gap-0 max-[599px]:flex-col items-center justify-start mb-20 max-[599px]:mb-10">
             <span class="capitalize font-medium text-[3.5vw] max-[599px]:text-[9.5vw] text-[#000B28]">
-            Flow chart
+                Flow chart
             </span>
             <span
                 class="capitalize font-semibold text-white text-[3.5vw] max-[599px]:text-[9.5vw] px-3 py-1 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
@@ -204,15 +338,127 @@
             </span>
         </div>
 
-<img src="/assets/images/Globalimages/flowchart.png" alt="">
+        <img src="/assets/images/Globalimages/flowchart.png" alt="">
 
     </section>
 
-    <section class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-black overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"
+    @if (\Request::route()->getName() == 'bulk-sms')
+    <section class="min-h-screen max-[1025px]:min-h-[50vh] flex items-center justify-center flex-col px-10 py-20 bg-[url(assets/images/Globalimages/bulk-sms-bg.png)] bg-cover bg-center max-[1025px]:py-14 max-[599px]:py-10 max-[599px]:px-4 min-[2550px]:px-72 min-[2550px]:py-36">
+
+        <h2 class="text-center text-5xl text-white font-bold mb-16 max-[1025px]:text-3xl max-[599px]:text-xl max-[599px]:leading-snug min-[2550px]:text-7xl min-[2550px]:mb-24">
+          There’s <span class="text-white">No Limit To</span> <span class="text-yellow-400">Its Utility</span>
+        </h2>
+      
+        <div class="bg-opacity-20 rounded-2xl backdrop-blur-md shadow-xl max-w-6xl min-[2550px]:max-w-full w-full border overflow-hidden min-[2550px]:max-w-7xl min-[2550px]:rounded-[2.5rem]">
+      
+          <!-- Tabs -->
+          <div class="flex flex-wrap justify-center gap-4 bg-[#00204E] text-white px-8 py-4 max-[1025px]:px-4 max-[599px]:px-2 max-[599px]:gap-2 min-[2550px]:px-16 min-[2550px]:py-8 min-[2550px]:gap-6">
+            <button onclick="switchTab('bulk')" id="tab-bulk"
+              class="px-4 py-2 rounded-md text-sm font-medium text-black bg-white transition max-[1025px]:text-xs max-[1025px]:px-3 max-[1025px]:py-1.5 max-[599px]:text-xs max-[599px]:px-2 max-[599px]:py-1 min-[2550px]:text-3xl min-[2550px]:px-6 min-[2550px]:py-3">
+              Send Bulk Alerts
+            </button>
+            <button onclick="switchTab('2fa')" id="tab-2fa"
+              class="px-4 py-2 rounded-md text-sm font-medium transition max-[1025px]:text-xs max-[1025px]:px-3 max-[1025px]:py-1.5 max-[599px]:text-xs max-[599px]:px-2 max-[599px]:py-1 min-[2550px]:text-3xl min-[2550px]:px-6 min-[2550px]:py-3">
+              Two-Factor Authentication
+            </button>
+            <button onclick="switchTab('auto')" id="tab-auto"
+              class="px-4 py-2 rounded-md text-sm font-medium transition max-[1025px]:text-xs max-[1025px]:px-3 max-[1025px]:py-1.5 max-[599px]:text-xs max-[599px]:px-2 max-[599px]:py-1 min-[2550px]:text-3xl min-[2550px]:px-6 min-[2550px]:py-3">
+              Automate Notifications
+            </button>
+            <button onclick="switchTab('engage')" id="tab-engage"
+              class="px-4 py-2 rounded-md text-sm font-medium transition max-[1025px]:text-xs max-[1025px]:px-3 max-[1025px]:py-1.5 max-[599px]:text-xs max-[599px]:px-2 max-[599px]:py-1 min-[2550px]:text-3xl min-[2550px]:px-6 min-[2550px]:py-3">
+              Engage Customers
+            </button>
+          </div>
+      
+          <!-- Content -->
+          <div class="grid md:grid-cols-2 gap-8 items-center px-16 py-6 text-white max-[1025px]:px-8 max-[1025px]:gap-6 max-[599px]:grid-cols-1 max-[599px]:px-4 max-[599px]:gap-6 min-[2550px]:gap-16 min-[2550px]:px-24 min-[2550px]:py-14">
+      
+            <!-- Left: Content -->
+            <div>
+              <!-- Bulk -->
+              <div id="content-bulk">
+                <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Send Bulk Alerts</h3>
+                <p class="mb-4 text-md text-gray-200 max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-3xl">Save time and human resources by automating notifications...</p>
+                <ul class="list-disc list-inside text-gray-300 space-y-2 text-sm max-[1025px]:text-xs max-[599px]:text-xs min-[2550px]:text-2xl">
+                  <li><span class="text-white font-medium">Logistics</span> — Inform customers...</li>
+                  <li><span class="text-white font-medium">Travel</span> — Send ticket and check-in details...</li>
+                  <li><span class="text-white font-medium">Banking</span> — Alert your customers...</li>
+                </ul>
+              </div>
+      
+              <!-- 2FA -->
+              <div id="content-2fa" class="hidden">
+                <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Two-Factor Authentication</h3>
+                <p class="mb-4 text-md text-gray-200 max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-3xl">Add an extra layer of security...</p>
+                <ul class="list-disc list-inside text-gray-300 space-y-2 text-sm max-[1025px]:text-xs max-[599px]:text-xs min-[2550px]:text-2xl">
+                  <li><span class="text-white font-medium">Banking Apps</span> — Secure logins...</li>
+                  <li><span class="text-white font-medium">E-commerce</span> — Confirm identity...</li>
+                  <li><span class="text-white font-medium">SaaS Platforms</span> — Ensure only authorized access...</li>
+                </ul>
+              </div>
+      
+              <!-- Auto -->
+              <div id="content-auto" class="hidden">
+                <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Automate Notifications</h3>
+                <p class="mb-4 text-md text-gray-200 max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-3xl">Automatically notify customers based on actions...</p>
+                <ul class="list-disc list-inside text-gray-300 space-y-2 text-sm max-[1025px]:text-xs max-[599px]:text-xs min-[2550px]:text-2xl">
+                  <li><span class="text-white font-medium">Order Updates</span> — Automatically notify...</li>
+                  <li><span class="text-white font-medium">Reminders</span> — Send payment due dates...</li>
+                  <li><span class="text-white font-medium">Event Triggers</span> — Notify users when specific events happen...</li>
+                </ul>
+              </div>
+      
+              <!-- Engage -->
+              <div id="content-engage" class="hidden">
+                <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Engage Customers</h3>
+                <p class="mb-4 text-md text-gray-200 max-[1025px]:text-sm max-[599px]:text-sm min-[2550px]:text-3xl">Reach out to customers with promotional content...</p>
+                <ul class="list-disc list-inside text-gray-300 space-y-2 text-sm max-[1025px]:text-xs max-[599px]:text-xs min-[2550px]:text-2xl">
+                  <li><span class="text-white font-medium">Retail</span> — Announce sales, discounts...</li>
+                  <li><span class="text-white font-medium">Food Chains</span> — Send out coupon codes...</li>
+                  <li><span class="text-white font-medium">Ed-Tech</span> — Share webinar updates...</li>
+                </ul>
+              </div>
+            </div>
+      
+            <!-- Right: Image -->
+            <div class="flex justify-center">
+              <img src="/assets/images/Globalimages/utility.png" alt="" class="w-full max-w-xs max-[1025px]:max-w-[220px] max-[599px]:max-w-[200px] min-[2550px]:max-w-lg">
+            </div>
+      
+          </div>
+        </div>
+        <!-- JavaScript for Tabs -->
+        <script>
+          const tabs = ['bulk', '2fa', 'auto', 'engage'];
+          function switchTab(activeId) {
+            tabs.forEach(id => {
+              const content = document.getElementById(`content-${id}`);
+              const tabBtn = document.getElementById(`tab-${id}`);
+              if (id === activeId) {
+                content.classList.remove('hidden');
+                tabBtn.classList.remove('bg-[#00204E]', 'text-white');
+                tabBtn.classList.add('bg-white', 'text-black');
+              } else {
+                content.classList.add('hidden');
+                tabBtn.classList.remove('bg-white', 'text-black');
+                tabBtn.classList.add('bg-[#00204E]', 'text-white');
+              }
+            });
+          }
+        </script>
+      
+      </section>
+      
+    @endif
+
+    <section
+        class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-black overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"
         style="background-image: url('./assets/images/Globalimages/Faq2.png');">
 
         <div class="container min-[2550px]:w-[80vw] min-[2550px]:mx-10 mx-auto px-4 py-10 relative z-10">
-            <div class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10 min-[2550px]:translate-x-[30%]">
+            <div
+                class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10 min-[2550px]:translate-x-[30%]">
                 <span class="capitalize font-[500] text-[3.5vw] max-[599px]:text-[9.5vw]">Frequentle Asked</span>
                 <span
                     class="capitalize rounded-md text-white text-[3.5vw] max-[599px]:text-[9.5vw] font-[600] bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] px-2 py-2 leading-none text-center">
@@ -231,7 +477,7 @@
                             <!-- FAQ Item 1 -->
                             <div class="border-b border-black border-opacity-20 pb-4">
                                 <button class="flex items-start gap-3 w-full text-left hover:no-underline faq-btn">
-                                    <span class="text-black font-bold">0{{$i}}</span>
+                                    <span class="text-black font-bold">0{{ $i }}</span>
                                     <span class="flex-1 font-semibold">{{ $faq['que'] }}</span>
                                     <span class="text-black transition-transform duration-200 faq-icon">+</span>
                                 </button>
@@ -240,7 +486,7 @@
                                 </div>
                             </div>
                             @php
-                                $i++
+                                $i++;
                             @endphp
                         @endforeach
                     </div>
@@ -251,32 +497,32 @@
 
     <!-- JavaScript for FAQ toggle -->
     <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const faqButtons = document.querySelectorAll('.faq-btn');
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqButtons = document.querySelectorAll('.faq-btn');
 
-        faqButtons.forEach(button => {
-            button.addEventListener('click', function () {
-                const content = this.nextElementSibling;
-                const icon = this.querySelector('.faq-icon');
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('.faq-icon');
 
-                // Close all other contents
-                faqButtons.forEach(btn => {
-                    const otherContent = btn.nextElementSibling;
-                    const otherIcon = btn.querySelector('.faq-icon');
+                    // Close all other contents
+                    faqButtons.forEach(btn => {
+                        const otherContent = btn.nextElementSibling;
+                        const otherIcon = btn.querySelector('.faq-icon');
 
-                    if (btn !== this) {
-                        otherContent.classList.add('hidden');
-                        if (otherIcon) otherIcon.textContent = '+';
-                    }
+                        if (btn !== this) {
+                            otherContent.classList.add('hidden');
+                            if (otherIcon) otherIcon.textContent = '+';
+                        }
+                    });
+
+                    // Toggle current content
+                    content.classList.toggle('hidden');
+                    icon.textContent = content.classList.contains('hidden') ? '+' : '-';
                 });
-
-                // Toggle current content
-                content.classList.toggle('hidden');
-                icon.textContent = content.classList.contains('hidden') ? '+' : '-';
             });
         });
-    });
-</script>
+    </script>
 
     <!-- Teastimonials Section Starts Here -->
     <section class="w-full py-32 max-[599px]:py-10 overflow-hidden">
