@@ -22,7 +22,7 @@
     <section class="flex flex-col items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
 <div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
-    
+
     <!-- Left Image Section -->
     <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
         <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
@@ -30,7 +30,7 @@
         <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
             class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
     </div>
-    
+
 
     <!-- Right Content Section -->
     <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
@@ -71,7 +71,7 @@
 <section class="flex flex-col lg:flex-row-reverse items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
 <div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
-    
+
     <!-- Left Image Section -->
     <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
         <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
@@ -116,8 +116,8 @@
 
     <!-- Why Digital Community Management Matters Section -->
     <section class="w-full flex flex-col items-center max-[599px]:gap-4 relative mt-20 max-[1025px]:mt-10 max-[599px]:mt-4">
-  
-<img src="/assets/images/Globalimages/dev.png" alt="">
+
+<img src="assets/images/Globalimages/dev.png" alt="">
     </section>
 
     <section class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-black overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"

@@ -148,7 +148,7 @@
             <div class="w-[30%] max-[1025px]:w-full h-[40vh] max-[599px]:w-full text-white p-6 rounded-l-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
               style="background: linear-gradient(124.71deg, #4F92F1 -3.35%, #4F92F1 21.96%, #2E548B 137.49%);">
               <div class="flex items-center justify-center mb-4 border-2 bg-[#366AB4] w-fit rounded-xl p-4 min-[2550px]:p-6">
-                <img src="/assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
+                <img src="assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
               </div>
               <h2 class="text-2xl min-[2550px]:text-6xl font-medium mb-2">Promotional SMS</h2>
               <p class="text-sm min-[2550px]:text-2xl leading-[2]">
@@ -160,7 +160,7 @@
             <div class="w-[30%] max-[1025px]:w-full h-[45vh] max-[599px]:w-full text-white p-6 rounded-t-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
               style="background: linear-gradient(120.22deg, #F27B12 44.71%, #FFC71E 128.81%);">
               <div class="flex items-center justify-center mb-4 border-2 w-fit rounded-xl p-4 min-[2550px]:p-6">
-                <img src="/assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
+                <img src="assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
               </div>
               <h2 class="text-2xl min-[2550px]:text-6xl font-medium mb-2">Transactional SMS</h2>
               <p class="text-sm min-[2550px]:text-2xl leading-[2]">
@@ -172,7 +172,7 @@
             <div class="w-[30%] max-[1025px]:w-full h-[40vh] max-[599px]:w-full text-white p-6 rounded-r-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
               style="background: linear-gradient(124.71deg, #4F92F1 -3.35%, #4F92F1 21.96%, #2E548B 137.49%);">
               <div class="flex items-center justify-center mb-4 border-2 bg-[#366AB4] w-fit rounded-xl p-4 min-[2550px]:p-6">
-                <img src="/assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
+                <img src="assets/images/Globalimages/mobilesvg1.svg" alt="" class="w-10 min-[2550px]:w-16">
               </div>
               <h2 class="text-2xl min-[2550px]:text-6xl font-medium mb-2">OTP Services</h2>
               <p class="text-sm min-[2550px]:text-2xl leading-[2]">
@@ -199,7 +199,7 @@
 
           <!-- Right Image -->
           <div class="flex justify-center max-[599px]:mt-6">
-            <img src="/assets/images/Globalimages/bulk-service.png" alt="Bulk Voice SMS" class="max-w-full h-auto min-[2550px]:w-[80%]">
+            <img src="assets/images/Globalimages/bulk-service.png" alt="Bulk Voice SMS" class="max-w-full h-auto min-[2550px]:w-[80%]">
           </div>
         </div>
       </section>
@@ -234,7 +234,7 @@
                 Book a Demo
             </button>
 
-            <img src="/assets/images/Globalimages/tool.png" alt="">
+            <img src="assets/images/Globalimages/tool.png" alt="">
         </section>
     @endif
 
@@ -263,7 +263,7 @@
                 <div class="z-10 relative">
                     <div class="flex items-center gap-2 mb-6">
                         <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16"
-                            src="/assets/images/Globalimages/mobilesvg1.svg" alt="">
+                            src="assets/images/Globalimages/mobilesvg1.svg" alt="">
                     </div>
                     <h2
                         class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">
@@ -276,7 +276,7 @@
                 </div>
                 <div
                     class="absolute right-0 top-0 w-32 h-full md:w-[50%] md:h-full max-[1025px]:w-full min-[2550px]:w-[45%]">
-                    <img src="/assets/images/Globalimages/mobile1.png" alt="decoration"
+                    <img src="assets/images/Globalimages/mobile1.png" alt="decoration"
                         class="w-full h-full object-cover mix-blend-luminosity" />
                 </div>
             </div>
@@ -287,7 +287,7 @@
                 <div class="z-10 relative">
                     <div class="flex items-center gap-2 mb-6">
                         <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16"
-                            src="/assets/images/Globalimages/mobilesvg1.svg" alt="">
+                            src="assets/images/Globalimages/mobilesvg1.svg" alt="">
                     </div>
                     <h2
                         class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">
@@ -300,7 +300,7 @@
                 </div>
                 <div
                     class="absolute right-0 top-0 w-32 h-full md:w-[70%] md:h-full max-[1025px]:w-full min-[2550px]:w-[60%]">
-                    <img src="/assets/images/Globalimages/mobile2.png" alt="decoration"
+                    <img src="assets/images/Globalimages/mobile2.png" alt="decoration"
                         class="w-full h-full object-cover mix-blend-luminosity" />
                 </div>
             </div>
@@ -311,7 +311,7 @@
                 <div class="z-10 relative">
                     <div class="flex items-center gap-2 mb-6">
                         <img class="w-12 max-[1025px]:w-10 min-[2550px]:w-16"
-                            src="/assets/images/Globalimages/mobilesvg2.svg" alt="">
+                            src="assets/images/Globalimages/mobilesvg2.svg" alt="">
                     </div>
                     <h2
                         class="text-[2vw] max-[1025px]:text-[4vw] max-[599px]:text-[5.5vw] min-[2550px]:text-[1.3vw] font-[600] mb-2">
@@ -324,7 +324,7 @@
                 </div>
                 <div
                     class="absolute right-0 top-0 w-32 h-full md:w-[80%] md:h-full max-[1025px]:w-full min-[2550px]:w-[60%]">
-                    <img src="/assets/images/Globalimages/mobile3.png" alt="decoration"
+                    <img src="assets/images/Globalimages/mobile3.png" alt="decoration"
                         class="w-full h-full object-cover mix-blend-luminosity" />
                 </div>
             </div>
@@ -347,7 +347,7 @@
             </span>
         </div>
 
-        <img src="/assets/images/Globalimages/flowchart.png" alt="">
+        <img src="assets/images/Globalimages/flowchart.png" alt="">
 
     </section>
 
@@ -432,7 +432,7 @@
 
             <!-- Right: Image -->
             <div class="flex justify-center">
-              <img src="/assets/images/Globalimages/utility.png" alt="" class="w-full max-w-xs max-[1025px]:max-w-[220px] max-[599px]:max-w-[200px] min-[2550px]:max-w-lg">
+              <img src="assets/images/Globalimages/utility.png" alt="" class="w-full max-w-xs max-[1025px]:max-w-[220px] max-[599px]:max-w-[200px] min-[2550px]:max-w-lg">
             </div>
 
           </div>
