@@ -19,18 +19,18 @@
     <!-- Company Section Starts Here -->
 
     <!-- Unlock Exceptional Growth Opportunities Section -->
-    <section class="fade flex flex-col lg:flex-row items-center justify-between py-12 max-[1025px]:py-6">
+    <section class="fade flex flex-col lg:flex-row items-center justify-between max-[1025px]:py-6 bg-white"  style="box-shadow: -16px 5px 33px 2px #00000014;">
 
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full">
             <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg" />
+                class="w-full max-[599px]:hidden h-auto " />
             <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg" />
+                class="w-full max-[599px]:block hidden h-auto " />
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white"  style="box-shadow: -16px 5px 33px 2px #00000014;">
+        <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-6">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
@@ -57,18 +57,18 @@
 
 
     <!-- Understanding Digital Community Management Strategy Section -->
-    <section class="fade flex flex-col lg:flex-row-reverse items-center justify-between ">
+    <section class="fade flex flex-col lg:flex-row-reverse items-center my-20 justify-between max-[1025px]:py-6 bg-white"  style="box-shadow: -16px 5px 33px 2px #00000014;">
 
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full">
             <img src="{{ $data['section_2']['banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:hidden h-auto rounded-md shadow-lg" />
+                class="w-full max-[599px]:hidden h-auto " />
             <img src="{{ $data['section_2']['mobile_banner_img'] }}" alt="Community Management Visual"
-                class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg" />
+                class="w-full max-[599px]:block hidden h-auto " />
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;">
+        <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-6">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
@@ -76,12 +76,11 @@
             </p>
 
             <ul class="space-y-4 text-gray-800 text-[1.2vw] max-[599px]:text-[3.2vw]">
+
                 @foreach ($data['section_2']['bullet_points'] as $point)
                     <li class="flex items-start">
                         <span class="text-blue-600 mt-1 mr-2">•</span>
-                        <p>
-                        <p>{!! $point !!}</p>
-                        </p>
+                        <p><strong>{{ $point }}</strong></p>
                     </li>
                 @endforeach
             </ul>
@@ -95,7 +94,7 @@
     </section>
 
     <!-- Why Digital Marketing Matters Section -->
-    <section class="w-full relative min-h-[180vh] max-[1025px]:min-h-[70vh] min-[2550px]:min-h-[140vh] px-4 min-[2550px]:px-60 flex flex-col items-center justify-center bg-[url('{{ asset('assets/images/Globalimages/why-digital.png') }}')] bg-cover bg-center text-white">
+    <section class="w-full relative min-h-[180vh] max-[599px]:min-h-[180vh] max-[1025px]:min-h-[70vh] min-[2550px]:min-h-[140vh] px-4 min-[2550px]:px-60 flex flex-col items-center justify-center bg-[url('{{ asset('assets/images/Globalimages/why-digital.png') }}')] bg-cover bg-center text-white">
 
 <!-- Heading -->
 <div class="text-center mb-12 absolute top-16 left-1/2 -translate-x-1/2 max-[599px]:top-20 max-[1025px]:top-10 max-[1025px]:px-4 max-[599px]:w-full min-[2550px]:top-32">
