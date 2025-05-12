@@ -91,7 +91,7 @@ class MobileMarketingServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Mobile Marketing/Voice sms/banner.png",
+            'banner_image' => "assets/images/Services/Mobile Marketing/Voice Sms/banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Mobile Marketing/Voice Sms/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Mobile Marketing/Voice Sms/img1.png",
