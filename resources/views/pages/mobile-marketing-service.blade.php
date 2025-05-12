@@ -1,9 +1,18 @@
 @extends('layouts.app')
 @section('content')
     <!-- Hero Section -->
-    <section
+    {{-- <section
         class="hero w-full h-[100vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
+    </section> --}}
+
+    <section
+        class="fade hero w-screen {{ \Request::route()->getName() == "social-media-marketing" ? 'h-[90vh]': 'h-[75vh]' }}  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        style="background-image: url('{{ $data['banner_image'] }}');">
+        <button
+            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-[80%]': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            Talk to us
+        </button>
     </section>
 
     <!-- Mobile Hero Section -->
@@ -120,7 +129,7 @@
     </section>
 
     @if (\Request::route()->getName() == 'bulk-sms')
-    
+
     <section class="px-10 py-20 max-[1025px]:px-6 max-[1025px]:py-14 max-[599px]:px-4 max-[599px]:py-10 min-[2550px]:px-32 min-[2550px]:py-28">
         <!-- Title -->
         <div class="headings text-center flex gap-2 max-[1025px]:gap-1 max-[599px]:gap-0 max-[599px]:flex-col items-center justify-center mb-20 max-[1025px]:mb-14 max-[599px]:mb-10">
@@ -131,7 +140,7 @@
             Services
           </span>
         </div>
-      
+
         <!-- Cards -->
         <div class="flex flex-col items-center justify-center pb-10 pt-5">
           <div class="flex flex-col md:flex-row p-4 max-[1025px]:p-2 max-[599px]:p-0 items-end">
@@ -146,7 +155,7 @@
                 Securing your data and keeping it safe is a top priority and building an unbreachable API for bulk SMS management is the first step towards it.
               </p>
             </div>
-      
+
             <!-- Card 2 -->
             <div class="w-[30%] max-[1025px]:w-full h-[45vh] max-[599px]:w-full text-white p-6 rounded-t-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
               style="background: linear-gradient(120.22deg, #F27B12 44.71%, #FFC71E 128.81%);">
@@ -158,7 +167,7 @@
                 Securing your data and keeping it safe is a top priority and building an unbreachable API for bulk SMS management is the first step towards it.
               </p>
             </div>
-      
+
             <!-- Card 3 -->
             <div class="w-[30%] max-[1025px]:w-full h-[40vh] max-[599px]:w-full text-white p-6 rounded-r-xl max-[1025px]:rounded-xl shadow-md flex-1 text-center flex items-center justify-center flex-col"
               style="background: linear-gradient(124.71deg, #4F92F1 -3.35%, #4F92F1 21.96%, #2E548B 137.49%);">
@@ -172,7 +181,7 @@
             </div>
           </div>
         </div>
-      
+
         <!-- Bulk Voice SMS Section -->
         <div class="grid md:grid-cols-2 gap-10 items-center max-w-7xl min-[2550px]:max-w-full mx-auto px-6 max-[1025px]:px-4 max-[599px]:grid-cols-1 max-[599px]:px-4 max-[599px]:text-center min-[2550px]:gap-20">
           <!-- Left Content -->
@@ -187,15 +196,15 @@
               Voice SMS marketing can be used to send one-to-one personalized messages to customers’ phones. This form of SMS marketing is especially powerful when it is personalized and custom-tailored to the individual customer.
             </p>
           </div>
-      
+
           <!-- Right Image -->
           <div class="flex justify-center max-[599px]:mt-6">
             <img src="/assets/images/Globalimages/bulk-service.png" alt="Bulk Voice SMS" class="max-w-full h-auto min-[2550px]:w-[80%]">
           </div>
         </div>
       </section>
-      
-      
+
+
     @endif
 
     @if (\Request::route()->getName() == 'whatsapp-marketing')
@@ -224,7 +233,7 @@
                 class="capitalize font-semibold text-white text-[1.5vw] max-[1025px]:text-[3vw] max-[599px]:text-[4vw] min-[2550px]:text-[1.2vw] px-10 py-3 rounded-md bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] leading-none text-center">
                 Book a Demo
             </button>
-            
+
             <img src="/assets/images/Globalimages/tool.png" alt="">
         </section>
     @endif
@@ -348,9 +357,9 @@
         <h2 class="text-center text-5xl text-white font-bold mb-16 max-[1025px]:text-3xl max-[599px]:text-xl max-[599px]:leading-snug min-[2550px]:text-7xl min-[2550px]:mb-24">
           There’s <span class="text-white">No Limit To</span> <span class="text-yellow-400">Its Utility</span>
         </h2>
-      
+
         <div class="bg-opacity-20 rounded-2xl backdrop-blur-md shadow-xl max-w-6xl min-[2550px]:max-w-full w-full border overflow-hidden min-[2550px]:max-w-7xl min-[2550px]:rounded-[2.5rem]">
-      
+
           <!-- Tabs -->
           <div class="flex flex-wrap justify-center gap-4 bg-[#00204E] text-white px-8 py-4 max-[1025px]:px-4 max-[599px]:px-2 max-[599px]:gap-2 min-[2550px]:px-16 min-[2550px]:py-8 min-[2550px]:gap-6">
             <button onclick="switchTab('bulk')" id="tab-bulk"
@@ -370,10 +379,10 @@
               Engage Customers
             </button>
           </div>
-      
+
           <!-- Content -->
           <div class="grid md:grid-cols-2 gap-8 items-center px-16 py-6 text-white max-[1025px]:px-8 max-[1025px]:gap-6 max-[599px]:grid-cols-1 max-[599px]:px-4 max-[599px]:gap-6 min-[2550px]:gap-16 min-[2550px]:px-24 min-[2550px]:py-14">
-      
+
             <!-- Left: Content -->
             <div>
               <!-- Bulk -->
@@ -386,7 +395,7 @@
                   <li><span class="text-white font-medium">Banking</span> — Alert your customers...</li>
                 </ul>
               </div>
-      
+
               <!-- 2FA -->
               <div id="content-2fa" class="hidden">
                 <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Two-Factor Authentication</h3>
@@ -397,7 +406,7 @@
                   <li><span class="text-white font-medium">SaaS Platforms</span> — Ensure only authorized access...</li>
                 </ul>
               </div>
-      
+
               <!-- Auto -->
               <div id="content-auto" class="hidden">
                 <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Automate Notifications</h3>
@@ -408,7 +417,7 @@
                   <li><span class="text-white font-medium">Event Triggers</span> — Notify users when specific events happen...</li>
                 </ul>
               </div>
-      
+
               <!-- Engage -->
               <div id="content-engage" class="hidden">
                 <h3 class="text-4xl font-semibold mb-4 max-[1025px]:text-2xl max-[599px]:text-xl min-[2550px]:text-6xl">Engage Customers</h3>
@@ -420,12 +429,12 @@
                 </ul>
               </div>
             </div>
-      
+
             <!-- Right: Image -->
             <div class="flex justify-center">
               <img src="/assets/images/Globalimages/utility.png" alt="" class="w-full max-w-xs max-[1025px]:max-w-[220px] max-[599px]:max-w-[200px] min-[2550px]:max-w-lg">
             </div>
-      
+
           </div>
         </div>
         <!-- JavaScript for Tabs -->
@@ -447,9 +456,9 @@
             });
           }
         </script>
-      
+
       </section>
-      
+
     @endif
 
     <section
