@@ -1,10 +1,19 @@
 @extends('layouts.app')
 @section('content')
     <!-- Hero Section -->
-    <section
+    {{-- <section
         class="hero w-full h-[100vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
-    </section>
+    </section> --}}
+
+    <section
+    class="fade hero w-screen h-[75vh] mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+    style="background-image: url('{{ $data['banner_image'] }}');">
+    <button
+        class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-[80%]': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+        Talk to us
+    </button>
+</section>
 
     <!-- Mobile Hero Section -->
     <section
@@ -109,13 +118,13 @@
             </span>
         </div>
 
-        <div class="w-full h-full flex gap-10 px-20 py-32 text-[#1a1a1a] items-center justify-center relative 
-  max-[1025px]:px-10 max-[1025px]:py-24 max-[1025px]:gap-12 
+        <div class="w-full h-full flex gap-10 px-20 py-32 text-[#1a1a1a] items-center justify-center relative
+  max-[1025px]:px-10 max-[1025px]:py-24 max-[1025px]:gap-12
   max-[599px]:flex-col max-[599px]:px-6 max-[599px]:py-20 max-[599px]:gap-16
   min-[2550px]:px-48 min-[2550px]:py-40 min-[2550px]:gap-20">
 
   <!-- Column 1 -->
-  <div class="flex flex-col items-start gap-6 justify-center 
+  <div class="flex flex-col items-start gap-6 justify-center
   max-[1025px]:items-center max-[1025px]:text-center
   min-[2550px]:gap-10 min-[2550px]:text-[22px]">
 
