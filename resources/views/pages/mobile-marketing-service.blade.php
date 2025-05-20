@@ -10,7 +10,7 @@
         class="fade hero w-screen {{ \Request::route()->getName() == "social-media-marketing" ? 'h-[90vh]': 'h-[75vh]' }}  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
         <button @if (\Request::route()->getName() === 'whatsapp-marketing')
-                style="margin-top: 270px;"
+                style="margin-top: 300px;"
                 @else
                     style="margin-top: 200px;"
     @endif
