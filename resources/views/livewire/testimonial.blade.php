@@ -8,7 +8,7 @@
                 class="capitalize font-[500] text-[3.5vw] max-[599px]:text-[9.5vw] max-[1025px]:text-[5vw]">testim</span>
             <span
                 class="rounded-md text-white text-[3.5vw] max-[1025px]:text-[5vw] max-[599px]:text-[9.5vw] font-[600] px-2 py-2 leading-none text-center bg-gradient-to-r from-[#FF6F1F] to-[#E08A00]">
-                onilas
+                onials
             </span>
         </div>
     </div>

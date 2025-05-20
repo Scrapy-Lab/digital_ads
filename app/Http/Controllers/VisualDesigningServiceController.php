@@ -11,6 +11,7 @@ class VisualDesigningServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Visual Designing/Graphic designing/banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Graphic designing.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Visual Designing/Graphic designing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Visual Designing/Graphic designing/img1.png",
@@ -92,6 +93,7 @@ class VisualDesigningServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Visual Designing/Logo Designing/banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Logo designing.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Visual Designing/Logo Designing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Visual Designing/Logo Designing/img1.png",
@@ -172,6 +174,7 @@ class VisualDesigningServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Visual Designing/Photography/banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Photography.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Visual Designing/Photography/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Visual Designing/Photography/img1.png",
@@ -252,6 +255,7 @@ class VisualDesigningServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Visual Designing/Videography/banner.png",
+           'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Videography.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Visual Designing/Videography/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Visual Designing/Videography/img1.png",

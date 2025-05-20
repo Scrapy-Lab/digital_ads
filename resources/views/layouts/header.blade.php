@@ -1,3 +1,4 @@
+
 <!-- Header Starts Here-->
 <header class="fixed z-[999] top-0 left-0 w-full">
     <!-- Top Navigation (Email, Phone, Brochure) -->
@@ -73,7 +74,7 @@
                             <div class="w-[30%] pr-6 bg-[#E8EDFF] px-4 px-2 py-10 mx-4">
                                 <h2 class="text-xl min-[2550px]:text-[1.5vw] font-bold mb-4">Services</h2>
                                 <p class="text-sm min-[2550px]:text-[.9vw] text-gray-500 leading-relaxed">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                 </p>
                             </div>
 
@@ -160,16 +161,78 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div
-            class="mobileMenu hidden w-full h-[90.2vh] mt-16 fixed top-0 left-0 z-10 bg-[#F5F7FF] transition-all duration-300 flex flex-col justify-center items-center text-center text-[5vw]">
-            <ul class="flex flex-col gap-6">
-                <li><a href="{{route('home')}}">Home</a></li>
-                <li><a href="{{route('about')}}">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="Contact.html">Contact Us</a></li>
-            </ul>
-        </div>
+<div class="mobileMenu hidden w-full h-[90.2vh] mt-16 fixed top-0 left-0 z-10 bg-[#F5F7FF] transition-all duration-300 overflow-y-auto">
+    <div class="container mx-auto px-4 py-8">
+        <ul class="flex flex-col gap-6">
+            <li>
+                <a href="{{route('home')}}" class="text-lg font-medium hover:text-orange-500 transition-all block">Home</a>
+            </li>
+
+            <!-- Services Dropdown -->
+            <li>
+                <button onclick="toggleServices()" class="text-lg font-medium hover:text-orange-500 transition-all flex justify-between items-center w-full">
+                    Services
+                    <svg class="w-5 h-5 ml-2 transform transition-transform duration-300" id="servicesArrow" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="servicesMenuMobile" class="hidden mt-4">
+                    <div class="grid grid-cols-1 gap-6">
+                        <div>
+                            <h3 class="font-semibold mb-2">Digital Marketing</h3>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="{{route('digital-marketing-strategy')}}">Digital Marketing Strategy</a></li>
+                                <li><a href="{{route('search-engine-marketing')}}">Search Engine Marketing</a></li>
+                                <li><a href="{{route('digital-social-media-marketing')}}">Social Media Marketing</a></li>
+                                <li><a href="{{route('online-reputation-management')}}">Online Reputation Marketing</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-2">Graphic Design</h3>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="{{route('graphic-designing')}}">Graphic Designing</a></li>
+                                <li><a href="{{route('logo-designing')}}">Logo Designing</a></li>
+                                <li><a href="{{route('photography')}}">Photography</a></li>
+                                <li><a href="{{route('videography')}}">Videography</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-2">Website Development</h3>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="{{route('website-design-and-development')}}">Website Design & Development</a></li>
+                                <li><a href="{{route('ecommerce-development')}}">Ecommerce Development</a></li>
+                                <li><a href="{{route('wordpress-website-development')}}">Wordpress Website Development</a></li>
+                                <li><a href="{{route('website-manintanance')}}">Website Maintenance</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-2">Content Creation</h3>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li><a href="{{route('content-writing')}}">SEO Content Writing</a></li>
+                                <li><a href="{{route('blog-writing')}}">Blog Writing</a></li>
+                                <li><a href="{{route('promotional-writing')}}">Promotional Writing</a></li>
+                                <li><a href="{{route('copy-writing')}}">Copywriting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <a href="{{route('about')}}" class="text-lg font-medium hover:text-orange-500 transition-all block">About</a>
+            </li>
+            <li>
+                <a href="#" class="text-lg font-medium hover:text-orange-500 transition-all block">Blog</a>
+            </li>
+            <li>
+                <a href="#" class="text-lg font-medium hover:text-orange-500 transition-all block">Portfolio</a>
+            </li>
+            <li>
+                <a href="{{route('contact')}}" class="text-lg font-medium hover:text-orange-500 transition-all block">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
     </nav>
 </header>
 <!-- Header Ends Here-->
@@ -273,4 +336,24 @@ mm.add("(min-width: 2500px)", () => {
 
         prevScroll = currentScroll;
     });
+
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.querySelector('.mobileMenu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobileMenu a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+
+    function toggleServices() {
+        const menu = document.getElementById('servicesMenuMobile');
+        const arrow = document.getElementById('servicesArrow');
+        menu.classList.toggle('hidden');
+        arrow.classList.toggle('rotate-180');
+    }
 </script>

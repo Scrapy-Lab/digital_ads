@@ -13,6 +13,7 @@ class DigitalMarketingServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Digital Marketing/Digital Marketing Strategy/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Digital marketing strategy.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Digital Marketing/Digital Marketing Strategy/Img1.png',
                 'mobile_banner_img' => "assets/images/Services/Digital marketing/Digital marketing strategy/Img1.png",
@@ -91,7 +92,8 @@ class DigitalMarketingServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Digital marketing/social media marketing/Banner.png",
+            'banner_image' => "assets/images/Services/Digital marketing/Search engine marketing/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Search engine marketing.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Digital Marketing/Social Media Marketing/Img1.png',
                 'mobile_banner_img' => "assets/images/Services/Digital marketing/Social Media Marketing/Img1.png",
@@ -172,6 +174,7 @@ class DigitalMarketingServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Digital Marketing/Social Media MArketing/Banner.png",
+           'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Social-media-marketing-1.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Digital Marketing/Social Media MArketing/Img1.png',
                 'mobile_banner_img' => "assets/images/Services/Digital Marketing/Social Media MArketing/Img1.png",
@@ -251,7 +254,8 @@ class DigitalMarketingServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Digital Marketing/Social Media MArketing/Banner.png",
+            'banner_image' => "assets/images/Services/Digital Marketing/online reputation management/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Online reputation management.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Digital Marketing/Social Media MArketing/Img1.png',
                 'mobile_banner_img' => "assets/images/Services/Digital Marketing/Social Media MArketing/Img1.png",
