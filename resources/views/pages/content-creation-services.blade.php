@@ -11,6 +11,8 @@
     style="background-image: url('{{ $data['banner_image'] }}');">
     <button @if (\Request::route()->getName() === 'content-writing')
                 style="margin-top: 200px;"
+                @else
+                    style="margin-top: 50px;"
     @endif
         class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-[80%]': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
         Talk to us
