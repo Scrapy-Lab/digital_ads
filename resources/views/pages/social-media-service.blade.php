@@ -4,20 +4,20 @@
 
     {{-- @dd($data) --}}
     <section
-        class="fade hero w-screen {{ \Request::route()->getName() == "social-media-marketing" ? 'h-[90vh]': 'h-[75vh]' }}  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        class="fade hero w-screen {{ \Request::route()->getName() == "social-media-marketing" ? 'h-[90vh]': 'h-[90vh]' }}  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
         <button
-            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-[80%]': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-24 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-full': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-28 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
             Talk to us
         </button>
     </section>
 
     <!-- Mobile Hero Section -->
     <section
-        class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
-        style="background-image: url('{{ $data['banner_image'] }}');">
+        class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[45vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-24 max-[599px]:pt-32 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        style="background-image: url('{{ $data['banner_mobile'] }}');">
         <button
-            class="text-white max-[599px]:text-[3vw] translate-x-[5%] max-[599px]:translate-x-[-5%] translate-y-20 max-[599px]:translate-y-[170%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            class="text-white max-[599px]:text-[3vw] translate-x-[5%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[170%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
             Talk to us
         </button>
     </section>

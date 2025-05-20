@@ -51,6 +51,7 @@ class SocialMediaServiceController extends Controller
 
         $data =  [
             'banner_image' => "assets/images/Services/Social media/Social media marketing/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/Social media marketing/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Social media/Social media marketing/Img 1.png',
                 'mobile_banner_img' => 'assets/images/Mobile Responsive/Social media marketing/Img 1.png',
@@ -118,6 +119,7 @@ class SocialMediaServiceController extends Controller
         $data =  [
 
             'banner_image' => "assets/images/Services/Social media/Social media optimization/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/Social media optimization/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Social media/Social media optimization/Frame 4558.png',
                 'mobile_banner_img' => 'assets/images/Mobile Responsive/Social media Optimization/Img 1.png',
@@ -180,6 +182,7 @@ class SocialMediaServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Social media/Social media Community Management/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/Social media management/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Social media/Social media Community Management/img 1.png',
                 "mobile_banner_img" => "assets/images/Mobile Responsive/Social media Management/Img1.png",
@@ -241,6 +244,7 @@ class SocialMediaServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Social media/Influencer Marketing/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/INfluencer Marketing/Banner.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Social media/Influencer Marketing/Img1.png',
                 'mobile_banner_img' => "assets/images/Mobile Responsive/INfluencer Marketing/img1.png",

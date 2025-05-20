@@ -8,8 +8,8 @@
 
     <!-- Mobile Hero Section -->
     <section
-        class="hero w-full h-[100vh] max-[599px]:block hidden max-[599px]:h-[35vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-16 max-[599px]:pt-20 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
-        style="background-image: url('{{ $data['banner_image'] }}');">
+        class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[45vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-24 max-[599px]:pt-32 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        style="background-image: url('{{ $data['banner_mobile'] }}');">
     </section>
 
     <!-- Company Section Starts Here -->

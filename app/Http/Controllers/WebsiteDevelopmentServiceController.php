@@ -11,6 +11,7 @@ class WebsiteDevelopmentServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Development/Website Designing & Development/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Website designing and development.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Development/Website Designing & Development/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Development/Website Designing & Development/img1.png",
@@ -91,6 +92,7 @@ class WebsiteDevelopmentServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Development/Ecommerce Development/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Ecommerce development.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Development/Ecommerce Development/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Development/Ecommerce Development/img1.png",
@@ -172,6 +174,7 @@ class WebsiteDevelopmentServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Development/Wordpress Website Development/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Wordpress website development.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Development/Wordpress Website Development/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Development/Wordpress Website Development/img1.png",
@@ -252,6 +255,7 @@ class WebsiteDevelopmentServiceController extends Controller
         $data = [
 
             'banner_image' => "assets/images/Services/Development/Website Maintanance/Banner.png",
+            'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Webste maintanace.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Development/Website Maintanance/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Development/Website Maintanance/img1.png",

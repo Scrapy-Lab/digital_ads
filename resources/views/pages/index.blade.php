@@ -297,7 +297,7 @@
             <div
                 class="card-5 w-[32%] h-[70vh] flex flex-col justify-end max-[1025px]:w-[48%]  max-[599px]:w-full rounded-xl relative p-6 min-[2550px]:p-10 max-[599px]:p-4 bg-[#8A6597]">
                 <img class="w-[25%] absolute left-0 top-0" src="./assets/images/Homepage/social5.png" alt="">
-                <h1 class="text-[8vh] max-[599px]:text-[7vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
+                <h1 class="text-[8vh] max-[599px]:text-[6vh] text-[#F5F7FF] leading-tight">Web <br> Development</h1>
                 <div class="flex flex-col mt-6 gap-y-3">
                     <a href="{{ route('website-design-and-development') }}">
                         <div
