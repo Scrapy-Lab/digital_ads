@@ -92,10 +92,10 @@ class VisualDesigningServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Visual Designing/Logo Designing/banner.png",
+            'banner_image' => "assets/images/Services/Visual Designing/Logo designing/banner.png",
             'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Logo designing.png",
             'section_1' => [
-                'banner_img' => 'assets/images/Services/Visual Designing/Logo Designing/img1.png',
+                'banner_img' => 'assets/images/Services/Visual Designing/Logo designing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Visual Designing/Logo Designing/img1.png",
                 'title' => 'Logo Designing for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
@@ -109,7 +109,7 @@ class VisualDesigningServiceController extends Controller
                 ]
             ],
             'section_2' => [
-                'banner_img' => 'assets/images/Services/Visual Designing/Logo Designing/img2.png',
+                'banner_img' => 'assets/images/Services/Visual Designing/Logo designing/img2.png',
                 'mobile_banner_img' => "assets/images/Services/Visual Designing/Logo Designing/img2.png",
                 'title' => 'Logo Designing for Businesses',
                 'subtitle' => 'Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
