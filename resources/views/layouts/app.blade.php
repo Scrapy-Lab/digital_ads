@@ -36,7 +36,7 @@
 
         @media (min-width: 1028px){
             section.fade.hero {
-                margin-top: 127px !important;
+                margin-top: 118px !important;
             }
         }
 
