@@ -2,9 +2,15 @@
 @section('content')
     <!-- Hero Section -->
     <section
-        class="fade hero w-full mt-20 h-[90vh] min-[2550px]:h-[75vh] bg-[50%] max-[599px]:hidden max-[1025px]:h-[35vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        class="fade hero w-screen h-[75vh]  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
     </section>
+
+    {{-- OLD CSS DESISGN --}}
+    {{-- <section
+        class="fade hero w-full mt-20 h-[90vh] min-[2550px]:h-[75vh] bg-[50%] max-[599px]:hidden max-[1025px]:h-[35vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        style="background-image: url('{{ $data['banner_image'] }}');">
+    </section> --}}
 
     <!-- Mobile Hero Section -->
     <section
