@@ -92,7 +92,7 @@ class MobileMarketingServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Mobile Marketing/Voice Sms/Bannner.png",
+            'banner_image' => "assets/images/Services/Mobile Marketing/Voice Sms/banner.png",
             'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Voice sms.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Mobile Marketing/Voice Sms/img1.png',
@@ -173,7 +173,7 @@ class MobileMarketingServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Mobile Marketing/Bulk sms/Bannner.png",
+            'banner_image' => "assets/images/Services/Mobile Marketing/Bulk sms/banner.png",
             'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Bulk sms.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Mobile Marketing/Bulk sms/img1.png',
