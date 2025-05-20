@@ -2,6 +2,12 @@
 @section('content')
     <!-- Hero Section -->
     <section
+        class="fade hero w-screen h-[75vh]  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        style="background-image: url('{{ $data['banner_image'] }}');">
+    </section>
+
+    {{-- OLD CLASSESS --}}
+    <section
         class="hero w-full h-[100vh] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-20 max-[599px]:mt-10 max-[599px]:pt-20 max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
     </section>
@@ -22,7 +28,7 @@
     <section class="flex flex-col items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
     <div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
-        
+
         <!-- Left Image Section -->
         <div class="relative w-[40%] max-[1025px]:w-full min-[2550px]:px-10">
             <img src="{{ $data['section_1']['banner_img'] }}" alt="Community Management Visual"
@@ -30,7 +36,7 @@
             <img src="{{ $data['section_1']['mobile_banner_img'] }}" alt="Community Management Visual"
                 class="w-full max-[599px]:block hidden h-auto rounded-md shadow-lg">
         </div>
-        
+
 
         <!-- Right Content Section -->
         <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
@@ -71,7 +77,7 @@
     <section class="flex flex-col lg:flex-row-reverse items-center justify-between bg-[#F3F5FE] p-10 max-[599px]:p-6 ">
 
     <div class="flex items-center justify-between w-full max-[1025px]:flex-col bg-white p-10 max-[599px]:p-6 rounded-2xl min-[2550px]:p-20" style="box-shadow: -16px 5px 33px 2px #00000014;">
-        
+
         <!-- Left Image Section -->
         <div class="w-[60%] max-[1025px]:w-full px-10 max-[1025px]:py-10 max-[1025px]:px-0 min-[2550px]:px-20">
             <h2 class="text-xl lg:text-3xl min-[2550px]:text-5xl font-bold mb-4 max-[599px]:mb-2">
