@@ -95,7 +95,7 @@ class DigitalMarketingServiceController extends Controller
             'banner_image' => "assets/images/Services/Digital Marketing/Search engine marketing/Banner.png",
             'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Search engine marketing.png",
             'section_1' => [
-                'banner_img' => 'assets/images/Services/Digital Marketing/Social Media Marketing/img1.png',
+                'banner_img' => 'assets/images/Services/Digital Marketing/Social Media MArketing/img1.png',
                 'mobile_banner_img' => "assets/images/Services/Digital marketing/Social Media Marketing/Img1.png",
                 'title' => 'Social Media Marketing for Businesses',
                 'subtitle' => ' Your customers are on Digital Markeing—are you? Platforms like Facebook, Instagram, LinkedIn, and
