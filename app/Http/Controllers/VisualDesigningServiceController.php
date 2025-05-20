@@ -92,7 +92,7 @@ class VisualDesigningServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Visual Designing/Logo designing/banner.png",
+            'banner_image' => "assets/images/Services/Visual Designing/Logo Designing/banner.png",
             'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Logo designing.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Visual Designing/Logo designing/img1.png',
