@@ -254,7 +254,7 @@ class DigitalMarketingServiceController extends Controller
 
         $data = [
 
-            'banner_image' => "assets/images/Services/Digital Marketing/online reputation management/Banner.png",
+            'banner_image' => "assets/images/Services/Digital Marketing/Online Reputation Management/Banner.png",
             'banner_mobile' => "assets/images/Mobile Responsive/mobile-banner/Online reputation management.png",
             'section_1' => [
                 'banner_img' => 'assets/images/Services/Digital Marketing/Social Media MArketing/Img1.png',
