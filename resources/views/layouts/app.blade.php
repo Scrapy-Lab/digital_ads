@@ -34,7 +34,7 @@
             /* deep navy blue */
         }
 
-        @media (min-width: 1028px) and (max-width: 1128px) {
+        @media (min-width: 1028px){
             section.fade.hero {
                 margin-top: 100px;
             }
