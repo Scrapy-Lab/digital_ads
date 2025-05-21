@@ -4,15 +4,23 @@
 
     {{-- @dd($data) --}}
     <section
-        class="fade hero w-screen h-[75vh]  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        class="fade hero w-screen h-[85vh]  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
         <button
-            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] {{ \Request::route()->getName() == "social-media-marketing" ? 'translate-x-full': 'translate-x-[40%]' }} max-[599px]:translate-x-[-0%] translate-y-28 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            class="text-white min-[2550px]:text-[2vw] min-[2550px]:translate-x-[22%] min-[2550px]:translate-y-48 max-[599px]:text-[3vw] 
+            {{ \Request::route()->getName() == 'social-media-marketing'
+                ? 'translate-x-[115%]'
+                : (\Request::route()->getName() == 'influencer-marketing'
+                    ? 'translate-x-[55%]'
+                    : (\Request::route()->getName() == 'social-media-community-management'
+                        ? 'translate-x-[40%]'
+                        : 'translate-x-[70%]')) }}
+ max-[599px]:translate-x-[-0%] translate-y-32 max-[599px]:translate-y-[130%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
             Talk to us
         </button>
     </section>
 
-{{-- OLD CLASSESS --}}
+    {{-- OLD CLASSESS --}}
     {{-- <section
         class="fade hero w-screen {{ \Request::route()->getName() == "social-media-marketing" ? 'h-[90vh]': 'h-[90vh]' }}  mt-20 bg-[50%] max-[599px]:hidden max-[1025px]:h-[40vh] max-[599px]:h-[80vh] bg-cover max-[1025px]:bg-center bg-no-repeat max-[599px]:bg-[60%] flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_image'] }}');">
@@ -24,10 +32,10 @@
 
     <!-- Mobile Hero Section -->
     <section
-        class="fade hero w-full h-[90vh] max-[599px]:block hidden max-[599px]:h-[45vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-24 max-[599px]:pt-32 flex items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
+        class="fade hero w-full h-[90vh] max-[599px]:flex hidden max-[599px]:h-[45vh] bg-contain max-[1025px]:bg-cover max-[1025px]:bg-center bg-no-repeat mt-24 max-[599px]:pt-32 items-center justify-start px-20 max-[1025px]:px-10 max-[599px]:px-4"
         style="background-image: url('{{ $data['banner_mobile'] }}');">
         <button
-            class="text-white max-[599px]:text-[3vw] translate-x-[5%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[170%] font-bold px-16 py-3 max-[599px]:py-2 max-[599px]:px-10 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
+            class="text-white max-[599px]:text-[3vw] translate-x-[5%] max-[599px]:translate-x-[-0%] translate-y-20 max-[599px]:translate-y-[-10%] font-bold px-16 py-3 max-[599px]:py-1 max-[599px]:px-8 border-2 border-white rounded-md hover:bg-white hover:text-[#003366] transition-all duration-300">
             Talk to us
         </button>
     </section>
@@ -51,9 +59,11 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white" style="box-shadow: -16px 5px 33px 2px #00000014;
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white"
+            style="box-shadow: -16px 5px 33px 2px #00000014;
 ">
-            <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_1']['title'] }}
+            <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">
+                {{ $data['section_1']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
                 {{ $data['section_1']['subtitle'] }}
@@ -90,9 +100,11 @@
         </div>
 
         <!-- Right Content Section -->
-        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white " style="box-shadow: -16px 5px 33px 2px #00000014;
+        <div class="w-[60%] max-[1025px]:w-full px-10 py-40 max-[1025px]:py-10 max-[1025px]:px-6 bg-white "
+            style="box-shadow: -16px 5px 33px 2px #00000014;
 ">
-            <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">{{ $data['section_2']['title'] }}
+            <h2 class="text-xl lg:text-3xl min-[2550px]:text-[1.7vw] font-bold mb-4 max-[599px]:mb-2">
+                {{ $data['section_2']['title'] }}
             </h2>
             <p class="mb-10 max-[599px]:mb-3 text-[1.3vw] max-[599px]:text-[3.3vw] text-gray-700">
                 {{ $data['section_2']['subtitle'] }}
@@ -150,11 +162,13 @@
 
     </section>
 
-    <section class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-white overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"
+    <section
+        class="fade min-h-screen max-[1025px]:min-h-[50vh] min-[2550px]:min-h-[75vh] relative px-20 max-[1025px]:px-6 max-[599px]:px-4 text-white overflow-hidden bg-cover bg-center max-[1025px]:bg-[90%] max-[599px]:bg-left"
         style="background-image: url('./assets/images/Globalimages/FAQ.png');">
 
         <div class="container min-[2550px]:w-[80vw] min-[2550px]:mx-10 mx-auto px-4 py-10 relative z-10">
-            <div class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10 min-[2550px]:translate-x-[30%]">
+            <div
+                class="headings w-full flex gap-2 items-center justify-center max-[599px]:flex-col mb-10 min-[2550px]:translate-x-[30%]">
                 <span class="capitalize font-[500] text-[3.5vw] max-[599px]:text-[9.5vw]">Frequentle Asked</span>
                 <span
                     class="capitalize rounded-md text-white text-[3.5vw] max-[599px]:text-[9.5vw] font-[600] bg-gradient-to-r from-[#FF6F1F] to-[#E08A00] px-2 py-2 leading-none text-center">
@@ -173,7 +187,7 @@
                             <!-- FAQ Item 1 -->
                             <div class="border-b border-white border-opacity-20 pb-4">
                                 <button class="flex items-start gap-3 w-full text-left hover:no-underline faq-btn">
-                                    <span class="text-white font-bold">0{{$i}}</span>
+                                    <span class="text-white font-bold">0{{ $i }}</span>
                                     <span class="flex-1 font-semibold">{{ $faq['que'] }}</span>
                                     <span class="text-yellow-200 transition-transform duration-200 faq-icon">+</span>
                                 </button>
@@ -182,7 +196,7 @@
                                 </div>
                             </div>
                             @php
-                                $i++
+                                $i++;
                             @endphp
                         @endforeach
                     </div>
@@ -193,32 +207,32 @@
 
     <!-- JavaScript for FAQ toggle -->
     <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const faqButtons = document.querySelectorAll('.faq-btn');
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqButtons = document.querySelectorAll('.faq-btn');
 
-        faqButtons.forEach(button => {
-            button.addEventListener('click', function () {
-                const content = this.nextElementSibling;
-                const icon = this.querySelector('.faq-icon');
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const content = this.nextElementSibling;
+                    const icon = this.querySelector('.faq-icon');
 
-                // Close all other contents
-                faqButtons.forEach(btn => {
-                    const otherContent = btn.nextElementSibling;
-                    const otherIcon = btn.querySelector('.faq-icon');
+                    // Close all other contents
+                    faqButtons.forEach(btn => {
+                        const otherContent = btn.nextElementSibling;
+                        const otherIcon = btn.querySelector('.faq-icon');
 
-                    if (btn !== this) {
-                        otherContent.classList.add('hidden');
-                        if (otherIcon) otherIcon.textContent = '+';
-                    }
+                        if (btn !== this) {
+                            otherContent.classList.add('hidden');
+                            if (otherIcon) otherIcon.textContent = '+';
+                        }
+                    });
+
+                    // Toggle current content
+                    content.classList.toggle('hidden');
+                    icon.textContent = content.classList.contains('hidden') ? '+' : '-';
                 });
-
-                // Toggle current content
-                content.classList.toggle('hidden');
-                icon.textContent = content.classList.contains('hidden') ? '+' : '-';
             });
         });
-    });
-</script>
+    </script>
 
     <!-- Teastimonials Section Starts Here -->
     <section class="fade w-full py-32 max-[599px]:py-10 overflow-hidden">

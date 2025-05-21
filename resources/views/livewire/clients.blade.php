@@ -1,4 +1,4 @@
-<div class="swiper-wrapper flex gap-4 mt-6 max-[599px]:mt-0">
+<div class="swiper-wrapper flex gap-4 ">
 
     <!-- Slide 1 -->
     <div
